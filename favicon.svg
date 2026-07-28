@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="N4 Japanese Learning">
+  <defs>
+    <!-- Deep indigo night-sky gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0a2a"/>
+      <stop offset="55%" stop-color="#1e1558"/>
+      <stop offset="100%" stop-color="#2d1b69"/>
+    </linearGradient>
+
+    <!-- Gold halo behind kanji -->
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Torii gate vermillion gradient -->
+    <linearGradient id="toriiGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f87171"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </linearGradient>
+
+    <!-- Kanji soft glow filter -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- N4 badge glow -->
+    <filter id="badgeGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- ── Background ── -->
+  <rect width="64" height="64" rx="13" fill="url(#bgGrad)"/>
+
+  <!-- Subtle inner border for premium feel -->
+  <rect x="1" y="1" width="62" height="62" rx="12.5" fill="none"
+        stroke="rgba(165,180,252,0.12)" stroke-width="1"/>
+
+  <!-- ── Gold halo behind kanji ── -->
+  <ellipse cx="32" cy="28" rx="21" ry="17" fill="url(#halo)"/>
+
+  <!-- ── Main element: 学 kanji (glowing gold) ── -->
+  <text
+    x="32" y="41"
+    font-family="'Yu Gothic', 'Noto Serif JP', 'MS Mincho', 'HiraMinProN-W6', 'Hiragino Mincho ProN', serif"
+    font-size="34" font-weight="900"
+    text-anchor="middle"
+    fill="#fde68a"
+    filter="url(#glow)"
+  >学</text>
+
+  <!-- ── N4 badge (amber pill, top-center) ── -->
+  <rect x="22" y="4" width="20" height="9.5" rx="4.75" fill="#f59e0b" filter="url(#badgeGlow)"/>
+  <text
+    x="32" y="11.8"
+    font-family="'Inter', 'Arial Black', 'Helvetica Neue', sans-serif"
+    font-size="6.4" font-weight="900"
+    text-anchor="middle"
+    fill="#1a1040"
+  >N4</text>
+
+  <!-- ── Torii gate silhouette (bottom, vermillion) ── -->
+  <!-- Left pillar -->
+  <rect x="15.5" y="47.5" width="3" height="14.5" rx="1.5" fill="url(#toriiGrad)"/>
+  <!-- Right pillar -->
+  <rect x="45.5" y="47.5" width="3" height="14.5" rx="1.5" fill="url(#toriiGrad)"/>
+  <!-- Top curved beam (kasagi) — arcs upward at midpoint -->
+  <path d="M11 49.5 Q32 42.5 53 49.5"
+        stroke="#ef4444" stroke-width="3.6" fill="none"
+        stroke-linecap="round"/>
+  <!-- Straight second beam (nuki) -->
+  <rect x="15.5" y="53.5" width="33" height="2.8" rx="1.4" fill="url(#toriiGrad)"/>
+
+  <!-- ── Cherry blossom — top-left corner ── -->
+  <g transform="translate(9, 20)" opacity="0.88">
+    <ellipse rx="2.0" ry="3.6" fill="#fda4af" transform="rotate(0)   translate(0,-4.2)"/>
+    <ellipse rx="2.0" ry="3.6" fill="#fda4af" transform="rotate(72)  translate(0,-4.2)"/>
+    <ellipse rx="2.0" ry="3.6" fill="#fda4af" transform="rotate(144) translate(0,-4.2)"/>
+    <ellipse rx="2.0" ry="3.6" fill="#fda4af" transform="rotate(216) translate(0,-4.2)"/>
+    <ellipse rx="2.0" ry="3.6" fill="#fda4af" transform="rotate(288) translate(0,-4.2)"/>
+    <circle r="1.6" fill="#fce7f3"/>
+  </g>
+
+  <!-- ── Cherry blossom — top-right corner (smaller, offset) ── -->
+  <g transform="translate(55, 22) scale(0.60)" opacity="0.72">
+    <ellipse rx="2.0" ry="3.6" fill="#fecdd3" transform="rotate(36)  translate(0,-4.2)"/>
+    <ellipse rx="2.0" ry="3.6" fill="#fecdd3" transform="rotate(108) translate(0,-4.2)"/>
+    <ellipse rx="2.0" ry="3.6" fill="#fecdd3" transform="rotate(180) translate(0,-4.2)"/>
+    <ellipse rx="2.0" ry="3.6" fill="#fecdd3" transform="rotate(252) translate(0,-4.2)"/>
+    <ellipse rx="2.0" ry="3.6" fill="#fecdd3" transform="rotate(324) translate(0,-4.2)"/>
+    <circle r="1.6" fill="#fff" opacity="0.85"/>
+  </g>
+
+  <!-- ── Sparkle dots (atmosphere) ── -->
+  <circle cx="7"  cy="10"  r="0.9" fill="#c4b5fd" opacity="0.8"/>
+  <circle cx="57" cy="9"   r="0.75" fill="#a5b4fc" opacity="0.7"/>
+  <circle cx="57" cy="35"  r="0.6"  fill="#fde68a"  opacity="0.55"/>
+  <circle cx="7"  cy="38"  r="0.6"  fill="#c4b5fd"  opacity="0.5"/>
+  <circle cx="32" cy="7"   r="0.5"  fill="#a5b4fc"  opacity="0.4"/>
+</svg>
