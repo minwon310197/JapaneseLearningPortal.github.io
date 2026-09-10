@@ -1,0 +1,3505 @@
+{
+  "_AIGameHelper-DJcZivzu.js": {
+    "file": "assets/AIGameHelper-DJcZivzu.js",
+    "name": "AIGameHelper",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_useAIKey-CpSw0zmN.js",
+      "_client-wNJ1tNgU.js",
+      "index.html",
+      "_content-errors-D90Pz2ps.js"
+    ]
+  },
+  "_CelebrationOverlay-DB_axjco.js": {
+    "file": "assets/CelebrationOverlay-DB_axjco.js",
+    "name": "CelebrationOverlay",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "_ConfettiBurst-BVLR_uM0.js": {
+    "file": "assets/ConfettiBurst-BVLR_uM0.js",
+    "name": "ConfettiBurst",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_rarity-tokens-i3-fv4xK.js"
+    ]
+  },
+  "_EconomySceneHero-B_AmZV8_.js": {
+    "file": "assets/EconomySceneHero-B_AmZV8_.js",
+    "name": "EconomySceneHero",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "_FillBlankMode-Dzv12HKC.js": {
+    "file": "assets/FillBlankMode-Dzv12HKC.js",
+    "name": "FillBlankMode",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_useScoreEngine-f-lCg0MN.js",
+      "index.html",
+      "_AIGameHelper-DJcZivzu.js",
+      "_index-B2ai8n3C.js",
+      "_PhaseRibbon-D3yQ4T2H.js",
+      "_QuizFeedback-Pap1aVYn.js",
+      "_ModeResultsScreen-5Gki9ifL.js",
+      "_ScaffoldingLayer-BwAQh4aw.js",
+      "_QuizMode-DQg4kJzy.js"
+    ]
+  },
+  "_FlashcardMode-CA-Jcray.js": {
+    "file": "assets/FlashcardMode-CA-Jcray.js",
+    "name": "FlashcardMode",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_utils-zpwy_og2.js",
+      "_PhaseRibbon-D3yQ4T2H.js",
+      "_useScoreEngine-f-lCg0MN.js",
+      "index.html",
+      "_ModeResultsScreen-5Gki9ifL.js",
+      "_TrainerTopBar-BbQ9A_1j.js",
+      "_registry-BAotxlgH.js"
+    ]
+  },
+  "_GameplayEffects-C1IXweFm.js": {
+    "file": "assets/GameplayEffects-C1IXweFm.js",
+    "name": "GameplayEffects",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html"
+    ]
+  },
+  "_HitPause-BapLYhfu.js": {
+    "file": "assets/HitPause-BapLYhfu.js",
+    "name": "HitPause",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "_IOSGroupedList-s00mgaMZ.js": {
+    "file": "assets/IOSGroupedList-s00mgaMZ.js",
+    "name": "IOSGroupedList",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-icons-D83cEu6Z.js"
+    ]
+  },
+  "_KanjiBattleMode-C2Ek_Kfj.js": {
+    "file": "assets/KanjiBattleMode-C2Ek_Kfj.js",
+    "name": "KanjiBattleMode",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_ajl-rewards-DFK0Q7fw.js",
+      "_ScaffoldingLayer-BwAQh4aw.js",
+      "_QuizFeedback-Pap1aVYn.js",
+      "_ModeResultsScreen-5Gki9ifL.js",
+      "_useScoreEngine-f-lCg0MN.js",
+      "_vendor-motion-C2SAPQSW.js",
+      "_vendor-icons-D83cEu6Z.js"
+    ]
+  },
+  "_MatchMode-ftsrtm9f.js": {
+    "file": "assets/MatchMode-ftsrtm9f.js",
+    "name": "MatchMode",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_utils-zpwy_og2.js",
+      "_useScoreEngine-f-lCg0MN.js",
+      "_PhaseRibbon-D3yQ4T2H.js",
+      "index.html",
+      "_ModeResultsScreen-5Gki9ifL.js",
+      "_ScaffoldingLayer-BwAQh4aw.js"
+    ]
+  },
+  "_ModeResultsScreen-5Gki9ifL.js": {
+    "file": "assets/ModeResultsScreen-5Gki9ifL.js",
+    "name": "ModeResultsScreen",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_useDialogFocus-CowhWfi-.js",
+      "_AIGameHelper-DJcZivzu.js"
+    ],
+    "css": [
+      "assets/ModeResultsScreen-Bd7eTXWx.css"
+    ]
+  },
+  "_ModeResultsScreen-Bd7eTXWx.css": {
+    "file": "assets/ModeResultsScreen-Bd7eTXWx.css",
+    "src": "_ModeResultsScreen-Bd7eTXWx.css"
+  },
+  "_ModelViewer-CaRNmJCy.js": {
+    "file": "assets/ModelViewer-CaRNmJCy.js",
+    "name": "ModelViewer",
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js"
+    ],
+    "dynamicImports": [
+      "src/app/world3d/components/ModelViewerRenderer.jsx"
+    ]
+  },
+  "_PhaseRibbon-D3yQ4T2H.js": {
+    "file": "assets/PhaseRibbon-D3yQ4T2H.js",
+    "name": "PhaseRibbon",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_utils-zpwy_og2.js",
+      "index.html",
+      "_TrainerTopBar-BbQ9A_1j.js"
+    ]
+  },
+  "_QuizFeedback-Pap1aVYn.js": {
+    "file": "assets/QuizFeedback-Pap1aVYn.js",
+    "name": "QuizFeedback",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_AIGameHelper-DJcZivzu.js",
+      "index.html",
+      "_ModeResultsScreen-5Gki9ifL.js"
+    ]
+  },
+  "_QuizMode-DQg4kJzy.js": {
+    "file": "assets/QuizMode-DQg4kJzy.js",
+    "name": "QuizMode",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_utils-zpwy_og2.js",
+      "index.html",
+      "_PhaseRibbon-D3yQ4T2H.js",
+      "_index-B2ai8n3C.js",
+      "_useScoreEngine-f-lCg0MN.js",
+      "_AIGameHelper-DJcZivzu.js",
+      "_ModeResultsScreen-5Gki9ifL.js",
+      "_TrainerTopBar-BbQ9A_1j.js",
+      "_registry-BAotxlgH.js",
+      "_QuizFeedback-Pap1aVYn.js"
+    ]
+  },
+  "_RarityAura-BqxZE2kk.js": {
+    "file": "assets/RarityAura-BqxZE2kk.js",
+    "name": "RarityAura",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_rarity-tokens-i3-fv4xK.js"
+    ]
+  },
+  "_ScaffoldingLayer-BwAQh4aw.js": {
+    "file": "assets/ScaffoldingLayer-BwAQh4aw.js",
+    "name": "ScaffoldingLayer",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_ModeResultsScreen-5Gki9ifL.js",
+      "index.html"
+    ]
+  },
+  "_SentenceBuildMode-BckzqNHP.css": {
+    "file": "assets/SentenceBuildMode-BckzqNHP.css",
+    "src": "_SentenceBuildMode-BckzqNHP.css"
+  },
+  "_SentenceBuildMode-bjz57jFE.js": {
+    "file": "assets/SentenceBuildMode-bjz57jFE.js",
+    "name": "SentenceBuildMode",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html"
+    ],
+    "css": [
+      "assets/SentenceBuildMode-BckzqNHP.css"
+    ]
+  },
+  "_SparklePing-BWX7eC-Z.js": {
+    "file": "assets/SparklePing-BWX7eC-Z.js",
+    "name": "SparklePing",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "_SubgameCanvas-CaGN2HcP.js": {
+    "file": "assets/SubgameCanvas-CaGN2HcP.js",
+    "name": "SubgameCanvas",
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js"
+    ],
+    "dynamicImports": [
+      "src/app/world3d/scenes/common/SubgameCanvasRenderer.jsx"
+    ]
+  },
+  "_ThemedScenes-TCkAJ91j.js": {
+    "file": "assets/ThemedScenes-TCkAJ91j.js",
+    "name": "ThemedScenes",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "_TrainerTopBar-BbQ9A_1j.js": {
+    "file": "assets/TrainerTopBar-BbQ9A_1j.js",
+    "name": "TrainerTopBar",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_useDialogFocus-CowhWfi-.js",
+      "index.html",
+      "_vendor-router-Dx6RIovR.js",
+      "_empty-Bvm-mx50.js",
+      "_HitPause-BapLYhfu.js",
+      "_study-results-DtyGPqxP.js",
+      "_quest-chains-CiwzmCpJ.js",
+      "_registry-BAotxlgH.js"
+    ]
+  },
+  "_TrueFalseMode-DKzuYm0f.js": {
+    "file": "assets/TrueFalseMode-DKzuYm0f.js",
+    "name": "TrueFalseMode",
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_useScoreEngine-f-lCg0MN.js",
+      "_PhaseRibbon-D3yQ4T2H.js",
+      "index.html",
+      "_AIGameHelper-DJcZivzu.js",
+      "_ModeResultsScreen-5Gki9ifL.js",
+      "_ScaffoldingLayer-BwAQh4aw.js",
+      "_QuizMode-DQg4kJzy.js"
+    ],
+    "dynamicImports": [
+      "src/app/components/interactions/SwipeGesture.jsx"
+    ]
+  },
+  "_VisibilityPauseBinder-CQh7nPdw.js": {
+    "file": "assets/VisibilityPauseBinder-CQh7nPdw.js",
+    "name": "VisibilityPauseBinder",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_feature-3d-B9k2WEUa.js"
+    ]
+  },
+  "_WorldExperience-CQ_uhNin.js": {
+    "file": "assets/WorldExperience-CQ_uhNin.js",
+    "name": "WorldExperience",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_registry-BAotxlgH.js",
+      "_learning-tools-CW2TYh-A.js",
+      "_ai-feature-catalog-BVQfq9eZ.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js",
+      "_vendor-router-Dx6RIovR.js"
+    ],
+    "dynamicImports": [
+      "src/app/services/world-learning-runtime.js",
+      "src/app/activity-router.jsx",
+      "src/app/components/world-godot/LegacyWorldTool.jsx"
+    ],
+    "css": [
+      "assets/WorldExperience-Caf00gpT.css"
+    ]
+  },
+  "_WorldExperience-Caf00gpT.css": {
+    "file": "assets/WorldExperience-Caf00gpT.css",
+    "src": "_WorldExperience-Caf00gpT.css"
+  },
+  "_WorldSurfaceContext-CUHCnPUQ.js": {
+    "file": "assets/WorldSurfaceContext-CUHCnPUQ.js",
+    "name": "WorldSurfaceContext",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "_ai-cache-BWre2oCi.js": {
+    "file": "assets/ai-cache-BWre2oCi.js",
+    "name": "ai-cache"
+  },
+  "_ai-feature-catalog-BVQfq9eZ.js": {
+    "file": "assets/ai-feature-catalog-BVQfq9eZ.js",
+    "name": "ai-feature-catalog"
+  },
+  "_ajl-rewards-DFK0Q7fw.js": {
+    "file": "assets/ajl-rewards-DFK0Q7fw.js",
+    "name": "ajl-rewards",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_api-BAg1LJRR.js": {
+    "file": "assets/api-BAg1LJRR.js",
+    "name": "api"
+  },
+  "_challenges-CPMh71LA.js": {
+    "file": "assets/challenges-CPMh71LA.js",
+    "name": "challenges",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_client-wNJ1tNgU.js": {
+    "file": "assets/client-wNJ1tNgU.js",
+    "name": "client",
+    "imports": [
+      "_api-BAg1LJRR.js",
+      "index.html"
+    ]
+  },
+  "_content-errors-D90Pz2ps.js": {
+    "file": "assets/content-errors-D90Pz2ps.js",
+    "name": "content-errors",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_cosmetic-registry-CEb8QiBv.js": {
+    "file": "assets/cosmetic-registry-CEb8QiBv.js",
+    "name": "cosmetic-registry",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_data-index-Dcwjwz3J.js": {
+    "file": "assets/data-index-Dcwjwz3J.js",
+    "name": "data-index",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_economy-DWU_E1da.css": {
+    "file": "assets/economy-DWU_E1da.css",
+    "src": "_economy-DWU_E1da.css"
+  },
+  "_empty-Bvm-mx50.js": {
+    "file": "assets/empty-Bvm-mx50.js",
+    "name": "empty"
+  },
+  "_feature-3d-B9k2WEUa.js": {
+    "file": "assets/feature-3d-B9k2WEUa.js",
+    "name": "feature-3d",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-three-DqkPfKji.js"
+    ]
+  },
+  "_game-feedback-rT-bQdpt.js": {
+    "file": "assets/game-feedback-rT-bQdpt.js",
+    "name": "game-feedback",
+    "imports": [
+      "_legacy-loader-gyvSYPc3.js",
+      "index.html"
+    ]
+  },
+  "_index-B2ai8n3C.js": {
+    "file": "assets/index-B2ai8n3C.js",
+    "name": "index",
+    "imports": [
+      "_utils-zpwy_og2.js",
+      "index.html"
+    ]
+  },
+  "_learning-tools-CW2TYh-A.js": {
+    "file": "assets/learning-tools-CW2TYh-A.js",
+    "name": "learning-tools"
+  },
+  "_legacy-loader-gyvSYPc3.js": {
+    "file": "assets/legacy-loader-gyvSYPc3.js",
+    "name": "legacy-loader",
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js",
+      "index.html",
+      "_world-tool-destinations-BAVvWbat.js"
+    ],
+    "dynamicImports": [
+      "src/features/study-tools.js",
+      "src/games/quiz.js",
+      "src/games/speed-memory.js",
+      "src/features/todo-audio.js",
+      "src/features/todo-writing.js",
+      "src/features/todo-reading.js",
+      "src/features/todo-analytics.js",
+      "src/features/todo-ai.js",
+      "src/features/todo-ux.js",
+      "src/features/todo-sharing.js",
+      "src/features/todo-content.js",
+      "src/features/todo-daily.js",
+      "src/features/todo-reference.js",
+      "src/features/todo-immersion.js",
+      "src/features/todo-flashcards.js",
+      "src/features/todo-smart.js",
+      "src/features/todo-smart2.js",
+      "src/features/todo-settings.js",
+      "src/features/todo-jlptprep.js",
+      "src/features/todo-culture.js",
+      "src/features/todo-extended2.js",
+      "src/features/tts.js",
+      "src/features/bookmarks.js",
+      "src/features/game-hints.js"
+    ]
+  },
+  "_legacy-tool-assessment-CuYVfzBR.js": {
+    "file": "assets/legacy-tool-assessment-CuYVfzBR.js",
+    "name": "legacy-tool-assessment",
+    "imports": [
+      "index.html",
+      "_world-tool-destinations-BAVvWbat.js"
+    ]
+  },
+  "_navigation-index-BUPaV9YS.js": {
+    "file": "assets/navigation-index-BUPaV9YS.js",
+    "name": "navigation-index",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_registry-BAotxlgH.js"
+    ]
+  },
+  "_quest-chains-CiwzmCpJ.js": {
+    "file": "assets/quest-chains-CiwzmCpJ.js",
+    "name": "quest-chains"
+  },
+  "_rarity-tokens-i3-fv4xK.js": {
+    "file": "assets/rarity-tokens-i3-fv4xK.js",
+    "name": "rarity-tokens"
+  },
+  "_registry-BAotxlgH.js": {
+    "file": "assets/registry-BAotxlgH.js",
+    "name": "registry",
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js"
+    ],
+    "dynamicImports": [
+      "src/app/pages/trainers/DailyPractice.jsx",
+      "src/app/pages/trainers/VocabDojo.jsx",
+      "src/app/pages/trainers/KanjiAcademy.jsx",
+      "src/app/pages/trainers/GrammarArena.jsx",
+      "src/app/pages/trainers/ParticleDojo/index.jsx",
+      "src/app/pages/trainers/ConjugationDojo.jsx",
+      "src/app/pages/trainers/ListeningLab.jsx",
+      "src/app/pages/trainers/ReadingRoom.jsx",
+      "src/app/pages/trainers/JLPTMock.jsx",
+      "src/app/pages/trainers/MinnaLessons.jsx",
+      "src/app/pages/trainers/PuzzleWorld.jsx",
+      "src/app/pages/trainers/MindTricks.jsx",
+      "src/app/pages/trainers/StoryMode.jsx",
+      "src/app/pages/trainers/AdventureArena.jsx",
+      "src/app/pages/trainers/BossBattle/index.jsx"
+    ]
+  },
+  "_settings-constants-hqFN9CGt.js": {
+    "file": "assets/settings-constants-hqFN9CGt.js",
+    "name": "settings-constants"
+  },
+  "_sfx-catalog-CnWM5zfr.js": {
+    "file": "assets/sfx-catalog-CnWM5zfr.js",
+    "name": "sfx-catalog",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_study-os-C1PgoW7A.css": {
+    "file": "assets/study-os-C1PgoW7A.css",
+    "src": "_study-os-C1PgoW7A.css"
+  },
+  "_study-results-DtyGPqxP.js": {
+    "file": "assets/study-results-DtyGPqxP.js",
+    "name": "study-results",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_toast-Dwy3w2e2.js": {
+    "file": "assets/toast-Dwy3w2e2.js",
+    "name": "toast",
+    "imports": [
+      "_legacy-loader-gyvSYPc3.js"
+    ],
+    "css": [
+      "assets/toast-FOTv75r1.css"
+    ]
+  },
+  "_toast-FOTv75r1.css": {
+    "file": "assets/toast-FOTv75r1.css",
+    "src": "_toast-FOTv75r1.css"
+  },
+  "_useAIKey-CpSw0zmN.js": {
+    "file": "assets/useAIKey-CpSw0zmN.js",
+    "name": "useAIKey",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_useDataHelper-DtTUT9Wk.js": {
+    "file": "assets/useDataHelper-DtTUT9Wk.js",
+    "name": "useDataHelper",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html"
+    ]
+  },
+  "_useDialogFocus-CowhWfi-.js": {
+    "file": "assets/useDialogFocus-CowhWfi-.js",
+    "name": "useDialogFocus",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "_useGameEngine-BKAIg4EU.js": {
+    "file": "assets/useGameEngine-BKAIg4EU.js",
+    "name": "useGameEngine",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html"
+    ]
+  },
+  "_useGrammarQuiz-CkAk5tho.js": {
+    "file": "assets/useGrammarQuiz-CkAk5tho.js",
+    "name": "useGrammarQuiz",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html"
+    ]
+  },
+  "_useScoreEngine-f-lCg0MN.js": {
+    "file": "assets/useScoreEngine-f-lCg0MN.js",
+    "name": "useScoreEngine",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html"
+    ]
+  },
+  "_useStudySession-DXubMAgN.js": {
+    "file": "assets/useStudySession-DXubMAgN.js",
+    "name": "useStudySession",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html"
+    ]
+  },
+  "_useSwipeClose-Ba57cA9P.js": {
+    "file": "assets/useSwipeClose-Ba57cA9P.js",
+    "name": "useSwipeClose",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html"
+    ]
+  },
+  "_useTodayKey-B7U75uD4.js": {
+    "file": "assets/useTodayKey-B7U75uD4.js",
+    "name": "useTodayKey",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "_utils-zpwy_og2.js": {
+    "file": "assets/utils-zpwy_og2.js",
+    "name": "utils"
+  },
+  "_vendor-icons-D83cEu6Z.js": {
+    "file": "assets/vendor-icons-D83cEu6Z.js",
+    "name": "vendor-icons",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "_vendor-motion-C2SAPQSW.js": {
+    "file": "assets/vendor-motion-C2SAPQSW.js",
+    "name": "vendor-motion",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "_vendor-react-BUL8WuXG.js": {
+    "file": "assets/vendor-react-BUL8WuXG.js",
+    "name": "vendor-react"
+  },
+  "_vendor-router-Dx6RIovR.js": {
+    "file": "assets/vendor-router-Dx6RIovR.js",
+    "name": "vendor-router",
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "_vendor-runtime-BbOs9S9B.js": {
+    "file": "assets/vendor-runtime-BbOs9S9B.js",
+    "name": "vendor-runtime"
+  },
+  "_vendor-supabase-DTEAj5J1.js": {
+    "file": "assets/vendor-supabase-DTEAj5J1.js",
+    "name": "vendor-supabase"
+  },
+  "_vendor-three-DqkPfKji.js": {
+    "file": "assets/vendor-three-DqkPfKji.js",
+    "name": "vendor-three",
+    "isDynamicEntry": true
+  },
+  "_vendor-three-webgpu-BRkbFnNI.js": {
+    "file": "assets/vendor-three-webgpu-BRkbFnNI.js",
+    "name": "vendor-three-webgpu",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-three-DqkPfKji.js"
+    ]
+  },
+  "_world-tool-destinations-BAVvWbat.js": {
+    "file": "assets/world-tool-destinations-BAVvWbat.js",
+    "name": "world-tool-destinations"
+  },
+  "index.html": {
+    "file": "assets/index-BEJSIlFS.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "dynamicImports": [
+      "_WorldExperience-CQ_uhNin.js",
+      "src/app/pages/Content.jsx",
+      "src/app/pages/PracticeHub.jsx",
+      "_WorldExperience-CQ_uhNin.js",
+      "src/app/pages/ProfilePage.jsx",
+      "src/app/pages/Settings.jsx",
+      "src/app/components/AnnouncementBanner.jsx",
+      "src/app/components/StudyAssist.jsx",
+      "src/app/components/CoinToast.jsx",
+      "src/app/components/XpToast.jsx",
+      "src/app/components/CommandPalette.jsx",
+      "src/app/components/GuideModal.jsx",
+      "src/app/features/debug-panel.jsx",
+      "_WorldExperience-CQ_uhNin.js",
+      "src/app/activity-router.jsx",
+      "src/data/kanji.v2.json",
+      "src/data/vocab.v2.json",
+      "src/data/grammar.v2.json",
+      "src/data/minna.json",
+      "src/data/minna-lessons.json",
+      "src/data/game-content.json",
+      "src/data/vocab.v2.json",
+      "src/data/kanji.v2.json",
+      "src/data/grammar.v2.json",
+      "src/data/conjugation/verbs.json",
+      "src/data/conjugation/adjectives.json",
+      "src/data/reference/counters.json",
+      "src/data/reference/particles.json",
+      "src/data/reference/keigo-pairs.json",
+      "src/data/reference/confusables.json",
+      "src/data/reference/radicals.json",
+      "src/data/reference/verb-forms.json",
+      "src/data/reference/connectors.json",
+      "src/data/reading/passages-n4.json",
+      "src/data/listening/scripts-n4.json",
+      "src/data/pronunciation/index.json",
+      "src/data/mocks/index.json",
+      "src/data/pronunciation/overrides.json",
+      "src/data/pronunciation/pitch.json",
+      "src/data/audio/manifest.json",
+      "src/data/game-content.json",
+      "src/data/explanations/loader.js"
+    ],
+    "css": [
+      "assets/index-BF-iHvWQ.css"
+    ]
+  },
+  "node_modules/html2canvas/dist/html2canvas.esm.js": {
+    "file": "assets/html2canvas.esm-DWZSdXKi.js",
+    "name": "html2canvas.esm",
+    "src": "node_modules/html2canvas/dist/html2canvas.esm.js",
+    "isDynamicEntry": true
+  },
+  "src/app/activity-router.jsx": {
+    "file": "assets/activity-router-BSafjB-b.js",
+    "name": "activity-router",
+    "src": "src/app/activity-router.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "dynamicImports": [
+      "src/app/pages/QuestChainPage.jsx",
+      "src/app/pages/TrainerPage.jsx",
+      "src/app/pages/ToolsPanel.jsx",
+      "src/app/features/lookup.jsx",
+      "src/app/features/ai-tutor.jsx",
+      "src/app/features/tatoeba.jsx",
+      "src/app/pages/AdminDashboard.jsx",
+      "src/app/pages/Inbox.jsx",
+      "src/app/pages/ChallengeQuiz.jsx",
+      "src/app/pages/Analytics.jsx",
+      "src/app/pages/ShopPage.jsx",
+      "src/app/pages/InventoryPage.jsx",
+      "src/app/pages/MissionsPage.jsx",
+      "src/app/pages/GachaPage.jsx",
+      "src/app/pages/PetPage.jsx",
+      "src/app/pages/CollectionsPage.jsx",
+      "src/app/pages/StudyRoomPage.jsx",
+      "src/app/pages/EconomyStatsPage.jsx",
+      "src/app/pages/GamblingPage.jsx",
+      "src/app/pages/DraftFeaturesPage.jsx",
+      "src/app/pages/MarketPage.jsx",
+      "src/app/pages/ScratchCardPage.jsx",
+      "src/app/pages/TreasureHuntPage.jsx",
+      "src/app/pages/SkillTreePage.jsx",
+      "src/app/pages/BountyBoardPage.jsx",
+      "src/app/pages/FactionPage.jsx",
+      "src/app/pages/VillagePage.jsx",
+      "src/app/pages/TownPage.jsx",
+      "src/app/pages/ZenDojoPage.jsx",
+      "src/app/pages/SenseiRoomPage.jsx",
+      "src/app/pages/OmikujiShrinePage.jsx",
+      "src/app/pages/OnsenPage.jsx",
+      "src/app/pages/MangaLibraryPage.jsx",
+      "src/app/pages/OrigamiStudioPage.jsx",
+      "src/app/pages/RamenShopPage.jsx",
+      "src/app/pages/KendoTournamentPage.jsx",
+      "src/app/pages/NekoCafePage.jsx",
+      "src/app/pages/TeaCeremonyPage.jsx",
+      "src/app/pages/MechaGaragePage.jsx",
+      "src/app/pages/TaikoMasterPage.jsx",
+      "src/app/pages/StoryQuestPage.jsx",
+      "src/app/pages/DailyStudySession.jsx",
+      "src/app/pages/DailyStudyResults.jsx",
+      "src/app/pages/NotFound.jsx"
+    ]
+  },
+  "src/app/components/AnnouncementBanner.jsx": {
+    "file": "assets/AnnouncementBanner-b2_-IvVK.js",
+    "name": "AnnouncementBanner",
+    "src": "src/app/components/AnnouncementBanner.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/components/CoinToast.jsx": {
+    "file": "assets/CoinToast-DjAhWqqV.js",
+    "name": "CoinToast",
+    "src": "src/app/components/CoinToast.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/components/CommandPalette.jsx": {
+    "file": "assets/CommandPalette-DTXSkZU6.js",
+    "name": "CommandPalette",
+    "src": "src/app/components/CommandPalette.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_useSwipeClose-Ba57cA9P.js",
+      "_navigation-index-BUPaV9YS.js",
+      "_useDialogFocus-CowhWfi-.js",
+      "_data-index-Dcwjwz3J.js",
+      "_settings-constants-hqFN9CGt.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_registry-BAotxlgH.js"
+    ]
+  },
+  "src/app/components/GuideModal.jsx": {
+    "file": "assets/GuideModal-CFFxSqKQ.js",
+    "name": "GuideModal",
+    "src": "src/app/components/GuideModal.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_useSwipeClose-Ba57cA9P.js",
+      "_useDialogFocus-CowhWfi-.js",
+      "index.html",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/components/StudyAssist.jsx": {
+    "file": "assets/StudyAssist-BsBtjVZh.js",
+    "name": "StudyAssist",
+    "src": "src/app/components/StudyAssist.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_useAIKey-CpSw0zmN.js",
+      "src/app/services/ai.js",
+      "_data-index-Dcwjwz3J.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js"
+    ]
+  },
+  "src/app/components/XpToast.jsx": {
+    "file": "assets/XpToast-3R5ucfHz.js",
+    "name": "XpToast",
+    "src": "src/app/components/XpToast.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/components/interactions/RhythmTrack.jsx": {
+    "file": "assets/RhythmTrack-DVDtscf9.js",
+    "name": "RhythmTrack",
+    "src": "src/app/components/interactions/RhythmTrack.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/components/interactions/StrokeCanvas.jsx": {
+    "file": "assets/StrokeCanvas-34PGUdWd.js",
+    "name": "StrokeCanvas",
+    "src": "src/app/components/interactions/StrokeCanvas.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "src/app/components/interactions/SwipeGesture.jsx": {
+    "file": "assets/SwipeGesture-BqnwRsF-.js",
+    "name": "SwipeGesture",
+    "src": "src/app/components/interactions/SwipeGesture.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "src/app/components/interactions/VoiceShadowing.jsx": {
+    "file": "assets/VoiceShadowing-8i1VucS4.js",
+    "name": "VoiceShadowing",
+    "src": "src/app/components/interactions/VoiceShadowing.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "src/app/components/world-godot/LegacyWorldTool.jsx": {
+    "file": "assets/LegacyWorldTool-BcEElqV9.js",
+    "name": "LegacyWorldTool",
+    "src": "src/app/components/world-godot/LegacyWorldTool.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_useScoreEngine-f-lCg0MN.js",
+      "_legacy-tool-assessment-CuYVfzBR.js",
+      "_legacy-loader-gyvSYPc3.js",
+      "_world-tool-destinations-BAVvWbat.js",
+      "index.html",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "dynamicImports": [
+      "src/app/pages/trainers/DailyPractice.jsx"
+    ],
+    "css": [
+      "assets/LegacyWorldTool-B_CAk58C.css"
+    ]
+  },
+  "src/app/features/ai-diary.jsx": {
+    "file": "assets/ai-diary-nUwPVhpB.js",
+    "name": "ai-diary",
+    "src": "src/app/features/ai-diary.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_useAIKey-CpSw0zmN.js",
+      "index.html",
+      "src/app/services/ai.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js"
+    ]
+  },
+  "src/app/features/ai-grammar-drill.jsx": {
+    "file": "assets/ai-grammar-drill-BhdOdJq7.js",
+    "name": "ai-grammar-drill",
+    "src": "src/app/features/ai-grammar-drill.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_useAIKey-CpSw0zmN.js",
+      "src/app/services/ai.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js"
+    ]
+  },
+  "src/app/features/ai-jlpt-predictor.jsx": {
+    "file": "assets/ai-jlpt-predictor-DNB-E-Dv.js",
+    "name": "ai-jlpt-predictor",
+    "src": "src/app/features/ai-jlpt-predictor.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/features/ai-kanji-detective.jsx": {
+    "file": "assets/ai-kanji-detective-BI4EA--t.js",
+    "name": "ai-kanji-detective",
+    "src": "src/app/features/ai-kanji-detective.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_useAIKey-CpSw0zmN.js",
+      "index.html",
+      "src/app/services/ai.js",
+      "_ai-cache-BWre2oCi.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js"
+    ]
+  },
+  "src/app/features/ai-lyrics.jsx": {
+    "file": "assets/ai-lyrics-CuykSLSY.js",
+    "name": "ai-lyrics",
+    "src": "src/app/features/ai-lyrics.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_useAIKey-CpSw0zmN.js",
+      "index.html",
+      "src/app/services/ai.js",
+      "_ai-cache-BWre2oCi.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js"
+    ]
+  },
+  "src/app/features/ai-mistakes.jsx": {
+    "file": "assets/ai-mistakes-B01udMj1.js",
+    "name": "ai-mistakes",
+    "src": "src/app/features/ai-mistakes.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_useAIKey-CpSw0zmN.js",
+      "src/app/services/ai.js",
+      "_ai-cache-BWre2oCi.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js"
+    ]
+  },
+  "src/app/features/ai-navigator.jsx": {
+    "file": "assets/ai-navigator-C0xlb6sV.js",
+    "name": "ai-navigator",
+    "src": "src/app/features/ai-navigator.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_useAIKey-CpSw0zmN.js",
+      "index.html",
+      "src/app/services/ai.js",
+      "_ai-cache-BWre2oCi.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js"
+    ]
+  },
+  "src/app/features/ai-news.jsx": {
+    "file": "assets/ai-news-DnqXM8lG.js",
+    "name": "ai-news",
+    "src": "src/app/features/ai-news.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_useAIKey-CpSw0zmN.js",
+      "index.html",
+      "src/app/services/ai.js",
+      "_ai-cache-BWre2oCi.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js"
+    ]
+  },
+  "src/app/features/ai-quiz.jsx": {
+    "file": "assets/ai-quiz-DXsH6pTc.js",
+    "name": "ai-quiz",
+    "src": "src/app/features/ai-quiz.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_useAIKey-CpSw0zmN.js",
+      "_client-wNJ1tNgU.js",
+      "src/app/services/ai.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_api-BAg1LJRR.js"
+    ]
+  },
+  "src/app/features/ai-scene.jsx": {
+    "file": "assets/ai-scene-CCu1mmbX.js",
+    "name": "ai-scene",
+    "src": "src/app/features/ai-scene.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_useAIKey-CpSw0zmN.js",
+      "index.html",
+      "src/app/services/ai.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js"
+    ]
+  },
+  "src/app/features/ai-story.jsx": {
+    "file": "assets/ai-story-0GuAwNuW.js",
+    "name": "ai-story",
+    "src": "src/app/features/ai-story.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_useAIKey-CpSw0zmN.js",
+      "index.html",
+      "src/app/services/ai.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js"
+    ]
+  },
+  "src/app/features/ai-tutor.jsx": {
+    "file": "assets/ai-tutor-_IL-DJS1.js",
+    "name": "ai-tutor",
+    "src": "src/app/features/ai-tutor.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_ai-feature-catalog-BVQfq9eZ.js",
+      "index.html",
+      "_useAIKey-CpSw0zmN.js",
+      "_client-wNJ1tNgU.js",
+      "src/app/services/ai.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_api-BAg1LJRR.js"
+    ],
+    "dynamicImports": [
+      "src/app/features/ai-quiz.jsx",
+      "src/app/features/ai-navigator.jsx",
+      "src/app/features/ai-mistakes.jsx",
+      "src/app/features/ai-jlpt-predictor.jsx",
+      "src/app/features/ai-wordmap.jsx",
+      "src/app/features/ai-story.jsx",
+      "src/app/features/ai-grammar-drill.jsx",
+      "src/app/features/ai-news.jsx",
+      "src/app/features/ai-lyrics.jsx",
+      "src/app/features/ai-diary.jsx",
+      "src/app/features/ai-scene.jsx",
+      "src/app/features/ai-kanji-detective.jsx"
+    ]
+  },
+  "src/app/features/ai-wordmap.jsx": {
+    "file": "assets/ai-wordmap-s6tQDeAZ.js",
+    "name": "ai-wordmap",
+    "src": "src/app/features/ai-wordmap.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_useAIKey-CpSw0zmN.js",
+      "index.html",
+      "src/app/services/ai.js",
+      "_ai-cache-BWre2oCi.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js"
+    ]
+  },
+  "src/app/features/debug-panel.jsx": {
+    "file": "assets/debug-panel-BoGgLiOj.js",
+    "name": "debug-panel",
+    "src": "src/app/features/debug-panel.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_content-errors-D90Pz2ps.js",
+      "_client-wNJ1tNgU.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_api-BAg1LJRR.js"
+    ],
+    "dynamicImports": [
+      "node_modules/html2canvas/dist/html2canvas.esm.js"
+    ]
+  },
+  "src/app/features/lookup.jsx": {
+    "file": "assets/lookup-UkoT7MA1.js",
+    "name": "lookup",
+    "src": "src/app/features/lookup.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_navigation-index-BUPaV9YS.js",
+      "_data-index-Dcwjwz3J.js",
+      "_api-BAg1LJRR.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_registry-BAotxlgH.js"
+    ]
+  },
+  "src/app/features/tatoeba.jsx": {
+    "file": "assets/tatoeba-nQntoJ6h.js",
+    "name": "tatoeba",
+    "src": "src/app/features/tatoeba.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_api-BAg1LJRR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/pages/AdminDashboard.jsx": {
+    "file": "assets/AdminDashboard-Dpk_kQBd.js",
+    "name": "AdminDashboard",
+    "src": "src/app/pages/AdminDashboard.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_useDialogFocus-CowhWfi-.js",
+      "_challenges-CPMh71LA.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/pages/Analytics.jsx": {
+    "file": "assets/Analytics-DpQ8t--Y.js",
+    "name": "Analytics",
+    "src": "src/app/pages/Analytics.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_registry-BAotxlgH.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/pages/BountyBoardPage.jsx": {
+    "file": "assets/BountyBoardPage-BRIbJswj.js",
+    "name": "BountyBoardPage",
+    "src": "src/app/pages/BountyBoardPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-motion-C2SAPQSW.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/pages/ChallengeQuiz.jsx": {
+    "file": "assets/ChallengeQuiz-CJxXarkr.js",
+    "name": "ChallengeQuiz",
+    "src": "src/app/pages/ChallengeQuiz.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_challenges-CPMh71LA.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/pages/CollectionsPage.jsx": {
+    "file": "assets/CollectionsPage-DI_fTdfo.js",
+    "name": "CollectionsPage",
+    "src": "src/app/pages/CollectionsPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_cosmetic-registry-CEb8QiBv.js",
+      "_ModelViewer-CaRNmJCy.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js"
+    ],
+    "css": [
+      "assets/economy-DWU_E1da.css"
+    ]
+  },
+  "src/app/pages/Content.jsx": {
+    "file": "assets/Content-D6IFEAjX.js",
+    "name": "Content",
+    "src": "src/app/pages/Content.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/pages/DailyStudyResults.jsx": {
+    "file": "assets/DailyStudyResults-BygOB-dw.js",
+    "name": "DailyStudyResults",
+    "src": "src/app/pages/DailyStudyResults.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_AIGameHelper-DJcZivzu.js",
+      "_study-results-DtyGPqxP.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_useAIKey-CpSw0zmN.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js",
+      "_content-errors-D90Pz2ps.js"
+    ],
+    "css": [
+      "assets/study-os-C1PgoW7A.css"
+    ]
+  },
+  "src/app/pages/DailyStudySession.jsx": {
+    "file": "assets/DailyStudySession-DmqrhW9V.js",
+    "name": "DailyStudySession",
+    "src": "src/app/pages/DailyStudySession.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/study-os-C1PgoW7A.css"
+    ]
+  },
+  "src/app/pages/DraftFeaturesPage.jsx": {
+    "file": "assets/DraftFeaturesPage-CpZhdsI4.js",
+    "name": "DraftFeaturesPage",
+    "src": "src/app/pages/DraftFeaturesPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_vendor-motion-C2SAPQSW.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/pages/EconomyStatsPage.jsx": {
+    "file": "assets/EconomyStatsPage-BX55xGlL.js",
+    "name": "EconomyStatsPage",
+    "src": "src/app/pages/EconomyStatsPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_cosmetic-registry-CEb8QiBv.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/pages/FactionPage.jsx": {
+    "file": "assets/FactionPage-B46LPkRw.js",
+    "name": "FactionPage",
+    "src": "src/app/pages/FactionPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-motion-C2SAPQSW.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/pages/GachaPage.jsx": {
+    "file": "assets/GachaPage-CoSFjp5W.js",
+    "name": "GachaPage",
+    "src": "src/app/pages/GachaPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_EconomySceneHero-B_AmZV8_.js",
+      "_cosmetic-registry-CEb8QiBv.js",
+      "_ConfettiBurst-BVLR_uM0.js",
+      "_SparklePing-BWX7eC-Z.js",
+      "_rarity-tokens-i3-fv4xK.js",
+      "_HitPause-BapLYhfu.js",
+      "_sfx-catalog-CnWM5zfr.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/GachaPage-Cs0FS-Dv.css",
+      "assets/economy-DWU_E1da.css"
+    ]
+  },
+  "src/app/pages/GamblingPage.jsx": {
+    "file": "assets/GamblingPage-Bd8AaQyL.js",
+    "name": "GamblingPage",
+    "src": "src/app/pages/GamblingPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_useTodayKey-B7U75uD4.js",
+      "_CelebrationOverlay-DB_axjco.js",
+      "_SubgameCanvas-CaGN2HcP.js",
+      "_RarityAura-BqxZE2kk.js",
+      "_ConfettiBurst-BVLR_uM0.js",
+      "_SparklePing-BWX7eC-Z.js",
+      "_HitPause-BapLYhfu.js",
+      "_rarity-tokens-i3-fv4xK.js",
+      "_sfx-catalog-CnWM5zfr.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js"
+    ],
+    "dynamicImports": [
+      "src/app/world3d/scenes/subgame-treasure/TreasureCaveScene.jsx"
+    ],
+    "css": [
+      "assets/GamblingPage-D-v-oewi.css",
+      "assets/economy-DWU_E1da.css"
+    ]
+  },
+  "src/app/pages/Inbox.jsx": {
+    "file": "assets/Inbox-CKanfJx3.js",
+    "name": "Inbox",
+    "src": "src/app/pages/Inbox.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_challenges-CPMh71LA.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/pages/InventoryPage.jsx": {
+    "file": "assets/InventoryPage-c-RFh7Rq.js",
+    "name": "InventoryPage",
+    "src": "src/app/pages/InventoryPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_cosmetic-registry-CEb8QiBv.js",
+      "_useDialogFocus-CowhWfi-.js",
+      "_ModelViewer-CaRNmJCy.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js"
+    ],
+    "css": [
+      "assets/economy-DWU_E1da.css"
+    ]
+  },
+  "src/app/pages/KendoTournamentPage.jsx": {
+    "file": "assets/KendoTournamentPage-CaG1M2qK.js",
+    "name": "KendoTournamentPage",
+    "src": "src/app/pages/KendoTournamentPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_SubgameCanvas-CaGN2HcP.js",
+      "_RarityAura-BqxZE2kk.js",
+      "_rarity-tokens-i3-fv4xK.js",
+      "_SparklePing-BWX7eC-Z.js",
+      "_HitPause-BapLYhfu.js",
+      "_sfx-catalog-CnWM5zfr.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js"
+    ],
+    "dynamicImports": [
+      "src/app/world3d/scenes/subgame-kendo/KendoDojoScene.jsx"
+    ],
+    "css": [
+      "assets/KendoTournamentPage-o147VzXG.css"
+    ]
+  },
+  "src/app/pages/MangaLibraryPage.jsx": {
+    "file": "assets/MangaLibraryPage-CXYgW7UV.js",
+    "name": "MangaLibraryPage",
+    "src": "src/app/pages/MangaLibraryPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_SubgameCanvas-CaGN2HcP.js",
+      "_RarityAura-BqxZE2kk.js",
+      "_rarity-tokens-i3-fv4xK.js",
+      "_HitPause-BapLYhfu.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-motion-C2SAPQSW.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js"
+    ],
+    "dynamicImports": [
+      "src/app/world3d/scenes/subgame-manga/MangaAlcoveScene.jsx"
+    ],
+    "css": [
+      "assets/MangaLibraryPage-DO19uY4I.css"
+    ]
+  },
+  "src/app/pages/MarketPage.jsx": {
+    "file": "assets/MarketPage-C_j717Iv.js",
+    "name": "MarketPage",
+    "src": "src/app/pages/MarketPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_empty-Bvm-mx50.js",
+      "_EconomySceneHero-B_AmZV8_.js",
+      "_useTodayKey-B7U75uD4.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/economy-DWU_E1da.css"
+    ]
+  },
+  "src/app/pages/MechaGaragePage.jsx": {
+    "file": "assets/MechaGaragePage-CwLkWSbA.js",
+    "name": "MechaGaragePage",
+    "src": "src/app/pages/MechaGaragePage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_ThemedScenes-TCkAJ91j.js",
+      "index.html",
+      "_SubgameCanvas-CaGN2HcP.js",
+      "_RarityAura-BqxZE2kk.js",
+      "_rarity-tokens-i3-fv4xK.js",
+      "_SparklePing-BWX7eC-Z.js",
+      "_HitPause-BapLYhfu.js",
+      "_sfx-catalog-CnWM5zfr.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js"
+    ],
+    "dynamicImports": [
+      "src/app/world3d/scenes/subgame-mecha/MechaGarageScene.jsx"
+    ],
+    "css": [
+      "assets/MechaGaragePage-Bmcl3KF2.css"
+    ]
+  },
+  "src/app/pages/MissionsPage.jsx": {
+    "file": "assets/MissionsPage-DdidGU7N.js",
+    "name": "MissionsPage",
+    "src": "src/app/pages/MissionsPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_CelebrationOverlay-DB_axjco.js",
+      "_EconomySceneHero-B_AmZV8_.js",
+      "_useTodayKey-B7U75uD4.js",
+      "_empty-Bvm-mx50.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/economy-DWU_E1da.css"
+    ]
+  },
+  "src/app/pages/NekoCafePage.jsx": {
+    "file": "assets/NekoCafePage-ECEr325j.js",
+    "name": "NekoCafePage",
+    "src": "src/app/pages/NekoCafePage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_ThemedScenes-TCkAJ91j.js",
+      "_RarityAura-BqxZE2kk.js",
+      "_rarity-tokens-i3-fv4xK.js",
+      "_SparklePing-BWX7eC-Z.js",
+      "_HitPause-BapLYhfu.js",
+      "_sfx-catalog-CnWM5zfr.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-motion-C2SAPQSW.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/NekoCafePage-Br5wOMaO.css"
+    ]
+  },
+  "src/app/pages/NotFound.jsx": {
+    "file": "assets/NotFound-Izg_M7ie.js",
+    "name": "NotFound",
+    "src": "src/app/pages/NotFound.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-router-Dx6RIovR.js"
+    ]
+  },
+  "src/app/pages/OmikujiShrinePage.jsx": {
+    "file": "assets/OmikujiShrinePage-C3CFPhTs.js",
+    "name": "OmikujiShrinePage",
+    "src": "src/app/pages/OmikujiShrinePage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_SubgameCanvas-CaGN2HcP.js",
+      "_CelebrationOverlay-DB_axjco.js",
+      "_useTodayKey-B7U75uD4.js",
+      "_RarityAura-BqxZE2kk.js",
+      "_ConfettiBurst-BVLR_uM0.js",
+      "_SparklePing-BWX7eC-Z.js",
+      "_HitPause-BapLYhfu.js",
+      "_rarity-tokens-i3-fv4xK.js",
+      "_sfx-catalog-CnWM5zfr.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js"
+    ],
+    "dynamicImports": [
+      "src/app/world3d/scenes/subgame-omikuji/OmikujiShrineScene.jsx"
+    ],
+    "css": [
+      "assets/OmikujiShrinePage-Bv7giyRO.css"
+    ]
+  },
+  "src/app/pages/OnsenPage.jsx": {
+    "file": "assets/OnsenPage-D3F_hfnv.js",
+    "name": "OnsenPage",
+    "src": "src/app/pages/OnsenPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_SubgameCanvas-CaGN2HcP.js",
+      "_RarityAura-BqxZE2kk.js",
+      "_rarity-tokens-i3-fv4xK.js",
+      "_SparklePing-BWX7eC-Z.js",
+      "_HitPause-BapLYhfu.js",
+      "_sfx-catalog-CnWM5zfr.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js"
+    ],
+    "dynamicImports": [
+      "src/app/world3d/scenes/subgame-onsen/OnsenScene.jsx"
+    ],
+    "css": [
+      "assets/OnsenPage-DJRi4ZAK.css"
+    ]
+  },
+  "src/app/pages/OrigamiStudioPage.jsx": {
+    "file": "assets/OrigamiStudioPage-BlgRcaO-.js",
+    "name": "OrigamiStudioPage",
+    "src": "src/app/pages/OrigamiStudioPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_ThemedScenes-TCkAJ91j.js",
+      "_SubgameCanvas-CaGN2HcP.js",
+      "_RarityAura-BqxZE2kk.js",
+      "_rarity-tokens-i3-fv4xK.js",
+      "_HitPause-BapLYhfu.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-motion-C2SAPQSW.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js"
+    ],
+    "dynamicImports": [
+      "src/app/world3d/scenes/subgame-origami/OrigamiStudioScene.jsx"
+    ],
+    "css": [
+      "assets/OrigamiStudioPage-5Dzq-mKY.css"
+    ]
+  },
+  "src/app/pages/PetPage.jsx": {
+    "file": "assets/PetPage-YM4WaXUj.js",
+    "name": "PetPage",
+    "src": "src/app/pages/PetPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/economy-DWU_E1da.css"
+    ]
+  },
+  "src/app/pages/PracticeHub.jsx": {
+    "file": "assets/PracticeHub-KCYcYiCy.js",
+    "name": "PracticeHub",
+    "src": "src/app/pages/PracticeHub.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/pages/ProfilePage.jsx": {
+    "file": "assets/ProfilePage-BnyYmi-j.js",
+    "name": "ProfilePage",
+    "src": "src/app/pages/ProfilePage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/pages/QuestChainPage.jsx": {
+    "file": "assets/QuestChainPage-1bslP90_.js",
+    "name": "QuestChainPage",
+    "src": "src/app/pages/QuestChainPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_quest-chains-CiwzmCpJ.js",
+      "index.html",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/pages/RamenShopPage.jsx": {
+    "file": "assets/RamenShopPage-qBiNUHmA.js",
+    "name": "RamenShopPage",
+    "src": "src/app/pages/RamenShopPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_SubgameCanvas-CaGN2HcP.js",
+      "_RarityAura-BqxZE2kk.js",
+      "_rarity-tokens-i3-fv4xK.js",
+      "_SparklePing-BWX7eC-Z.js",
+      "_HitPause-BapLYhfu.js",
+      "_ConfettiBurst-BVLR_uM0.js",
+      "_sfx-catalog-CnWM5zfr.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js"
+    ],
+    "dynamicImports": [
+      "src/app/world3d/scenes/subgame-ramen/RamenCounterScene.jsx"
+    ],
+    "css": [
+      "assets/RamenShopPage-D50UFOq6.css"
+    ]
+  },
+  "src/app/pages/ScratchCardPage.jsx": {
+    "file": "assets/ScratchCardPage-CptfwX7u.js",
+    "name": "ScratchCardPage",
+    "src": "src/app/pages/ScratchCardPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_useTodayKey-B7U75uD4.js",
+      "_RarityAura-BqxZE2kk.js",
+      "_ConfettiBurst-BVLR_uM0.js",
+      "_SparklePing-BWX7eC-Z.js",
+      "_HitPause-BapLYhfu.js",
+      "_rarity-tokens-i3-fv4xK.js",
+      "_sfx-catalog-CnWM5zfr.js",
+      "_ModelViewer-CaRNmJCy.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js"
+    ],
+    "css": [
+      "assets/economy-DWU_E1da.css"
+    ]
+  },
+  "src/app/pages/SenseiRoomPage.jsx": {
+    "file": "assets/SenseiRoomPage-CCM4EY2a.js",
+    "name": "SenseiRoomPage",
+    "src": "src/app/pages/SenseiRoomPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_ThemedScenes-TCkAJ91j.js",
+      "index.html",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-motion-C2SAPQSW.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/pages/Settings.jsx": {
+    "file": "assets/Settings-OmH3_UKz.js",
+    "name": "Settings",
+    "src": "src/app/pages/Settings.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_IOSGroupedList-s00mgaMZ.js",
+      "_useDialogFocus-CowhWfi-.js",
+      "_settings-constants-hqFN9CGt.js",
+      "_useAIKey-CpSw0zmN.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/pages/ShopPage.jsx": {
+    "file": "assets/ShopPage-DSMBI66p.js",
+    "name": "ShopPage",
+    "src": "src/app/pages/ShopPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_EconomySceneHero-B_AmZV8_.js",
+      "_useDialogFocus-CowhWfi-.js",
+      "_cosmetic-registry-CEb8QiBv.js",
+      "_ModelViewer-CaRNmJCy.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js"
+    ],
+    "css": [
+      "assets/economy-DWU_E1da.css"
+    ]
+  },
+  "src/app/pages/SkillTreePage.jsx": {
+    "file": "assets/SkillTreePage-qSRcKK_0.js",
+    "name": "SkillTreePage",
+    "src": "src/app/pages/SkillTreePage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-motion-C2SAPQSW.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/pages/StoryQuestPage.jsx": {
+    "file": "assets/StoryQuestPage-BIWGLyNV.js",
+    "name": "StoryQuestPage",
+    "src": "src/app/pages/StoryQuestPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-motion-C2SAPQSW.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/pages/StudyRoomPage.jsx": {
+    "file": "assets/StudyRoomPage-CJR__01Q.js",
+    "name": "StudyRoomPage",
+    "src": "src/app/pages/StudyRoomPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_empty-Bvm-mx50.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/pages/TaikoMasterPage.jsx": {
+    "file": "assets/TaikoMasterPage-5_O28gR4.js",
+    "name": "TaikoMasterPage",
+    "src": "src/app/pages/TaikoMasterPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/pages/TeaCeremonyPage.jsx": {
+    "file": "assets/TeaCeremonyPage-Cxt5aVFM.js",
+    "name": "TeaCeremonyPage",
+    "src": "src/app/pages/TeaCeremonyPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_SubgameCanvas-CaGN2HcP.js",
+      "_RarityAura-BqxZE2kk.js",
+      "_rarity-tokens-i3-fv4xK.js",
+      "_SparklePing-BWX7eC-Z.js",
+      "_HitPause-BapLYhfu.js",
+      "_sfx-catalog-CnWM5zfr.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js"
+    ],
+    "dynamicImports": [
+      "src/app/world3d/scenes/subgame-tea/TeaRoomScene.jsx"
+    ],
+    "css": [
+      "assets/TeaCeremonyPage-GZynvGir.css"
+    ]
+  },
+  "src/app/pages/ToolsPanel.jsx": {
+    "file": "assets/ToolsPanel-DVXChPP8.js",
+    "name": "ToolsPanel",
+    "src": "src/app/pages/ToolsPanel.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_IOSGroupedList-s00mgaMZ.js",
+      "index.html",
+      "_legacy-loader-gyvSYPc3.js",
+      "_learning-tools-CW2TYh-A.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_world-tool-destinations-BAVvWbat.js"
+    ]
+  },
+  "src/app/pages/TownPage.jsx": {
+    "file": "assets/TownPage-BvMVDd91.js",
+    "name": "TownPage",
+    "src": "src/app/pages/TownPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_ajl-rewards-DFK0Q7fw.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-motion-C2SAPQSW.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "dynamicImports": [
+      "src/app/services/ai.js"
+    ]
+  },
+  "src/app/pages/TrainerPage.jsx": {
+    "file": "assets/TrainerPage-CzaCoQ2m.js",
+    "name": "TrainerPage",
+    "src": "src/app/pages/TrainerPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_registry-BAotxlgH.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "dynamicImports": [
+      "index.html"
+    ]
+  },
+  "src/app/pages/TreasureHuntPage.jsx": {
+    "file": "assets/TreasureHuntPage-DUQlqY59.js",
+    "name": "TreasureHuntPage",
+    "src": "src/app/pages/TreasureHuntPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "index.html",
+      "_useTodayKey-B7U75uD4.js",
+      "_SubgameCanvas-CaGN2HcP.js",
+      "_RarityAura-BqxZE2kk.js",
+      "_ConfettiBurst-BVLR_uM0.js",
+      "_SparklePing-BWX7eC-Z.js",
+      "_HitPause-BapLYhfu.js",
+      "_rarity-tokens-i3-fv4xK.js",
+      "_sfx-catalog-CnWM5zfr.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js"
+    ],
+    "dynamicImports": [
+      "src/app/world3d/scenes/subgame-treasure/TreasureCaveScene.jsx"
+    ],
+    "css": [
+      "assets/TreasureHuntPage-DKRttcfe.css"
+    ]
+  },
+  "src/app/pages/VillagePage.jsx": {
+    "file": "assets/VillagePage-Cl7wxsFP.js",
+    "name": "VillagePage",
+    "src": "src/app/pages/VillagePage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_ThemedScenes-TCkAJ91j.js",
+      "index.html",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-motion-C2SAPQSW.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/pages/ZenDojoPage.jsx": {
+    "file": "assets/ZenDojoPage-CcFULI7f.js",
+    "name": "ZenDojoPage",
+    "src": "src/app/pages/ZenDojoPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_ThemedScenes-TCkAJ91j.js",
+      "_SubgameCanvas-CaGN2HcP.js",
+      "_RarityAura-BqxZE2kk.js",
+      "_rarity-tokens-i3-fv4xK.js",
+      "_SparklePing-BWX7eC-Z.js",
+      "_HitPause-BapLYhfu.js",
+      "index.html",
+      "_ajl-rewards-DFK0Q7fw.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-motion-C2SAPQSW.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "dynamicImports": [
+      "src/app/world3d/scenes/subgame-zen/ZenDojoScene.jsx"
+    ],
+    "css": [
+      "assets/ZenDojoPage-DhL7W_YC.css"
+    ]
+  },
+  "src/app/pages/trainers/AdventureArena.jsx": {
+    "file": "assets/AdventureArena-CRo2tBt1.js",
+    "name": "AdventureArena",
+    "src": "src/app/pages/trainers/AdventureArena.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_TrainerTopBar-BbQ9A_1j.js",
+      "_useScoreEngine-f-lCg0MN.js",
+      "_KanjiBattleMode-C2Ek_Kfj.js",
+      "index.html",
+      "_ajl-rewards-DFK0Q7fw.js",
+      "_ScaffoldingLayer-BwAQh4aw.js",
+      "_ModeResultsScreen-5Gki9ifL.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-motion-C2SAPQSW.js",
+      "_QuizFeedback-Pap1aVYn.js",
+      "_useDataHelper-DtTUT9Wk.js",
+      "_useGameEngine-BKAIg4EU.js",
+      "_useDialogFocus-CowhWfi-.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_empty-Bvm-mx50.js",
+      "_HitPause-BapLYhfu.js",
+      "_study-results-DtyGPqxP.js",
+      "_quest-chains-CiwzmCpJ.js",
+      "_registry-BAotxlgH.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_AIGameHelper-DJcZivzu.js",
+      "_useAIKey-CpSw0zmN.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js",
+      "_content-errors-D90Pz2ps.js"
+    ],
+    "css": [
+      "assets/AdventureArena-k2HjbeLL.css"
+    ]
+  },
+  "src/app/pages/trainers/BossBattle/index.jsx": {
+    "file": "assets/index-Dsvhw0cM.js",
+    "name": "index",
+    "src": "src/app/pages/trainers/BossBattle/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_TrainerTopBar-BbQ9A_1j.js",
+      "_useScoreEngine-f-lCg0MN.js",
+      "_GameplayEffects-C1IXweFm.js",
+      "index.html",
+      "_useDataHelper-DtTUT9Wk.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js",
+      "_useDialogFocus-CowhWfi-.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_empty-Bvm-mx50.js",
+      "_HitPause-BapLYhfu.js",
+      "_study-results-DtyGPqxP.js",
+      "_quest-chains-CiwzmCpJ.js",
+      "_registry-BAotxlgH.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "dynamicImports": [
+      "_vendor-three-webgpu-BRkbFnNI.js",
+      "_vendor-three-DqkPfKji.js",
+      "_vendor-three-DqkPfKji.js",
+      "_vendor-three-webgpu-BRkbFnNI.js",
+      "_vendor-three-webgpu-BRkbFnNI.js"
+    ]
+  },
+  "src/app/pages/trainers/ConjugationDojo.jsx": {
+    "file": "assets/ConjugationDojo-DyqO2g4D.js",
+    "name": "ConjugationDojo",
+    "src": "src/app/pages/trainers/ConjugationDojo.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_TrainerTopBar-BbQ9A_1j.js",
+      "_useScoreEngine-f-lCg0MN.js",
+      "_GameplayEffects-C1IXweFm.js",
+      "_FlashcardMode-CA-Jcray.js",
+      "_AIGameHelper-DJcZivzu.js",
+      "index.html",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_useDialogFocus-CowhWfi-.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_empty-Bvm-mx50.js",
+      "_HitPause-BapLYhfu.js",
+      "_study-results-DtyGPqxP.js",
+      "_quest-chains-CiwzmCpJ.js",
+      "_registry-BAotxlgH.js",
+      "_utils-zpwy_og2.js",
+      "_PhaseRibbon-D3yQ4T2H.js",
+      "_ModeResultsScreen-5Gki9ifL.js",
+      "_useAIKey-CpSw0zmN.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js",
+      "_content-errors-D90Pz2ps.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "dynamicImports": [
+      "src/app/components/interactions/RhythmTrack.jsx"
+    ]
+  },
+  "src/app/pages/trainers/DailyPractice.jsx": {
+    "file": "assets/DailyPractice-yzD0WEbL.js",
+    "name": "DailyPractice",
+    "src": "src/app/pages/trainers/DailyPractice.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_TrainerTopBar-BbQ9A_1j.js",
+      "_useScoreEngine-f-lCg0MN.js",
+      "_QuizMode-DQg4kJzy.js",
+      "_MatchMode-ftsrtm9f.js",
+      "_TrueFalseMode-DKzuYm0f.js",
+      "_FlashcardMode-CA-Jcray.js",
+      "_useDataHelper-DtTUT9Wk.js",
+      "_useGrammarQuiz-CkAk5tho.js",
+      "index.html",
+      "_useGameEngine-BKAIg4EU.js",
+      "_empty-Bvm-mx50.js",
+      "_useDialogFocus-CowhWfi-.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_HitPause-BapLYhfu.js",
+      "_study-results-DtyGPqxP.js",
+      "_quest-chains-CiwzmCpJ.js",
+      "_registry-BAotxlgH.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_utils-zpwy_og2.js",
+      "_PhaseRibbon-D3yQ4T2H.js",
+      "_index-B2ai8n3C.js",
+      "_AIGameHelper-DJcZivzu.js",
+      "_useAIKey-CpSw0zmN.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js",
+      "_content-errors-D90Pz2ps.js",
+      "_ModeResultsScreen-5Gki9ifL.js",
+      "_QuizFeedback-Pap1aVYn.js",
+      "_ScaffoldingLayer-BwAQh4aw.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/DailyPractice-DjD604un.css"
+    ]
+  },
+  "src/app/pages/trainers/GrammarArena.jsx": {
+    "file": "assets/GrammarArena-Bs-g_L4O.js",
+    "name": "GrammarArena",
+    "src": "src/app/pages/trainers/GrammarArena.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_SentenceBuildMode-bjz57jFE.js",
+      "_useScoreEngine-f-lCg0MN.js",
+      "_TrainerTopBar-BbQ9A_1j.js",
+      "_QuizMode-DQg4kJzy.js",
+      "_FlashcardMode-CA-Jcray.js",
+      "_TrueFalseMode-DKzuYm0f.js",
+      "_FillBlankMode-Dzv12HKC.js",
+      "index.html",
+      "_ScaffoldingLayer-BwAQh4aw.js",
+      "_QuizFeedback-Pap1aVYn.js",
+      "_ModeResultsScreen-5Gki9ifL.js",
+      "_AIGameHelper-DJcZivzu.js",
+      "_useStudySession-DXubMAgN.js",
+      "_useDataHelper-DtTUT9Wk.js",
+      "_useGrammarQuiz-CkAk5tho.js",
+      "_index-B2ai8n3C.js",
+      "_useDialogFocus-CowhWfi-.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_empty-Bvm-mx50.js",
+      "_HitPause-BapLYhfu.js",
+      "_study-results-DtyGPqxP.js",
+      "_quest-chains-CiwzmCpJ.js",
+      "_registry-BAotxlgH.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_utils-zpwy_og2.js",
+      "_PhaseRibbon-D3yQ4T2H.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_useAIKey-CpSw0zmN.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js",
+      "_content-errors-D90Pz2ps.js"
+    ]
+  },
+  "src/app/pages/trainers/JLPTMock.jsx": {
+    "file": "assets/JLPTMock-BohOIrer.js",
+    "name": "JLPTMock",
+    "src": "src/app/pages/trainers/JLPTMock.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_TrainerTopBar-BbQ9A_1j.js",
+      "_useScoreEngine-f-lCg0MN.js",
+      "_QuizMode-DQg4kJzy.js",
+      "index.html",
+      "_useDataHelper-DtTUT9Wk.js",
+      "_useGrammarQuiz-CkAk5tho.js",
+      "_index-B2ai8n3C.js",
+      "_useDialogFocus-CowhWfi-.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_empty-Bvm-mx50.js",
+      "_HitPause-BapLYhfu.js",
+      "_study-results-DtyGPqxP.js",
+      "_quest-chains-CiwzmCpJ.js",
+      "_registry-BAotxlgH.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_utils-zpwy_og2.js",
+      "_PhaseRibbon-D3yQ4T2H.js",
+      "_AIGameHelper-DJcZivzu.js",
+      "_useAIKey-CpSw0zmN.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js",
+      "_content-errors-D90Pz2ps.js",
+      "_ModeResultsScreen-5Gki9ifL.js",
+      "_QuizFeedback-Pap1aVYn.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/pages/trainers/KanjiAcademy.jsx": {
+    "file": "assets/KanjiAcademy-Dn39fgpE.js",
+    "name": "KanjiAcademy",
+    "src": "src/app/pages/trainers/KanjiAcademy.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_TrainerTopBar-BbQ9A_1j.js",
+      "_useScoreEngine-f-lCg0MN.js",
+      "_FlashcardMode-CA-Jcray.js",
+      "_QuizMode-DQg4kJzy.js",
+      "_MatchMode-ftsrtm9f.js",
+      "index.html",
+      "_useStudySession-DXubMAgN.js",
+      "_ScaffoldingLayer-BwAQh4aw.js",
+      "_QuizFeedback-Pap1aVYn.js",
+      "_ModeResultsScreen-5Gki9ifL.js",
+      "_KanjiBattleMode-C2Ek_Kfj.js",
+      "_useDataHelper-DtTUT9Wk.js",
+      "_index-B2ai8n3C.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_useDialogFocus-CowhWfi-.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_empty-Bvm-mx50.js",
+      "_HitPause-BapLYhfu.js",
+      "_study-results-DtyGPqxP.js",
+      "_quest-chains-CiwzmCpJ.js",
+      "_registry-BAotxlgH.js",
+      "_utils-zpwy_og2.js",
+      "_PhaseRibbon-D3yQ4T2H.js",
+      "_AIGameHelper-DJcZivzu.js",
+      "_useAIKey-CpSw0zmN.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js",
+      "_content-errors-D90Pz2ps.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_ajl-rewards-DFK0Q7fw.js",
+      "_vendor-motion-C2SAPQSW.js"
+    ],
+    "dynamicImports": [
+      "src/app/components/interactions/StrokeCanvas.jsx"
+    ]
+  },
+  "src/app/pages/trainers/ListeningLab.jsx": {
+    "file": "assets/ListeningLab-CyPDDhlO.js",
+    "name": "ListeningLab",
+    "src": "src/app/pages/trainers/ListeningLab.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_TrainerTopBar-BbQ9A_1j.js",
+      "_useScoreEngine-f-lCg0MN.js",
+      "_GameplayEffects-C1IXweFm.js",
+      "_QuizMode-DQg4kJzy.js",
+      "_useDataHelper-DtTUT9Wk.js",
+      "index.html",
+      "_index-B2ai8n3C.js",
+      "_useGameEngine-BKAIg4EU.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_useDialogFocus-CowhWfi-.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_empty-Bvm-mx50.js",
+      "_HitPause-BapLYhfu.js",
+      "_study-results-DtyGPqxP.js",
+      "_quest-chains-CiwzmCpJ.js",
+      "_registry-BAotxlgH.js",
+      "_utils-zpwy_og2.js",
+      "_PhaseRibbon-D3yQ4T2H.js",
+      "_AIGameHelper-DJcZivzu.js",
+      "_useAIKey-CpSw0zmN.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js",
+      "_content-errors-D90Pz2ps.js",
+      "_ModeResultsScreen-5Gki9ifL.js",
+      "_QuizFeedback-Pap1aVYn.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "dynamicImports": [
+      "src/app/components/interactions/VoiceShadowing.jsx"
+    ],
+    "css": [
+      "assets/ListeningLab-CaMupXdK.css"
+    ]
+  },
+  "src/app/pages/trainers/MindTricks.jsx": {
+    "file": "assets/MindTricks-CljnnG6O.js",
+    "name": "MindTricks",
+    "src": "src/app/pages/trainers/MindTricks.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_TrainerTopBar-BbQ9A_1j.js",
+      "_useScoreEngine-f-lCg0MN.js",
+      "_QuizMode-DQg4kJzy.js",
+      "_MatchMode-ftsrtm9f.js",
+      "_useDataHelper-DtTUT9Wk.js",
+      "index.html",
+      "_index-B2ai8n3C.js",
+      "_useGameEngine-BKAIg4EU.js",
+      "_useDialogFocus-CowhWfi-.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_empty-Bvm-mx50.js",
+      "_HitPause-BapLYhfu.js",
+      "_study-results-DtyGPqxP.js",
+      "_quest-chains-CiwzmCpJ.js",
+      "_registry-BAotxlgH.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_utils-zpwy_og2.js",
+      "_PhaseRibbon-D3yQ4T2H.js",
+      "_AIGameHelper-DJcZivzu.js",
+      "_useAIKey-CpSw0zmN.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js",
+      "_content-errors-D90Pz2ps.js",
+      "_ModeResultsScreen-5Gki9ifL.js",
+      "_QuizFeedback-Pap1aVYn.js",
+      "_ScaffoldingLayer-BwAQh4aw.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/MindTricks-oq3crO-0.css"
+    ]
+  },
+  "src/app/pages/trainers/MinnaLessons.jsx": {
+    "file": "assets/MinnaLessons-BQFhcOL3.js",
+    "name": "MinnaLessons",
+    "src": "src/app/pages/trainers/MinnaLessons.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_TrainerTopBar-BbQ9A_1j.js",
+      "_useScoreEngine-f-lCg0MN.js",
+      "_FlashcardMode-CA-Jcray.js",
+      "_QuizMode-DQg4kJzy.js",
+      "index.html",
+      "_index-B2ai8n3C.js",
+      "_useDialogFocus-CowhWfi-.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_empty-Bvm-mx50.js",
+      "_HitPause-BapLYhfu.js",
+      "_study-results-DtyGPqxP.js",
+      "_quest-chains-CiwzmCpJ.js",
+      "_registry-BAotxlgH.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_utils-zpwy_og2.js",
+      "_PhaseRibbon-D3yQ4T2H.js",
+      "_ModeResultsScreen-5Gki9ifL.js",
+      "_AIGameHelper-DJcZivzu.js",
+      "_useAIKey-CpSw0zmN.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js",
+      "_content-errors-D90Pz2ps.js",
+      "_QuizFeedback-Pap1aVYn.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/pages/trainers/ParticleDojo/index.jsx": {
+    "file": "assets/index-DO4I37Ac.js",
+    "name": "index",
+    "src": "src/app/pages/trainers/ParticleDojo/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_TrainerTopBar-BbQ9A_1j.js",
+      "index.html",
+      "_useGrammarQuiz-CkAk5tho.js",
+      "_AIGameHelper-DJcZivzu.js",
+      "_SentenceBuildMode-bjz57jFE.js",
+      "_useDialogFocus-CowhWfi-.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_empty-Bvm-mx50.js",
+      "_HitPause-BapLYhfu.js",
+      "_study-results-DtyGPqxP.js",
+      "_quest-chains-CiwzmCpJ.js",
+      "_registry-BAotxlgH.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_useAIKey-CpSw0zmN.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js",
+      "_content-errors-D90Pz2ps.js"
+    ]
+  },
+  "src/app/pages/trainers/PuzzleWorld.jsx": {
+    "file": "assets/PuzzleWorld-DZ8tj3Nd.js",
+    "name": "PuzzleWorld",
+    "src": "src/app/pages/trainers/PuzzleWorld.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_TrainerTopBar-BbQ9A_1j.js",
+      "_useScoreEngine-f-lCg0MN.js",
+      "_useDataHelper-DtTUT9Wk.js",
+      "index.html",
+      "_useGameEngine-BKAIg4EU.js",
+      "_useDialogFocus-CowhWfi-.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_empty-Bvm-mx50.js",
+      "_HitPause-BapLYhfu.js",
+      "_study-results-DtyGPqxP.js",
+      "_quest-chains-CiwzmCpJ.js",
+      "_registry-BAotxlgH.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/PuzzleWorld-BUohIAM1.css"
+    ]
+  },
+  "src/app/pages/trainers/ReadingRoom.jsx": {
+    "file": "assets/ReadingRoom-Cb1atISI.js",
+    "name": "ReadingRoom",
+    "src": "src/app/pages/trainers/ReadingRoom.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_TrainerTopBar-BbQ9A_1j.js",
+      "_useScoreEngine-f-lCg0MN.js",
+      "_QuizMode-DQg4kJzy.js",
+      "_useDataHelper-DtTUT9Wk.js",
+      "index.html",
+      "_index-B2ai8n3C.js",
+      "_useGameEngine-BKAIg4EU.js",
+      "_useDialogFocus-CowhWfi-.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_empty-Bvm-mx50.js",
+      "_HitPause-BapLYhfu.js",
+      "_study-results-DtyGPqxP.js",
+      "_quest-chains-CiwzmCpJ.js",
+      "_registry-BAotxlgH.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_utils-zpwy_og2.js",
+      "_PhaseRibbon-D3yQ4T2H.js",
+      "_AIGameHelper-DJcZivzu.js",
+      "_useAIKey-CpSw0zmN.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js",
+      "_content-errors-D90Pz2ps.js",
+      "_ModeResultsScreen-5Gki9ifL.js",
+      "_QuizFeedback-Pap1aVYn.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/ReadingRoom-CWOFEmkx.css"
+    ]
+  },
+  "src/app/pages/trainers/StoryMode.jsx": {
+    "file": "assets/StoryMode-CrNJVTTl.js",
+    "name": "StoryMode",
+    "src": "src/app/pages/trainers/StoryMode.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_TrainerTopBar-BbQ9A_1j.js",
+      "_useScoreEngine-f-lCg0MN.js",
+      "_QuizMode-DQg4kJzy.js",
+      "_index-B2ai8n3C.js",
+      "_useDataHelper-DtTUT9Wk.js",
+      "index.html",
+      "_useGameEngine-BKAIg4EU.js",
+      "_useDialogFocus-CowhWfi-.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_empty-Bvm-mx50.js",
+      "_HitPause-BapLYhfu.js",
+      "_study-results-DtyGPqxP.js",
+      "_quest-chains-CiwzmCpJ.js",
+      "_registry-BAotxlgH.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_utils-zpwy_og2.js",
+      "_PhaseRibbon-D3yQ4T2H.js",
+      "_AIGameHelper-DJcZivzu.js",
+      "_useAIKey-CpSw0zmN.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js",
+      "_content-errors-D90Pz2ps.js",
+      "_ModeResultsScreen-5Gki9ifL.js",
+      "_QuizFeedback-Pap1aVYn.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/StoryMode-Bbr6bPIY.css"
+    ]
+  },
+  "src/app/pages/trainers/VocabDojo.jsx": {
+    "file": "assets/VocabDojo-D7bwzFFi.js",
+    "name": "VocabDojo",
+    "src": "src/app/pages/trainers/VocabDojo.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_TrainerTopBar-BbQ9A_1j.js",
+      "_useScoreEngine-f-lCg0MN.js",
+      "_FlashcardMode-CA-Jcray.js",
+      "_QuizMode-DQg4kJzy.js",
+      "_MatchMode-ftsrtm9f.js",
+      "_useStudySession-DXubMAgN.js",
+      "index.html",
+      "_FillBlankMode-Dzv12HKC.js",
+      "_TrueFalseMode-DKzuYm0f.js",
+      "_ScaffoldingLayer-BwAQh4aw.js",
+      "_useDataHelper-DtTUT9Wk.js",
+      "_ModeResultsScreen-5Gki9ifL.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js",
+      "_useGameEngine-BKAIg4EU.js",
+      "_AIGameHelper-DJcZivzu.js",
+      "_index-B2ai8n3C.js",
+      "_useDialogFocus-CowhWfi-.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_empty-Bvm-mx50.js",
+      "_HitPause-BapLYhfu.js",
+      "_study-results-DtyGPqxP.js",
+      "_quest-chains-CiwzmCpJ.js",
+      "_registry-BAotxlgH.js",
+      "_utils-zpwy_og2.js",
+      "_PhaseRibbon-D3yQ4T2H.js",
+      "_QuizFeedback-Pap1aVYn.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_useAIKey-CpSw0zmN.js",
+      "_client-wNJ1tNgU.js",
+      "_api-BAg1LJRR.js",
+      "_content-errors-D90Pz2ps.js"
+    ],
+    "dynamicImports": [
+      "_vendor-three-DqkPfKji.js"
+    ],
+    "css": [
+      "assets/VocabDojo-CqnDvM0m.css"
+    ]
+  },
+  "src/app/services/ai.js": {
+    "file": "assets/ai-S4u4-t6_.js",
+    "name": "ai",
+    "src": "src/app/services/ai.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_client-wNJ1tNgU.js",
+      "index.html",
+      "_api-BAg1LJRR.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/services/world-learning-runtime.js": {
+    "file": "assets/world-learning-runtime-Dym3iCim.js",
+    "name": "world-learning-runtime",
+    "src": "src/app/services/world-learning-runtime.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_index-B2ai8n3C.js",
+      "_WorldExperience-CQ_uhNin.js",
+      "_world-tool-destinations-BAVvWbat.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_utils-zpwy_og2.js",
+      "_registry-BAotxlgH.js",
+      "_learning-tools-CW2TYh-A.js",
+      "_ai-feature-catalog-BVQfq9eZ.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js"
+    ]
+  },
+  "src/app/world3d/components/ModelViewerRenderer.jsx": {
+    "file": "assets/ModelViewerRenderer-pJcP1c20.js",
+    "name": "ModelViewerRenderer",
+    "src": "src/app/world3d/components/ModelViewerRenderer.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js",
+      "_feature-3d-B9k2WEUa.js",
+      "_vendor-three-DqkPfKji.js"
+    ],
+    "dynamicImports": [
+      "src/app/world3d/core/SceneContainerRenderer.jsx"
+    ]
+  },
+  "src/app/world3d/core/SceneContainerRenderer.jsx": {
+    "file": "assets/SceneContainerRenderer-eUmholUI.js",
+    "name": "SceneContainerRenderer",
+    "src": "src/app/world3d/core/SceneContainerRenderer.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js",
+      "_feature-3d-B9k2WEUa.js",
+      "index.html",
+      "_VisibilityPauseBinder-CQh7nPdw.js",
+      "_vendor-three-DqkPfKji.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/world3d/scenes/common/SubgameCanvasRenderer.jsx": {
+    "file": "assets/SubgameCanvasRenderer-C3c7Y1Z3.js",
+    "name": "SubgameCanvasRenderer",
+    "src": "src/app/world3d/scenes/common/SubgameCanvasRenderer.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_WorldSurfaceContext-CUHCnPUQ.js",
+      "_feature-3d-B9k2WEUa.js",
+      "index.html",
+      "_VisibilityPauseBinder-CQh7nPdw.js",
+      "_vendor-three-DqkPfKji.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/app/world3d/scenes/subgame-kendo/KendoDojoScene.jsx": {
+    "file": "assets/KendoDojoScene-DGd0UxJj.js",
+    "name": "KendoDojoScene",
+    "src": "src/app/world3d/scenes/subgame-kendo/KendoDojoScene.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "src/app/world3d/scenes/subgame-manga/MangaAlcoveScene.jsx": {
+    "file": "assets/MangaAlcoveScene-D8gS_JWv.js",
+    "name": "MangaAlcoveScene",
+    "src": "src/app/world3d/scenes/subgame-manga/MangaAlcoveScene.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "src/app/world3d/scenes/subgame-mecha/MechaGarageScene.jsx": {
+    "file": "assets/MechaGarageScene-Cyc8BuqI.js",
+    "name": "MechaGarageScene",
+    "src": "src/app/world3d/scenes/subgame-mecha/MechaGarageScene.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "src/app/world3d/scenes/subgame-omikuji/OmikujiShrineScene.jsx": {
+    "file": "assets/OmikujiShrineScene-DuKFgPYd.js",
+    "name": "OmikujiShrineScene",
+    "src": "src/app/world3d/scenes/subgame-omikuji/OmikujiShrineScene.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "src/app/world3d/scenes/subgame-onsen/OnsenScene.jsx": {
+    "file": "assets/OnsenScene-sGnpsVFl.js",
+    "name": "OnsenScene",
+    "src": "src/app/world3d/scenes/subgame-onsen/OnsenScene.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js",
+      "_feature-3d-B9k2WEUa.js",
+      "_vendor-three-DqkPfKji.js"
+    ]
+  },
+  "src/app/world3d/scenes/subgame-origami/OrigamiStudioScene.jsx": {
+    "file": "assets/OrigamiStudioScene-7INvzliM.js",
+    "name": "OrigamiStudioScene",
+    "src": "src/app/world3d/scenes/subgame-origami/OrigamiStudioScene.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "src/app/world3d/scenes/subgame-ramen/RamenCounterScene.jsx": {
+    "file": "assets/RamenCounterScene-Dn9Zem7p.js",
+    "name": "RamenCounterScene",
+    "src": "src/app/world3d/scenes/subgame-ramen/RamenCounterScene.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "src/app/world3d/scenes/subgame-tea/TeaRoomScene.jsx": {
+    "file": "assets/TeaRoomScene-7xSwFq2F.js",
+    "name": "TeaRoomScene",
+    "src": "src/app/world3d/scenes/subgame-tea/TeaRoomScene.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "src/app/world3d/scenes/subgame-treasure/TreasureCaveScene.jsx": {
+    "file": "assets/TreasureCaveScene-YRX58Xuc.js",
+    "name": "TreasureCaveScene",
+    "src": "src/app/world3d/scenes/subgame-treasure/TreasureCaveScene.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "src/app/world3d/scenes/subgame-zen/ZenDojoScene.jsx": {
+    "file": "assets/ZenDojoScene-Lw5hfRcr.js",
+    "name": "ZenDojoScene",
+    "src": "src/app/world3d/scenes/subgame-zen/ZenDojoScene.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BUL8WuXG.js"
+    ]
+  },
+  "src/data/audio/manifest.json": {
+    "file": "assets/manifest-BlDYQxg-.js",
+    "name": "manifest",
+    "src": "src/data/audio/manifest.json",
+    "isDynamicEntry": true
+  },
+  "src/data/conjugation/adjectives.json": {
+    "file": "assets/adjectives-CmT_lO8Q.js",
+    "name": "adjectives",
+    "src": "src/data/conjugation/adjectives.json",
+    "isDynamicEntry": true
+  },
+  "src/data/conjugation/verbs.json": {
+    "file": "assets/verbs-CCALaAti.js",
+    "name": "verbs",
+    "src": "src/data/conjugation/verbs.json",
+    "isDynamicEntry": true
+  },
+  "src/data/explanations/loader.js": {
+    "file": "assets/loader-BV1fV8FN.js",
+    "name": "loader",
+    "src": "src/data/explanations/loader.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/data/game-content.json": {
+    "file": "assets/game-content-DFg1ZrbC.js",
+    "name": "game-content",
+    "src": "src/data/game-content.json",
+    "isDynamicEntry": true
+  },
+  "src/data/grammar.v2.json": {
+    "file": "assets/grammar.v2-DCAJ8ygz.js",
+    "name": "grammar.v2",
+    "src": "src/data/grammar.v2.json",
+    "isDynamicEntry": true
+  },
+  "src/data/kanji.v2.json": {
+    "file": "assets/kanji.v2-CS5TJfx7.js",
+    "name": "kanji.v2",
+    "src": "src/data/kanji.v2.json",
+    "isDynamicEntry": true
+  },
+  "src/data/listening/scripts-n4.json": {
+    "file": "assets/scripts-n4-CPolSWlS.js",
+    "name": "scripts-n4",
+    "src": "src/data/listening/scripts-n4.json",
+    "isDynamicEntry": true
+  },
+  "src/data/minna-lessons.json": {
+    "file": "assets/minna-lessons-CY_VH0Sd.js",
+    "name": "minna-lessons",
+    "src": "src/data/minna-lessons.json",
+    "isDynamicEntry": true
+  },
+  "src/data/minna.json": {
+    "file": "assets/minna-BMbhs6iQ.js",
+    "name": "minna",
+    "src": "src/data/minna.json",
+    "isDynamicEntry": true
+  },
+  "src/data/mocks/index.json": {
+    "file": "assets/index-B6wbftj7.js",
+    "name": "index",
+    "src": "src/data/mocks/index.json",
+    "isDynamicEntry": true
+  },
+  "src/data/pronunciation/index.json": {
+    "file": "assets/index-BMORg_pt.js",
+    "name": "index",
+    "src": "src/data/pronunciation/index.json",
+    "isDynamicEntry": true
+  },
+  "src/data/pronunciation/overrides.json": {
+    "file": "assets/overrides-gTFbM9Ya.js",
+    "name": "overrides",
+    "src": "src/data/pronunciation/overrides.json",
+    "isDynamicEntry": true
+  },
+  "src/data/pronunciation/pitch.json": {
+    "file": "assets/pitch-D1DfTRhE.js",
+    "name": "pitch",
+    "src": "src/data/pronunciation/pitch.json",
+    "isDynamicEntry": true
+  },
+  "src/data/reading/passages-n4.json": {
+    "file": "assets/passages-n4-CCGr8xil.js",
+    "name": "passages-n4",
+    "src": "src/data/reading/passages-n4.json",
+    "isDynamicEntry": true
+  },
+  "src/data/reference/confusables.json": {
+    "file": "assets/confusables-qNCQ2LIJ.js",
+    "name": "confusables",
+    "src": "src/data/reference/confusables.json",
+    "isDynamicEntry": true
+  },
+  "src/data/reference/connectors.json": {
+    "file": "assets/connectors-CiBMIeXP.js",
+    "name": "connectors",
+    "src": "src/data/reference/connectors.json",
+    "isDynamicEntry": true
+  },
+  "src/data/reference/counters.json": {
+    "file": "assets/counters-CGgn4F8t.js",
+    "name": "counters",
+    "src": "src/data/reference/counters.json",
+    "isDynamicEntry": true
+  },
+  "src/data/reference/keigo-pairs.json": {
+    "file": "assets/keigo-pairs-CxDPojIr.js",
+    "name": "keigo-pairs",
+    "src": "src/data/reference/keigo-pairs.json",
+    "isDynamicEntry": true
+  },
+  "src/data/reference/particles.json": {
+    "file": "assets/particles-Did7F3OA.js",
+    "name": "particles",
+    "src": "src/data/reference/particles.json",
+    "isDynamicEntry": true
+  },
+  "src/data/reference/radicals.json": {
+    "file": "assets/radicals-DsjRvj36.js",
+    "name": "radicals",
+    "src": "src/data/reference/radicals.json",
+    "isDynamicEntry": true
+  },
+  "src/data/reference/verb-forms.json": {
+    "file": "assets/verb-forms-BNpLAxFx.js",
+    "name": "verb-forms",
+    "src": "src/data/reference/verb-forms.json",
+    "isDynamicEntry": true
+  },
+  "src/data/vocab.v2.json": {
+    "file": "assets/vocab.v2-BilQu_Iy.js",
+    "name": "vocab.v2",
+    "src": "src/data/vocab.v2.json",
+    "isDynamicEntry": true
+  },
+  "src/features/bookmarks.js": {
+    "file": "assets/bookmarks-DzO2NqfT.js",
+    "name": "bookmarks",
+    "src": "src/features/bookmarks.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_toast-Dwy3w2e2.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_legacy-loader-gyvSYPc3.js",
+      "_world-tool-destinations-BAVvWbat.js"
+    ],
+    "css": [
+      "assets/toast-FOTv75r1.css"
+    ]
+  },
+  "src/features/game-hints.js": {
+    "file": "assets/game-hints-C7RIXbTT.js",
+    "name": "game-hints",
+    "src": "src/features/game-hints.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/toast-FOTv75r1.css"
+    ]
+  },
+  "src/features/study-tools.js": {
+    "file": "assets/study-tools-HBv-wCN4.js",
+    "name": "study-tools",
+    "src": "src/features/study-tools.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_legacy-loader-gyvSYPc3.js",
+      "_toast-Dwy3w2e2.js",
+      "src/features/bookmarks.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_world-tool-destinations-BAVvWbat.js"
+    ],
+    "css": [
+      "assets/toast-FOTv75r1.css"
+    ]
+  },
+  "src/features/todo-ai.js": {
+    "file": "assets/todo-ai-Dt94SH_j.js",
+    "name": "todo-ai",
+    "src": "src/features/todo-ai.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_legacy-loader-gyvSYPc3.js",
+      "index.html",
+      "_toast-Dwy3w2e2.js",
+      "src/features/bookmarks.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_world-tool-destinations-BAVvWbat.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/toast-FOTv75r1.css"
+    ]
+  },
+  "src/features/todo-analytics.js": {
+    "file": "assets/todo-analytics-DQ1CDpZe.js",
+    "name": "todo-analytics",
+    "src": "src/features/todo-analytics.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_legacy-loader-gyvSYPc3.js",
+      "index.html",
+      "_toast-Dwy3w2e2.js",
+      "src/features/bookmarks.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_world-tool-destinations-BAVvWbat.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/toast-FOTv75r1.css"
+    ]
+  },
+  "src/features/todo-audio.js": {
+    "file": "assets/todo-audio-7Ej21FbX.js",
+    "name": "todo-audio",
+    "src": "src/features/todo-audio.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_legacy-loader-gyvSYPc3.js",
+      "index.html",
+      "_toast-Dwy3w2e2.js",
+      "src/features/tts.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_world-tool-destinations-BAVvWbat.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/toast-FOTv75r1.css"
+    ]
+  },
+  "src/features/todo-content.js": {
+    "file": "assets/todo-content-KrpkKRji.js",
+    "name": "todo-content",
+    "src": "src/features/todo-content.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_legacy-loader-gyvSYPc3.js",
+      "index.html",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_world-tool-destinations-BAVvWbat.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/toast-FOTv75r1.css"
+    ]
+  },
+  "src/features/todo-culture.js": {
+    "file": "assets/todo-culture-C66oTZ8y.js",
+    "name": "todo-culture",
+    "src": "src/features/todo-culture.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_legacy-loader-gyvSYPc3.js",
+      "index.html",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_world-tool-destinations-BAVvWbat.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/features/todo-daily.js": {
+    "file": "assets/todo-daily-BoT6SMng.js",
+    "name": "todo-daily",
+    "src": "src/features/todo-daily.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_legacy-tool-assessment-CuYVfzBR.js",
+      "_legacy-loader-gyvSYPc3.js",
+      "index.html",
+      "_toast-Dwy3w2e2.js",
+      "_world-tool-destinations-BAVvWbat.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/toast-FOTv75r1.css"
+    ]
+  },
+  "src/features/todo-extended2.js": {
+    "file": "assets/todo-extended2-DOWjcILL.js",
+    "name": "todo-extended2",
+    "src": "src/features/todo-extended2.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_legacy-loader-gyvSYPc3.js",
+      "index.html",
+      "src/features/bookmarks.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_world-tool-destinations-BAVvWbat.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_toast-Dwy3w2e2.js"
+    ],
+    "css": [
+      "assets/toast-FOTv75r1.css"
+    ]
+  },
+  "src/features/todo-flashcards.js": {
+    "file": "assets/todo-flashcards-DGpj5YpA.js",
+    "name": "todo-flashcards",
+    "src": "src/features/todo-flashcards.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_legacy-loader-gyvSYPc3.js",
+      "index.html",
+      "_toast-Dwy3w2e2.js",
+      "src/features/tts.js",
+      "src/features/bookmarks.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_world-tool-destinations-BAVvWbat.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/toast-FOTv75r1.css"
+    ]
+  },
+  "src/features/todo-immersion.js": {
+    "file": "assets/todo-immersion-BOi5nh5j.js",
+    "name": "todo-immersion",
+    "src": "src/features/todo-immersion.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_legacy-loader-gyvSYPc3.js",
+      "index.html",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_world-tool-destinations-BAVvWbat.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/features/todo-jlptprep.js": {
+    "file": "assets/todo-jlptprep-_2J7K4pw.js",
+    "name": "todo-jlptprep",
+    "src": "src/features/todo-jlptprep.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_legacy-loader-gyvSYPc3.js",
+      "index.html",
+      "_toast-Dwy3w2e2.js",
+      "src/features/bookmarks.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_world-tool-destinations-BAVvWbat.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/toast-FOTv75r1.css"
+    ]
+  },
+  "src/features/todo-reading.js": {
+    "file": "assets/todo-reading-iP13jbcu.js",
+    "name": "todo-reading",
+    "src": "src/features/todo-reading.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_legacy-loader-gyvSYPc3.js",
+      "index.html",
+      "_toast-Dwy3w2e2.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_world-tool-destinations-BAVvWbat.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/toast-FOTv75r1.css"
+    ]
+  },
+  "src/features/todo-reference.js": {
+    "file": "assets/todo-reference-D5zG60yD.js",
+    "name": "todo-reference",
+    "src": "src/features/todo-reference.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_legacy-loader-gyvSYPc3.js",
+      "index.html",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_world-tool-destinations-BAVvWbat.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/features/todo-settings.js": {
+    "file": "assets/todo-settings-BLLTdAB_.js",
+    "name": "todo-settings",
+    "src": "src/features/todo-settings.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_legacy-loader-gyvSYPc3.js",
+      "index.html",
+      "_toast-Dwy3w2e2.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_world-tool-destinations-BAVvWbat.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/toast-FOTv75r1.css"
+    ]
+  },
+  "src/features/todo-sharing.js": {
+    "file": "assets/todo-sharing-CtCXLk78.js",
+    "name": "todo-sharing",
+    "src": "src/features/todo-sharing.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_legacy-loader-gyvSYPc3.js",
+      "index.html",
+      "_toast-Dwy3w2e2.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_world-tool-destinations-BAVvWbat.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/toast-FOTv75r1.css"
+    ]
+  },
+  "src/features/todo-smart.js": {
+    "file": "assets/todo-smart-c9XsUTt1.js",
+    "name": "todo-smart",
+    "src": "src/features/todo-smart.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_legacy-tool-assessment-CuYVfzBR.js",
+      "_legacy-loader-gyvSYPc3.js",
+      "index.html",
+      "_toast-Dwy3w2e2.js",
+      "_world-tool-destinations-BAVvWbat.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/toast-FOTv75r1.css"
+    ]
+  },
+  "src/features/todo-smart2.js": {
+    "file": "assets/todo-smart2-B7fY4JHr.js",
+    "name": "todo-smart2",
+    "src": "src/features/todo-smart2.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_legacy-loader-gyvSYPc3.js",
+      "index.html",
+      "_toast-Dwy3w2e2.js",
+      "src/features/tts.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_world-tool-destinations-BAVvWbat.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/toast-FOTv75r1.css"
+    ]
+  },
+  "src/features/todo-ux.js": {
+    "file": "assets/todo-ux-DWGli71e.js",
+    "name": "todo-ux",
+    "src": "src/features/todo-ux.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_legacy-loader-gyvSYPc3.js",
+      "index.html",
+      "_toast-Dwy3w2e2.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_world-tool-destinations-BAVvWbat.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/toast-FOTv75r1.css"
+    ]
+  },
+  "src/features/todo-writing.js": {
+    "file": "assets/todo-writing-lqgpOZPv.js",
+    "name": "todo-writing",
+    "src": "src/features/todo-writing.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_legacy-loader-gyvSYPc3.js",
+      "index.html",
+      "_toast-Dwy3w2e2.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_world-tool-destinations-BAVvWbat.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ],
+    "css": [
+      "assets/toast-FOTv75r1.css"
+    ]
+  },
+  "src/features/tts.js": {
+    "file": "assets/tts-DDDtO8rG.js",
+    "name": "tts",
+    "src": "src/features/tts.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js"
+    ]
+  },
+  "src/games/quiz.js": {
+    "file": "assets/quiz-DpQK5S-N.js",
+    "name": "quiz",
+    "src": "src/games/quiz.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "src/features/tts.js",
+      "_toast-Dwy3w2e2.js",
+      "src/features/game-hints.js",
+      "_game-feedback-rT-bQdpt.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_legacy-loader-gyvSYPc3.js",
+      "_world-tool-destinations-BAVvWbat.js"
+    ],
+    "css": [
+      "assets/toast-FOTv75r1.css"
+    ]
+  },
+  "src/games/speed-memory.js": {
+    "file": "assets/speed-memory-CY6hXOFZ.js",
+    "name": "speed-memory",
+    "src": "src/games/speed-memory.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_legacy-tool-assessment-CuYVfzBR.js",
+      "index.html",
+      "_toast-Dwy3w2e2.js",
+      "src/features/game-hints.js",
+      "_game-feedback-rT-bQdpt.js",
+      "_world-tool-destinations-BAVvWbat.js",
+      "_vendor-react-BUL8WuXG.js",
+      "_vendor-runtime-BbOs9S9B.js",
+      "_vendor-icons-D83cEu6Z.js",
+      "_vendor-router-Dx6RIovR.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_legacy-loader-gyvSYPc3.js"
+    ],
+    "css": [
+      "assets/toast-FOTv75r1.css"
+    ]
+  }
+}

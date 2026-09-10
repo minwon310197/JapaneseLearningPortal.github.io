@@ -1,0 +1,7 @@
+.haru-legacy-tool .st-modal-overlay { position: relative; inset: auto; display: block; opacity: 1; visibility: visible; background: transparent; padding: 0; width: 100%; height: auto; z-index: auto; pointer-events: auto; }
+.haru-legacy-tool .st-modal, .haru-legacy-tool .mg-container { width: 100%; max-width: none; max-height: none; margin: 0; box-sizing: border-box; transform: none; overflow: visible; }
+.haru-legacy-tool .st-modal-header, .haru-legacy-tool .mg-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.haru-legacy-tool button, .haru-legacy-tool input, .haru-legacy-tool textarea, .haru-legacy-tool select { font: inherit; }
+.haru-legacy-tool .st-btn, .haru-legacy-tool .st-close { min-height: 36px; padding: 6px 12px; cursor: pointer; }
+.haru-legacy-tool textarea { max-width: 100%; }
+.haru-legacy-tool canvas { touch-action: none; max-width: 100%; }

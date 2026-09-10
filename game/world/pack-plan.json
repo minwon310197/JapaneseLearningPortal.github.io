@@ -1,0 +1,555 @@
+{
+  "version": 2,
+  "contentVersion": "haru-v2.1",
+  "startup": [
+    "shared",
+    "hero-knight",
+    "zone-town-center"
+  ],
+  "heroes": {
+    "knight": [
+      "hero-knight"
+    ],
+    "mage": [
+      "hero-mage"
+    ],
+    "ranger": [
+      "hero-ranger"
+    ]
+  },
+  "zones": {
+    "forest": [
+      "zone-forest-approach",
+      "zone-forest-heart",
+      "zone-forest-sanctum",
+      "zone-forest-boss"
+    ],
+    "valley": [
+      "zone-valley-approach",
+      "zone-valley-heart",
+      "zone-valley-sanctum",
+      "zone-valley-boss"
+    ],
+    "coast": [
+      "zone-coast-approach",
+      "zone-coast-heart",
+      "zone-coast-sanctum",
+      "zone-coast-boss"
+    ],
+    "snow": [
+      "zone-snow-approach",
+      "zone-snow-heart",
+      "zone-snow-sanctum",
+      "zone-snow-boss"
+    ],
+    "ruins": [
+      "zone-ruins-approach",
+      "zone-ruins-heart",
+      "zone-ruins-sanctum",
+      "zone-ruins-boss"
+    ],
+    "citadel": [
+      "zone-citadel-approach",
+      "zone-citadel-heart",
+      "zone-citadel-sanctum",
+      "zone-citadel-boss"
+    ],
+    "town": [
+      "zone-town-center"
+    ]
+  },
+  "sectors": {
+    "forest": {
+      "approach": [
+        "zone-forest-approach"
+      ],
+      "heart": [
+        "zone-forest-heart"
+      ],
+      "sanctum": [
+        "zone-forest-sanctum",
+        "zone-forest-boss"
+      ]
+    },
+    "valley": {
+      "approach": [
+        "zone-valley-approach"
+      ],
+      "heart": [
+        "zone-valley-heart"
+      ],
+      "sanctum": [
+        "zone-valley-sanctum",
+        "zone-valley-boss"
+      ]
+    },
+    "coast": {
+      "approach": [
+        "zone-coast-approach"
+      ],
+      "heart": [
+        "zone-coast-heart"
+      ],
+      "sanctum": [
+        "zone-coast-sanctum",
+        "zone-coast-boss"
+      ]
+    },
+    "snow": {
+      "approach": [
+        "zone-snow-approach"
+      ],
+      "heart": [
+        "zone-snow-heart"
+      ],
+      "sanctum": [
+        "zone-snow-sanctum",
+        "zone-snow-boss"
+      ]
+    },
+    "ruins": {
+      "approach": [
+        "zone-ruins-approach"
+      ],
+      "heart": [
+        "zone-ruins-heart"
+      ],
+      "sanctum": [
+        "zone-ruins-sanctum",
+        "zone-ruins-boss"
+      ]
+    },
+    "citadel": {
+      "approach": [
+        "zone-citadel-approach"
+      ],
+      "heart": [
+        "zone-citadel-heart"
+      ],
+      "sanctum": [
+        "zone-citadel-sanctum",
+        "zone-citadel-boss"
+      ]
+    },
+    "town": {
+      "center": [
+        "zone-town-center"
+      ]
+    }
+  },
+  "bundles": {
+    "shared": {
+      "files": [
+        "res://assets/audio/bow.wav",
+        "res://assets/audio/coin.wav",
+        "res://assets/audio/fire.wav",
+        "res://assets/audio/hit.wav",
+        "res://assets/audio/ice.wav",
+        "res://assets/audio/rune.wav",
+        "res://assets/audio/slash.wav",
+        "res://v2/assets/creatures/blossom.glb",
+        "res://v2/assets/creatures/boar.glb",
+        "res://v2/assets/creatures/fox.glb",
+        "res://v2/assets/creatures/golem.glb",
+        "res://v2/assets/creatures/slime.glb",
+        "res://v2/assets/creatures/spirit.glb",
+        "res://v2/assets/icons/boss_relic_1.png",
+        "res://v2/assets/icons/boss_relic_2.png",
+        "res://v2/assets/icons/boss_relic_3.png",
+        "res://v2/assets/icons/boss_relic_4.png",
+        "res://v2/assets/icons/boss_relic_5.png",
+        "res://v2/assets/icons/boss_relic_6.png",
+        "res://v2/assets/icons/crystal.png",
+        "res://v2/assets/icons/gem_area.png",
+        "res://v2/assets/icons/gem_bounce.png",
+        "res://v2/assets/icons/gem_duration.png",
+        "res://v2/assets/icons/gem_explosion.png",
+        "res://v2/assets/icons/gem_field.png",
+        "res://v2/assets/icons/gem_lifesteal.png",
+        "res://v2/assets/icons/gem_multishot.png",
+        "res://v2/assets/icons/gem_pierce.png",
+        "res://v2/assets/icons/herb.png",
+        "res://v2/assets/icons/hero_knight.png",
+        "res://v2/assets/icons/hero_mage.png",
+        "res://v2/assets/icons/hero_ranger.png",
+        "res://v2/assets/icons/knight.armor_break.png",
+        "res://v2/assets/icons/knight.blood_oath.png",
+        "res://v2/assets/icons/knight.counter.png",
+        "res://v2/assets/icons/knight.earthquake.png",
+        "res://v2/assets/icons/knight.execute.png",
+        "res://v2/assets/icons/knight.heaven_sword.png",
+        "res://v2/assets/icons/knight.iron_guard.png",
+        "res://v2/assets/icons/knight.moon_slash.png",
+        "res://v2/assets/icons/knight.solar_wheel.png",
+        "res://v2/assets/icons/knight.sword_field.png",
+        "res://v2/assets/icons/knight.sword_pull.png",
+        "res://v2/assets/icons/knight.wind_charge.png",
+        "res://v2/assets/icons/knight_body_0.png",
+        "res://v2/assets/icons/knight_body_1.png",
+        "res://v2/assets/icons/knight_body_2.png",
+        "res://v2/assets/icons/knight_body_3.png",
+        "res://v2/assets/icons/knight_charm_0.png",
+        "res://v2/assets/icons/knight_charm_1.png",
+        "res://v2/assets/icons/knight_charm_2.png",
+        "res://v2/assets/icons/knight_charm_3.png",
+        "res://v2/assets/icons/knight_feet_0.png",
+        "res://v2/assets/icons/knight_feet_1.png",
+        "res://v2/assets/icons/knight_feet_2.png",
+        "res://v2/assets/icons/knight_feet_3.png",
+        "res://v2/assets/icons/knight_hands_0.png",
+        "res://v2/assets/icons/knight_hands_1.png",
+        "res://v2/assets/icons/knight_hands_2.png",
+        "res://v2/assets/icons/knight_hands_3.png",
+        "res://v2/assets/icons/knight_head_0.png",
+        "res://v2/assets/icons/knight_head_1.png",
+        "res://v2/assets/icons/knight_head_2.png",
+        "res://v2/assets/icons/knight_head_3.png",
+        "res://v2/assets/icons/knight_weapon_0.png",
+        "res://v2/assets/icons/knight_weapon_1.png",
+        "res://v2/assets/icons/knight_weapon_2.png",
+        "res://v2/assets/icons/knight_weapon_3.png",
+        "res://v2/assets/icons/mage.arcane_bolts.png",
+        "res://v2/assets/icons/mage.aurora.png",
+        "res://v2/assets/icons/mage.blink.png",
+        "res://v2/assets/icons/mage.chain_lightning.png",
+        "res://v2/assets/icons/mage.concentration.png",
+        "res://v2/assets/icons/mage.fireball.png",
+        "res://v2/assets/icons/mage.flame_seal.png",
+        "res://v2/assets/icons/mage.frozen_domain.png",
+        "res://v2/assets/icons/mage.gravity.png",
+        "res://v2/assets/icons/mage.ice_lance.png",
+        "res://v2/assets/icons/mage.mana_shield.png",
+        "res://v2/assets/icons/mage.meteor_rain.png",
+        "res://v2/assets/icons/mage_body_0.png",
+        "res://v2/assets/icons/mage_body_1.png",
+        "res://v2/assets/icons/mage_body_2.png",
+        "res://v2/assets/icons/mage_body_3.png",
+        "res://v2/assets/icons/mage_charm_0.png",
+        "res://v2/assets/icons/mage_charm_1.png",
+        "res://v2/assets/icons/mage_charm_2.png",
+        "res://v2/assets/icons/mage_charm_3.png",
+        "res://v2/assets/icons/mage_feet_0.png",
+        "res://v2/assets/icons/mage_feet_1.png",
+        "res://v2/assets/icons/mage_feet_2.png",
+        "res://v2/assets/icons/mage_feet_3.png",
+        "res://v2/assets/icons/mage_hands_0.png",
+        "res://v2/assets/icons/mage_hands_1.png",
+        "res://v2/assets/icons/mage_hands_2.png",
+        "res://v2/assets/icons/mage_hands_3.png",
+        "res://v2/assets/icons/mage_head_0.png",
+        "res://v2/assets/icons/mage_head_1.png",
+        "res://v2/assets/icons/mage_head_2.png",
+        "res://v2/assets/icons/mage_head_3.png",
+        "res://v2/assets/icons/mage_weapon_0.png",
+        "res://v2/assets/icons/mage_weapon_1.png",
+        "res://v2/assets/icons/mage_weapon_2.png",
+        "res://v2/assets/icons/mage_weapon_3.png",
+        "res://v2/assets/icons/mana_potion.png",
+        "res://v2/assets/icons/ore.png",
+        "res://v2/assets/icons/petal.png",
+        "res://v2/assets/icons/ranger.arrow_rain.png",
+        "res://v2/assets/icons/ranger.celestial_arrow.png",
+        "res://v2/assets/icons/ranger.fan_arrows.png",
+        "res://v2/assets/icons/ranger.hawk_strike.png",
+        "res://v2/assets/icons/ranger.mark.png",
+        "res://v2/assets/icons/ranger.piercing_arrow.png",
+        "res://v2/assets/icons/ranger.rapid_arrows.png",
+        "res://v2/assets/icons/ranger.snare_line.png",
+        "res://v2/assets/icons/ranger.spirit_dance.png",
+        "res://v2/assets/icons/ranger.steady_mind.png",
+        "res://v2/assets/icons/ranger.thorn_trap.png",
+        "res://v2/assets/icons/ranger.wind_step.png",
+        "res://v2/assets/icons/ranger_body_0.png",
+        "res://v2/assets/icons/ranger_body_1.png",
+        "res://v2/assets/icons/ranger_body_2.png",
+        "res://v2/assets/icons/ranger_body_3.png",
+        "res://v2/assets/icons/ranger_charm_0.png",
+        "res://v2/assets/icons/ranger_charm_1.png",
+        "res://v2/assets/icons/ranger_charm_2.png",
+        "res://v2/assets/icons/ranger_charm_3.png",
+        "res://v2/assets/icons/ranger_feet_0.png",
+        "res://v2/assets/icons/ranger_feet_1.png",
+        "res://v2/assets/icons/ranger_feet_2.png",
+        "res://v2/assets/icons/ranger_feet_3.png",
+        "res://v2/assets/icons/ranger_hands_0.png",
+        "res://v2/assets/icons/ranger_hands_1.png",
+        "res://v2/assets/icons/ranger_hands_2.png",
+        "res://v2/assets/icons/ranger_hands_3.png",
+        "res://v2/assets/icons/ranger_head_0.png",
+        "res://v2/assets/icons/ranger_head_1.png",
+        "res://v2/assets/icons/ranger_head_2.png",
+        "res://v2/assets/icons/ranger_head_3.png",
+        "res://v2/assets/icons/ranger_weapon_0.png",
+        "res://v2/assets/icons/ranger_weapon_1.png",
+        "res://v2/assets/icons/ranger_weapon_2.png",
+        "res://v2/assets/icons/ranger_weapon_3.png",
+        "res://v2/assets/icons/stamina_potion.png",
+        "res://v2/assets/npcs/elder.glb",
+        "res://v2/assets/npcs/merchant.glb",
+        "res://v2/assets/npcs/smith.glb",
+        "res://v2/assets/npcs/trainer.glb",
+        "res://v2/assets/npcs/villager.glb"
+      ]
+    },
+    "hero-knight": {
+      "files": [
+        "res://v2/assets/audio/knight.armor_break.wav",
+        "res://v2/assets/audio/knight.blood_oath.wav",
+        "res://v2/assets/audio/knight.counter.wav",
+        "res://v2/assets/audio/knight.earthquake.wav",
+        "res://v2/assets/audio/knight.execute.wav",
+        "res://v2/assets/audio/knight.heaven_sword.wav",
+        "res://v2/assets/audio/knight.iron_guard.wav",
+        "res://v2/assets/audio/knight.moon_slash.wav",
+        "res://v2/assets/audio/knight.solar_wheel.wav",
+        "res://v2/assets/audio/knight.sword_field.wav",
+        "res://v2/assets/audio/knight.sword_pull.wav",
+        "res://v2/assets/audio/knight.wind_charge.wav",
+        "res://v2/assets/gear/boss_relic_1.glb",
+        "res://v2/assets/gear/boss_relic_4.glb",
+        "res://v2/assets/gear/knight_body_0.glb",
+        "res://v2/assets/gear/knight_body_1.glb",
+        "res://v2/assets/gear/knight_body_2.glb",
+        "res://v2/assets/gear/knight_body_3.glb",
+        "res://v2/assets/gear/knight_charm_0.glb",
+        "res://v2/assets/gear/knight_charm_1.glb",
+        "res://v2/assets/gear/knight_charm_2.glb",
+        "res://v2/assets/gear/knight_charm_3.glb",
+        "res://v2/assets/gear/knight_feet_0.glb",
+        "res://v2/assets/gear/knight_feet_1.glb",
+        "res://v2/assets/gear/knight_feet_2.glb",
+        "res://v2/assets/gear/knight_feet_3.glb",
+        "res://v2/assets/gear/knight_hands_0.glb",
+        "res://v2/assets/gear/knight_hands_1.glb",
+        "res://v2/assets/gear/knight_hands_2.glb",
+        "res://v2/assets/gear/knight_hands_3.glb",
+        "res://v2/assets/gear/knight_head_0.glb",
+        "res://v2/assets/gear/knight_head_1.glb",
+        "res://v2/assets/gear/knight_head_2.glb",
+        "res://v2/assets/gear/knight_head_3.glb",
+        "res://v2/assets/gear/knight_weapon_0.glb",
+        "res://v2/assets/gear/knight_weapon_1.glb",
+        "res://v2/assets/gear/knight_weapon_2.glb",
+        "res://v2/assets/gear/knight_weapon_3.glb",
+        "res://v2/assets/heroes/knight.glb"
+      ]
+    },
+    "hero-mage": {
+      "files": [
+        "res://v2/assets/audio/mage.arcane_bolts.wav",
+        "res://v2/assets/audio/mage.aurora.wav",
+        "res://v2/assets/audio/mage.blink.wav",
+        "res://v2/assets/audio/mage.chain_lightning.wav",
+        "res://v2/assets/audio/mage.concentration.wav",
+        "res://v2/assets/audio/mage.fireball.wav",
+        "res://v2/assets/audio/mage.flame_seal.wav",
+        "res://v2/assets/audio/mage.frozen_domain.wav",
+        "res://v2/assets/audio/mage.gravity.wav",
+        "res://v2/assets/audio/mage.ice_lance.wav",
+        "res://v2/assets/audio/mage.mana_shield.wav",
+        "res://v2/assets/audio/mage.meteor_rain.wav",
+        "res://v2/assets/gear/boss_relic_2.glb",
+        "res://v2/assets/gear/boss_relic_5.glb",
+        "res://v2/assets/gear/mage_body_0.glb",
+        "res://v2/assets/gear/mage_body_1.glb",
+        "res://v2/assets/gear/mage_body_2.glb",
+        "res://v2/assets/gear/mage_body_3.glb",
+        "res://v2/assets/gear/mage_charm_0.glb",
+        "res://v2/assets/gear/mage_charm_1.glb",
+        "res://v2/assets/gear/mage_charm_2.glb",
+        "res://v2/assets/gear/mage_charm_3.glb",
+        "res://v2/assets/gear/mage_feet_0.glb",
+        "res://v2/assets/gear/mage_feet_1.glb",
+        "res://v2/assets/gear/mage_feet_2.glb",
+        "res://v2/assets/gear/mage_feet_3.glb",
+        "res://v2/assets/gear/mage_hands_0.glb",
+        "res://v2/assets/gear/mage_hands_1.glb",
+        "res://v2/assets/gear/mage_hands_2.glb",
+        "res://v2/assets/gear/mage_hands_3.glb",
+        "res://v2/assets/gear/mage_head_0.glb",
+        "res://v2/assets/gear/mage_head_1.glb",
+        "res://v2/assets/gear/mage_head_2.glb",
+        "res://v2/assets/gear/mage_head_3.glb",
+        "res://v2/assets/gear/mage_weapon_0.glb",
+        "res://v2/assets/gear/mage_weapon_1.glb",
+        "res://v2/assets/gear/mage_weapon_2.glb",
+        "res://v2/assets/gear/mage_weapon_3.glb",
+        "res://v2/assets/heroes/mage.glb"
+      ]
+    },
+    "hero-ranger": {
+      "files": [
+        "res://v2/assets/audio/ranger.arrow_rain.wav",
+        "res://v2/assets/audio/ranger.celestial_arrow.wav",
+        "res://v2/assets/audio/ranger.fan_arrows.wav",
+        "res://v2/assets/audio/ranger.hawk_strike.wav",
+        "res://v2/assets/audio/ranger.mark.wav",
+        "res://v2/assets/audio/ranger.piercing_arrow.wav",
+        "res://v2/assets/audio/ranger.rapid_arrows.wav",
+        "res://v2/assets/audio/ranger.snare_line.wav",
+        "res://v2/assets/audio/ranger.spirit_dance.wav",
+        "res://v2/assets/audio/ranger.steady_mind.wav",
+        "res://v2/assets/audio/ranger.thorn_trap.wav",
+        "res://v2/assets/audio/ranger.wind_step.wav",
+        "res://v2/assets/gear/boss_relic_3.glb",
+        "res://v2/assets/gear/boss_relic_6.glb",
+        "res://v2/assets/gear/ranger_body_0.glb",
+        "res://v2/assets/gear/ranger_body_1.glb",
+        "res://v2/assets/gear/ranger_body_2.glb",
+        "res://v2/assets/gear/ranger_body_3.glb",
+        "res://v2/assets/gear/ranger_charm_0.glb",
+        "res://v2/assets/gear/ranger_charm_1.glb",
+        "res://v2/assets/gear/ranger_charm_2.glb",
+        "res://v2/assets/gear/ranger_charm_3.glb",
+        "res://v2/assets/gear/ranger_feet_0.glb",
+        "res://v2/assets/gear/ranger_feet_1.glb",
+        "res://v2/assets/gear/ranger_feet_2.glb",
+        "res://v2/assets/gear/ranger_feet_3.glb",
+        "res://v2/assets/gear/ranger_hands_0.glb",
+        "res://v2/assets/gear/ranger_hands_1.glb",
+        "res://v2/assets/gear/ranger_hands_2.glb",
+        "res://v2/assets/gear/ranger_hands_3.glb",
+        "res://v2/assets/gear/ranger_head_0.glb",
+        "res://v2/assets/gear/ranger_head_1.glb",
+        "res://v2/assets/gear/ranger_head_2.glb",
+        "res://v2/assets/gear/ranger_head_3.glb",
+        "res://v2/assets/gear/ranger_weapon_0.glb",
+        "res://v2/assets/gear/ranger_weapon_1.glb",
+        "res://v2/assets/gear/ranger_weapon_2.glb",
+        "res://v2/assets/gear/ranger_weapon_3.glb",
+        "res://v2/assets/heroes/ranger.glb"
+      ]
+    },
+    "zone-forest-approach": {
+      "files": [
+        "res://v2/assets/zones/forest_approach.glb"
+      ]
+    },
+    "zone-forest-heart": {
+      "files": [
+        "res://v2/assets/zones/forest_heart.glb"
+      ]
+    },
+    "zone-forest-sanctum": {
+      "files": [
+        "res://v2/assets/zones/forest_sanctum.glb"
+      ]
+    },
+    "zone-forest-boss": {
+      "files": [
+        "res://v2/assets/bosses/forest.glb",
+        "res://v2/assets/eggs/forest.glb"
+      ]
+    },
+    "zone-valley-approach": {
+      "files": [
+        "res://v2/assets/zones/valley_approach.glb"
+      ]
+    },
+    "zone-valley-heart": {
+      "files": [
+        "res://v2/assets/zones/valley_heart.glb"
+      ]
+    },
+    "zone-valley-sanctum": {
+      "files": [
+        "res://v2/assets/zones/valley_sanctum.glb"
+      ]
+    },
+    "zone-valley-boss": {
+      "files": [
+        "res://v2/assets/bosses/valley.glb",
+        "res://v2/assets/eggs/valley.glb"
+      ]
+    },
+    "zone-coast-approach": {
+      "files": [
+        "res://v2/assets/zones/coast_approach.glb"
+      ]
+    },
+    "zone-coast-heart": {
+      "files": [
+        "res://v2/assets/zones/coast_heart.glb"
+      ]
+    },
+    "zone-coast-sanctum": {
+      "files": [
+        "res://v2/assets/zones/coast_sanctum.glb"
+      ]
+    },
+    "zone-coast-boss": {
+      "files": [
+        "res://v2/assets/bosses/coast.glb",
+        "res://v2/assets/eggs/coast.glb"
+      ]
+    },
+    "zone-snow-approach": {
+      "files": [
+        "res://v2/assets/zones/snow_approach.glb"
+      ]
+    },
+    "zone-snow-heart": {
+      "files": [
+        "res://v2/assets/zones/snow_heart.glb"
+      ]
+    },
+    "zone-snow-sanctum": {
+      "files": [
+        "res://v2/assets/zones/snow_sanctum.glb"
+      ]
+    },
+    "zone-snow-boss": {
+      "files": [
+        "res://v2/assets/bosses/snow.glb",
+        "res://v2/assets/eggs/snow.glb"
+      ]
+    },
+    "zone-ruins-approach": {
+      "files": [
+        "res://v2/assets/zones/ruins_approach.glb"
+      ]
+    },
+    "zone-ruins-heart": {
+      "files": [
+        "res://v2/assets/zones/ruins_heart.glb"
+      ]
+    },
+    "zone-ruins-sanctum": {
+      "files": [
+        "res://v2/assets/zones/ruins_sanctum.glb"
+      ]
+    },
+    "zone-ruins-boss": {
+      "files": [
+        "res://v2/assets/bosses/ruins.glb",
+        "res://v2/assets/eggs/ruins.glb"
+      ]
+    },
+    "zone-citadel-approach": {
+      "files": [
+        "res://v2/assets/zones/citadel_approach.glb"
+      ]
+    },
+    "zone-citadel-heart": {
+      "files": [
+        "res://v2/assets/zones/citadel_heart.glb"
+      ]
+    },
+    "zone-citadel-sanctum": {
+      "files": [
+        "res://v2/assets/zones/citadel_sanctum.glb"
+      ]
+    },
+    "zone-citadel-boss": {
+      "files": [
+        "res://v2/assets/bosses/citadel.glb",
+        "res://v2/assets/eggs/citadel.glb"
+      ]
+    },
+    "zone-town-center": {
+      "files": [
+        "res://v2/assets/zones/town_center.glb"
+      ]
+    }
+  }
+}

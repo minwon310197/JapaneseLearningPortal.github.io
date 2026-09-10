@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Làng Nhật Bản</title>
+<style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#eee0c8}#canvas{display:block;width:100%;height:100%;touch-action:none}#status{position:absolute;inset:0;display:grid;place-content:center;gap:16px;text-align:center;background:#eee0c8;color:#49372d;font:16px system-ui;padding:24px}#status[hidden]{display:none}progress{width:min(70vw,320px);accent-color:#a84950}button{padding:12px;border:0;border-radius:12px;font:inherit;background:#a84950;color:white}</style>
+
+</head><body><canvas id="canvas" tabindex="0" aria-label="Haru · Thế giới 3D">Trình duyệt cần hỗ trợ WebGL 2 để mở thế giới.</canvas><div id="status"><strong id="message">Đang mở Haru…</strong><progress id="progress"></progress><button id="retry" hidden>Thử lại</button></div>
+<script src="index.js"></script>
+<script type="module">
+import { loadVerifiedPack } from './zone-cache.mjs';
+import { configureGameCanvas } from './gpu-context.mjs';
+const sessionId = new URL(location.href).searchParams.get('sessionId') || crypto.randomUUID();
+const origin = location.origin;
+const status = document.querySelector('#status');
+const message = document.querySelector('#message');
+const progress = document.querySelector('#progress');
+const retry = document.querySelector('#retry');
+let receiver;
+const pending = [];
+let engine;
+let canvasQuality='auto';
+try {canvasQuality=JSON.parse(localStorage.getItem('n4-haru:presentation:v1')||'{}').quality||'auto';}catch{}
+configureGameCanvas(document.querySelector('#canvas'),{
+  quality:canvasQuality,coarsePointer:matchMedia('(pointer: coarse)').matches,
+  onLost(){
+    message.textContent='Ngữ cảnh đồ họa đã bị ngắt. Tải lại thế giới để tiếp tục từ bản lưu trên thiết bị.';
+    progress.hidden=true;status.hidden=false;retry.hidden=parent!==window;
+    send('error',{message:'graphics_context_lost'});
+  },
+});
+const zoneManifest = {"version":2,"contentVersion":"haru-v2.1","startup":["shared","hero-knight","zone-town-center"],"heroes":{"knight":["hero-knight"],"mage":["hero-mage"],"ranger":["hero-ranger"]},"zones":{"forest":["zone-forest-approach","zone-forest-heart","zone-forest-sanctum","zone-forest-boss"],"valley":["zone-valley-approach","zone-valley-heart","zone-valley-sanctum","zone-valley-boss"],"coast":["zone-coast-approach","zone-coast-heart","zone-coast-sanctum","zone-coast-boss"],"snow":["zone-snow-approach","zone-snow-heart","zone-snow-sanctum","zone-snow-boss"],"ruins":["zone-ruins-approach","zone-ruins-heart","zone-ruins-sanctum","zone-ruins-boss"],"citadel":["zone-citadel-approach","zone-citadel-heart","zone-citadel-sanctum","zone-citadel-boss"],"town":["zone-town-center"]},"sectors":{"forest":{"approach":["zone-forest-approach"],"heart":["zone-forest-heart"],"sanctum":["zone-forest-sanctum","zone-forest-boss"]},"valley":{"approach":["zone-valley-approach"],"heart":["zone-valley-heart"],"sanctum":["zone-valley-sanctum","zone-valley-boss"]},"coast":{"approach":["zone-coast-approach"],"heart":["zone-coast-heart"],"sanctum":["zone-coast-sanctum","zone-coast-boss"]},"snow":{"approach":["zone-snow-approach"],"heart":["zone-snow-heart"],"sanctum":["zone-snow-sanctum","zone-snow-boss"]},"ruins":{"approach":["zone-ruins-approach"],"heart":["zone-ruins-heart"],"sanctum":["zone-ruins-sanctum","zone-ruins-boss"]},"citadel":{"approach":["zone-citadel-approach"],"heart":["zone-citadel-heart"],"sanctum":["zone-citadel-sanctum","zone-citadel-boss"]},"town":{"center":["zone-town-center"]}},"bundles":{"shared":{"url":"packs/shared.pck","bytes":12343284,"sha256":"340667b29ceb9187941b7d2f5f890d0181fafdf5ee66ba97efacd2249b275e49"},"hero-knight":{"url":"packs/hero-knight.pck","bytes":4675136,"sha256":"4fb79705f14a0f2aa2fd16bfd06ea601a3068bb9f0ac4fb21d9333e441417ebd"},"hero-mage":{"url":"packs/hero-mage.pck","bytes":4753420,"sha256":"7aa1e05886774d02d80f8304be46079fc15a33ba962cf8f7e11905bac367875b"},"hero-ranger":{"url":"packs/hero-ranger.pck","bytes":5216748,"sha256":"658621c54d6cf4c9d58ed348e751e134cfe1afcd9346fddd161794bbc2f0ee7d"},"zone-forest-approach":{"url":"packs/zone-forest-approach.pck","bytes":4076788,"sha256":"1aa30b595a463dea99ce5d73671f17b62b757406c4f1ac26639e30e6b5228d5a"},"zone-forest-heart":{"url":"packs/zone-forest-heart.pck","bytes":3837740,"sha256":"bed13f36f89d5da9e716bb67c8b3f8326165c84d47d0ca9f36d961efab4992f4"},"zone-forest-sanctum":{"url":"packs/zone-forest-sanctum.pck","bytes":3980980,"sha256":"83d5b3c5c5afcf2f9460d6d79bd304071023981a276158d18b4f55b44cac35fa"},"zone-forest-boss":{"url":"packs/zone-forest-boss.pck","bytes":850352,"sha256":"d129777ec475ebc139a8248cfa6f614f021a0c16f9f0c819865fc0ecc4577e5a"},"zone-valley-approach":{"url":"packs/zone-valley-approach.pck","bytes":3286452,"sha256":"6fa1f3aaedb7f2cc77bf3cd6b98a5f4b1ebef8623b81e1b4ab8ca032eebd99a3"},"zone-valley-heart":{"url":"packs/zone-valley-heart.pck","bytes":3163084,"sha256":"079a110514bebb17f48021566e8547acc78ba56d1a0be0ba9f9df3571ff62760"},"zone-valley-sanctum":{"url":"packs/zone-valley-sanctum.pck","bytes":3283188,"sha256":"d94a310b15e1da23abf43228a36fc5e83faa35aa88e0d0cfc13f438cb4dd128c"},"zone-valley-boss":{"url":"packs/zone-valley-boss.pck","bytes":752272,"sha256":"b73ca833e1a77633b7ede5f46c64fcb25d42e668eecfda3656c205814d9c2443"},"zone-coast-approach":{"url":"packs/zone-coast-approach.pck","bytes":2441428,"sha256":"36e2f42ee24a499d1186f461b72377a88c27619931ab864b9879a2cbb1975239"},"zone-coast-heart":{"url":"packs/zone-coast-heart.pck","bytes":2106568,"sha256":"4abe3512e84a3d4bf75674e5f1792fcbd3c940b41a8b6cc3ec8d51244df43640"},"zone-coast-sanctum":{"url":"packs/zone-coast-sanctum.pck","bytes":2323664,"sha256":"eec525b09e7d1ebe948111069c0c62dec07a5d68124fbb1356e44fcc66a99cf1"},"zone-coast-boss":{"url":"packs/zone-coast-boss.pck","bytes":947788,"sha256":"d82e9b850d68595f3d55f411a3db6e8ca395de6676ca6ccd124ce063db43be50"},"zone-snow-approach":{"url":"packs/zone-snow-approach.pck","bytes":1768080,"sha256":"ab9aaaa69e304c3c95810fcdbdf23efc7450ae0cf321adc46a95b45f9b69f277"},"zone-snow-heart":{"url":"packs/zone-snow-heart.pck","bytes":1506312,"sha256":"7a63703cfa28f6120ec362e0df9eea1d9760b2dab2f054300c9e2f9c330021a0"},"zone-snow-sanctum":{"url":"packs/zone-snow-sanctum.pck","bytes":1699500,"sha256":"75c872e2ea53c2787a765a38cadd8dc8a424452612f021db2989c9c1a85bf5f6"},"zone-snow-boss":{"url":"packs/zone-snow-boss.pck","bytes":829384,"sha256":"0156fd4deaa5bdf2f74e701af975c8fd33ed89edec6b6bef1f40c22f59109351"},"zone-ruins-approach":{"url":"packs/zone-ruins-approach.pck","bytes":2781236,"sha256":"2e7aa9a7980c8ad6f5ede9555e3438fde3419f584dbfbc1b504e5032fb4d5308"},"zone-ruins-heart":{"url":"packs/zone-ruins-heart.pck","bytes":2501416,"sha256":"69edb9812f394f89f6fcedd9458dec8e9ce2339f3c118c5025e2536887486abc"},"zone-ruins-sanctum":{"url":"packs/zone-ruins-sanctum.pck","bytes":2666256,"sha256":"7797cc8dd3ee6edcc798b024245925b6ad23fe2db57e8fc4a75d0aa684e86d4b"},"zone-ruins-boss":{"url":"packs/zone-ruins-boss.pck","bytes":1100012,"sha256":"fe57b382a6e64b275ab635d82ed15b275747c5c81d182e08bab8b8f15b6afaaa"},"zone-citadel-approach":{"url":"packs/zone-citadel-approach.pck","bytes":2754200,"sha256":"dd209be8870a673d3e5007a9518c1227e3801024fa059a14e4cf2a155211916c"},"zone-citadel-heart":{"url":"packs/zone-citadel-heart.pck","bytes":2510224,"sha256":"69e8f0b480a629977b7f39f6a0a4ea8a30255c620a8386f85a42a49e3ce9aaa6"},"zone-citadel-sanctum":{"url":"packs/zone-citadel-sanctum.pck","bytes":2625076,"sha256":"9c4960f955f707d772d31e7a472979cdaccd9e5d5074274e41b0a64974115b78"},"zone-citadel-boss":{"url":"packs/zone-citadel-boss.pck","bytes":723284,"sha256":"856cbff83cdf04dde65dabd9b53e69a042a76d864d65904c117a078e36b949fb"},"zone-town-center":{"url":"packs/zone-town-center.pck","bytes":8611656,"sha256":"447bd1c2ef86f39fdb239c991143027903d1493c4b9edd04e279a5d76a2e877d"}}};
+const activeDownloads = new Map();
+const qaEnabled = ['localhost', '127.0.0.1', '[::1]'].includes(location.hostname) && new URL(location.href).searchParams.get('qa') === '1';
+const qaReport = { startedAt: new Date().toISOString(), memoryMetric: 'Chromium JS heap estimate where available; not total WebAssembly or GPU memory. Godot memoryBytes=0 is unavailable on this web export.', commands: [], samples: [], saveAcknowledgements: [], errors: [] };
+let qaTelemetry;
+let qaSummary;
+let qaErrors;
+let qaTransfer;
+let qaRenderer;
+function rendererEvidence() {
+  if (qaRenderer !== undefined) return qaRenderer;
+  try {
+    const gl = document.querySelector('#canvas').getContext('webgl2');
+    const info = gl?.getExtension('WEBGL_debug_renderer_info');
+    qaRenderer = gl ? String(gl.getParameter(info ? info.UNMASKED_RENDERER_WEBGL : gl.RENDERER)) : 'unavailable';
+  } catch { qaRenderer = 'unavailable'; }
+  return qaRenderer;
+}
+function transferEvidence(target = window) {
+  try {
+    return [...target.performance.getEntriesByType('navigation'), ...target.performance.getEntriesByType('resource')]
+      .filter(item => new URL(item.name, location.href).origin === location.origin)
+      .map(item => ({ url: new URL(item.name, location.href).pathname, initiatorType: item.initiatorType || item.entryType, transferSize: item.transferSize, encodedBodySize: item.encodedBodySize, decodedBodySize: item.decodedBodySize, zeroTransferObserved: item.transferSize === 0, deliveryType: item.deliveryType || '', durationMs: Math.round(item.duration), startTimeMs: Math.round(item.startTime) }));
+  } catch { return []; }
+}
+function transferTotals(resources) {
+  return resources.reduce((sum, item) => ({ networkBytes: sum.networkBytes + item.transferSize, encodedBodyBytes: sum.encodedBodyBytes + item.encodedBodySize, decodedBodyBytes: sum.decodedBodyBytes + item.decodedBodySize, zeroTransferEntries: sum.zeroTransferEntries + Number(item.zeroTransferObserved) }), { networkBytes: 0, encodedBodyBytes: 0, decodedBodyBytes: 0, zeroTransferEntries: 0 });
+}
+function transferReport() {
+  const gameResources = transferEvidence();
+  // The iframe document is already represented by its own navigation timing.
+  const hostResources = parent === window ? [] : transferEvidence(parent).filter(item => item.initiatorType !== 'iframe');
+  return { gameResources, hostResources, gameTotals: transferTotals(gameResources), hostTotals: transferTotals(hostResources), note: 'Same-origin navigation/resources only. Query strings removed. Zero transfer may indicate cache/service worker; encoded/decoded body sizes are not fresh network bytes.' };
+}
+function downloadBlob(blob, filename) {
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a'); link.href = url; link.download = filename; link.click();
+  setTimeout(() => URL.revokeObjectURL(url), 10000);
+}
+function recordEngineError(...args) {
+  const text = args.map(value => String(value)).join(' ');
+  console.error(...args);
+  if (!qaEnabled) return;
+  const diagnostic = { at: new Date().toISOString(), message: text, severity: /(?:SCRIPT ERROR:|\bERROR:)/i.test(text) ? 'error' : 'diagnostic' };
+  qaReport.errors.push(diagnostic);
+  parent.postMessage(envelope('qa-runtime-error', diagnostic), origin);
+  if (qaReport.errors.length > 200) qaReport.errors.shift();
+  if (qaErrors) qaErrors.textContent = qaReport.errors.slice(-8).map(item => item.message).join('\n');
+}
+function observeQa(value) {
+  if (!qaEnabled) return;
+  if (value.type === 'telemetry') {
+    const sample = { at: new Date().toISOString(), ...value.payload, browserHeapBytes: performance.memory?.usedJSHeapSize ?? null, browserRenderer: rendererEvidence() };
+    qaReport.samples.push(sample);
+    if (qaReport.samples.length > 3600) qaReport.samples.shift();
+    qaTelemetry.textContent = JSON.stringify(sample, null, 2);
+    const values = qaReport.samples.map(sample => Number(sample.fps)).filter(Number.isFinite);
+    const sorted = [...values].sort((a, b) => a - b);
+    qaSummary.textContent = `${values.length} mẫu FPS · nhỏ nhất ${sorted[0] ?? '—'} · trung vị ${sorted[Math.floor(sorted.length / 2)] ?? '—'} · ${qaReport.saveAcknowledgements.filter(ack => ack.ok === true).length}/${qaReport.saveAcknowledgements.length} ACK lưu thành công`;
+    const report = transferReport(); const game = report.gameTotals; const host = report.hostTotals;
+    qaTransfer.textContent = `Game: ${(game.networkBytes / 1048576).toFixed(2)} MiB network / ${(game.encodedBodyBytes / 1048576).toFixed(2)} encoded / ${(game.decodedBodyBytes / 1048576).toFixed(2)} decoded. Host React: ${(host.networkBytes / 1048576).toFixed(2)} MiB network / ${(host.encodedBodyBytes / 1048576).toFixed(2)} encoded. Có ${game.zeroTransferEntries + host.zeroTransferEntries} mục transfer=0 (có thể cache).`;
+  }
+  if (value.type === 'save_ack') qaReport.saveAcknowledgements.push({ at: new Date().toISOString(), ...value.payload });
+}
+function envelope(type, payload = {}) { return { channel: 'n4-rpg', version: 2, sessionId, type, payload }; }
+function receive(value) {
+  observeQa(value);
+  if (receiver) receiver(JSON.stringify(value));
+  else if (pending.length < 32) pending.push(value);
+}
+function send(type, payload = {}) {
+  if (typeof payload === 'string') { try { payload = JSON.parse(payload); } catch { payload = {}; } }
+  if (type === 'ready') status.hidden = true;
+  observeQa(envelope(type, payload));
+  parent.postMessage(envelope(type, payload), origin);
+}
+window.addEventListener('message', event => {
+  const value = event.data;
+  if (event.source !== parent || event.origin !== origin || value?.channel !== 'n4-rpg' || value.version !== 2 || value.sessionId !== sessionId) return;
+  receive(value);
+});
+const loadedPacks = new Map();
+async function loadPack(id, startup = false) {
+ if (loadedPacks.has(id)) return loadedPacks.get(id);
+ if (!zoneManifest.bundles[id]) throw new Error('Invalid content pack');
+ if (!activeDownloads.has(id)) activeDownloads.set(id, (async () => {
+  let cache;
+  try { cache = await caches.open(`n4-rpg-packs-${zoneManifest.contentVersion}`); } catch {}
+  const bytes = await loadVerifiedPack(zoneManifest.bundles[id], {cache, base:new URL('./',location.href)});
+  const path = `/tmp/${id}.pck`;
+  if (startup) await engine.preloadFile(bytes,path); else engine.copyToFS(path,bytes);
+  loadedPacks.set(id,path);
+  return path;
+ })().finally(() => activeDownloads.delete(id)));
+ return activeDownloads.get(id);
+}
+async function loadGroup(kind, id, sectorId) {
+ try {
+  const sectors = zoneManifest.sectors[id];
+  const ids = kind === 'hero' ? zoneManifest.heroes[id] : sectors?.[sectorId || Object.keys(sectors || {})[0]];
+  if (!ids) throw new Error('Invalid content group');
+  const paths = await Promise.all(ids.map(key => loadPack(key)));
+  receive(envelope(`${kind}-pack-ready`,{[`${kind}Id`]:id,paths}));
+ } catch(error) {
+  recordEngineError(error.message);
+  receive(envelope('zone-pack-error',{message:'Không tải được nội dung. Hãy kiểm tra kết nối và thử lại.'}));
+ }
+}
+window.n4WorldBridge = {
+ send, startupPacks: [],
+ setReceiver(callback) { receiver=callback; for(const value of pending.splice(0)) receive(value); },
+ requestZone(id, sectorId) { return loadGroup('zone',id,sectorId); },
+ async requestSector(zoneId, sectorId) {
+  try {
+   const ids=zoneManifest.sectors[zoneId]?.[sectorId];
+   if(!ids) throw new Error('Invalid sector');
+   const paths=await Promise.all(ids.map(id=>loadPack(id)));
+   receive(envelope('sector-pack-ready',{zoneId,sectorId,paths}));
+  } catch(error) {
+   recordEngineError(error.message);
+   receive(envelope('sector-pack-error',{zoneId,sectorId,message:'Không tải được khu vực. Hãy kiểm tra kết nối và thử lại.'}));
+  }
+ },
+ requestHero(id) { return loadGroup('hero',id); },
+};
+if (qaEnabled) {
+  const panel = document.createElement('details'); panel.open = true;
+  panel.setAttribute('aria-label', 'Công cụ QA cục bộ');
+  panel.style.cssText = 'position:fixed;right:8px;top:8px;width:250px;max-height:70vh;overflow:auto;background:#fffef2ee;color:#32271f;border:1px solid #8e7960;border-radius:10px;padding:10px;font:12px system-ui;z-index:10000';
+  const title = document.createElement('summary'); title.textContent = 'QA cục bộ · bấm để thu gọn / mở'; title.style.cursor = 'pointer'; panel.append(title);
+  const note = document.createElement('p'); note.textContent = 'Điều khiển QA cục bộ dùng hành động thật. Không tự chiến đấu hoặc dịch chuyển.'; panel.append(note);
+  const controls = document.createElement('div'); controls.style.cssText = 'display:flex;gap:4px;flex-wrap:wrap'; panel.append(controls);
+  for (const [label, action] of [
+    ['Tiến 1s','walk-forward'],['Lùi 1s','walk-back'],['Trái 1s','strafe-left'],['Phải 1s','strafe-right'],
+    ['Đánh','attack'],['Giữ đánh','hold-attack'],['Thả đánh','release-attack'],['Né','dodge'],['Tương tác','interact'],['Skill 1','skill1'],['Skill 2','skill2'],['Skill 3','skill3'],['Skill 4','skill4'],['Skill 5','skill5'],['Skill 6','skill6'],['Tuyệt kỹ','ultimate'],['Đổi bộ','skill_bank'],
+    ['Phóng to','zoom-in'],['Thu nhỏ','zoom-out'],
+    ['Nhân vật','character'],['Túi','inventory'],['Kỹ năng','skills'],['Nhiệm vụ','quests'],['Bản đồ','map'],['Cửa hàng','shop'],
+    ['Đóng bảng','close'],['Dừng tự đi','cancel_navigation'],['Lưu','save'],
+    ['Tới hội','poi:town_trainer'],['Tới tiếp tế','poi:town_shop'],['Tới cổng rừng','poi:town_gate_forest'],['Về Haru','poi:forest_return'],
+  ]) {
+    const button = document.createElement('button'); button.type = 'button'; button.textContent = label; button.style.cssText = 'font-size:11px;padding:6px;border-radius:5px';
+    button.addEventListener('click', () => { qaReport.commands.push({ at: new Date().toISOString(), action }); receive(envelope('qa-command', { action })); });
+    controls.append(button);
+  }
+  qaSummary = document.createElement('p'); qaSummary.textContent = 'Đang chờ telemetry từ game…'; panel.append(qaSummary);
+  qaTransfer = document.createElement('p'); qaTransfer.setAttribute('aria-label', 'Dung lượng tải quan sát'); panel.append(qaTransfer);
+  qaTelemetry = document.createElement('pre'); qaTelemetry.setAttribute('aria-label', 'Telemetry game thực tế'); qaTelemetry.style.cssText = 'font-size:11px;white-space:pre-wrap'; panel.append(qaTelemetry);
+  qaErrors = document.createElement('pre'); qaErrors.setAttribute('aria-label', 'Lỗi runtime thực tế'); qaErrors.textContent = 'Chưa ghi nhận lỗi runtime.'; qaErrors.style.cssText = 'font-size:10px;white-space:pre-wrap;color:#8c2424'; panel.append(qaErrors);
+  const download = document.createElement('button'); download.type = 'button'; download.textContent = 'Tải báo cáo QA JSON'; download.style.cssText = 'font-size:11px;padding:6px';
+  download.addEventListener('click', () => {
+    downloadBlob(new Blob([JSON.stringify({ ...qaReport, transfer: transferReport() }, null, 2)], { type: 'application/json' }), 'world-qa-report.json');
+  });
+  panel.append(download);
+  const captureStatus = document.createElement('p'); captureStatus.setAttribute('role', 'status'); panel.append(captureStatus);
+  const snapshot = document.createElement('button'); snapshot.type = 'button'; snapshot.textContent = 'Chụp PNG game thật'; snapshot.style.cssText = 'font-size:11px;padding:6px;margin:4px';
+  snapshot.addEventListener('click', () => {
+    // Copy a live rendered frame, retrying around capped FPS without changing preserveDrawingBuffer/performance.
+    let attempts = 0;
+    const capture = () => requestAnimationFrame(() => {
+      try {
+        const source = document.querySelector('#canvas');
+        const frame = document.createElement('canvas'); frame.width = source.width; frame.height = source.height;
+        const context = frame.getContext('2d'); context.drawImage(source, 0, 0);
+        const pixel = context.getImageData(Math.floor(frame.width / 2), Math.floor(frame.height / 2), 1, 1).data;
+        if (!(pixel[0] + pixel[1] + pixel[2]) && ++attempts < 12) { capture(); return; }
+        if (!(pixel[0] + pixel[1] + pixel[2])) throw new Error('Chưa lấy được khung hình WebGL; hãy thử lại khi game đang hiển thị.');
+        frame.toBlob(blob => {
+          if (!blob) { captureStatus.textContent = 'Không lấy được khung hình.'; return; }
+          const stamp = new Date().toISOString().replace(/[:.]/g, '-');
+          downloadBlob(blob, `world-frame-${stamp}.png`); captureStatus.textContent = `Đã chụp canvas ${source.width} × ${source.height}.`;
+        }, 'image/png');
+      } catch (error) { captureStatus.textContent = error.message; recordEngineError(error); }
+    });
+    capture();
+  });
+  panel.append(snapshot);
+  let pendingVideo = null;
+  const video = document.createElement('button'); video.type = 'button'; video.textContent = 'Bắt đầu video game'; video.style.cssText = 'font-size:11px;padding:6px;margin:4px';
+  let recorder; let captureStream; let captureTimeout; let captureStarted;
+  video.addEventListener('click', () => {
+    if (pendingVideo) { downloadBlob(pendingVideo.blob, pendingVideo.name); pendingVideo = null; video.textContent = 'Bắt đầu video game'; return; }
+    if (recorder?.state === 'recording') { recorder.stop(); return; }
+    try {
+      if (!globalThis.MediaRecorder || !document.querySelector('#canvas').captureStream) throw new Error('Trình duyệt chưa hỗ trợ ghi video canvas.');
+      captureStream = document.querySelector('#canvas').captureStream(30);
+      const mimeType = ['video/webm;codecs=vp9', 'video/webm;codecs=vp8', 'video/webm'].find(type => MediaRecorder.isTypeSupported(type));
+      if (!mimeType) throw new Error('Trình duyệt chưa hỗ trợ định dạng WebM.');
+      recorder = new MediaRecorder(captureStream, { mimeType, videoBitsPerSecond: 2500000 });
+      const chunks = []; captureStarted = performance.now();
+      recorder.ondataavailable = event => { if (event.data.size) chunks.push(event.data); };
+      recorder.onerror = event => recordEngineError(event.error || 'Video capture failed');
+      recorder.onstop = () => {
+        clearTimeout(captureTimeout); captureStream.getTracks().forEach(track => track.stop());
+        const seconds = (performance.now() - captureStarted) / 1000;
+        const stamp = new Date().toISOString().replace(/[:.]/g, '-');
+        pendingVideo = { blob: new Blob(chunks, { type: mimeType }), name: `world-game-${stamp}.webm` };
+        captureStatus.textContent = `Đã ghi ${seconds.toFixed(1)} giây canvas thật (không kèm âm thanh). Bấm Tải video để lưu.`; video.textContent = 'Tải video đã ghi';
+        qaReport.commands.push({ at: new Date().toISOString(), action: 'video-captured', seconds });
+      };
+      recorder.start(1000); video.textContent = 'Dừng và tải video'; captureStatus.textContent = 'Đang ghi canvas thật · tự dừng sau 60 giây · không kèm âm thanh.';
+      captureTimeout = setTimeout(() => { if (recorder.state === 'recording') recorder.stop(); }, 60000);
+    } catch (error) { captureStream?.getTracks().forEach(track => track.stop()); captureStatus.textContent = error.message; recordEngineError(error); }
+  });
+  panel.append(video); document.body.append(panel);
+}
+retry.addEventListener('click', () => location.reload());
+const config = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":3121368,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+engine = new Engine(config);
+Promise.all(zoneManifest.startup.map(id => loadPack(id, true))).then(paths => {
+window.n4WorldBridge.startupPacks = paths;
+return engine.startGame({ canvas: document.querySelector('#canvas'), onPrintError: recordEngineError, onProgress(current, total) {
+  if (total > 0) { progress.max = total; progress.value = current; }
+} });
+}).catch(error => {
+  message.textContent = 'Không mở được thế giới. Hãy thử lại hoặc giảm chất lượng cảnh trong thông báo phục hồi.';
+  retry.hidden = false;
+  progress.hidden = true;
+  status.hidden = false;
+  send('error', { message: String(error.message || error) });
+});
+</script></body></html>
+

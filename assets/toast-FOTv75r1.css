@@ -1,0 +1,24 @@
+.n4-legacy-toast-host {
+  position: fixed;
+  bottom: calc(24px + env(safe-area-inset-bottom));
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: max-content;
+  max-width: calc(100vw - 32px);
+  pointer-events: none;
+}
+.n4-legacy-toast {
+  padding: 12px 18px;
+  border: 1px solid var(--n4-border, #d9cdb6);
+  border-radius: 10px;
+  background: var(--n4-surface, #fff8eb);
+  color: var(--n4-text-primary, #23443a);
+  box-shadow: 0 4px 18px #182f2526;
+  font: 600 0.9rem/1.45 var(--n4-font-ui, system-ui, sans-serif);
+  white-space: normal;
+  overflow-wrap: anywhere;
+}

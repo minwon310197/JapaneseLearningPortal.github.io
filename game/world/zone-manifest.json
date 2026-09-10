@@ -1,0 +1,287 @@
+{
+  "version": 2,
+  "contentVersion": "haru-v2.1",
+  "startup": [
+    "shared",
+    "hero-knight",
+    "zone-town-center"
+  ],
+  "heroes": {
+    "knight": [
+      "hero-knight"
+    ],
+    "mage": [
+      "hero-mage"
+    ],
+    "ranger": [
+      "hero-ranger"
+    ]
+  },
+  "zones": {
+    "forest": [
+      "zone-forest-approach",
+      "zone-forest-heart",
+      "zone-forest-sanctum",
+      "zone-forest-boss"
+    ],
+    "valley": [
+      "zone-valley-approach",
+      "zone-valley-heart",
+      "zone-valley-sanctum",
+      "zone-valley-boss"
+    ],
+    "coast": [
+      "zone-coast-approach",
+      "zone-coast-heart",
+      "zone-coast-sanctum",
+      "zone-coast-boss"
+    ],
+    "snow": [
+      "zone-snow-approach",
+      "zone-snow-heart",
+      "zone-snow-sanctum",
+      "zone-snow-boss"
+    ],
+    "ruins": [
+      "zone-ruins-approach",
+      "zone-ruins-heart",
+      "zone-ruins-sanctum",
+      "zone-ruins-boss"
+    ],
+    "citadel": [
+      "zone-citadel-approach",
+      "zone-citadel-heart",
+      "zone-citadel-sanctum",
+      "zone-citadel-boss"
+    ],
+    "town": [
+      "zone-town-center"
+    ]
+  },
+  "sectors": {
+    "forest": {
+      "approach": [
+        "zone-forest-approach"
+      ],
+      "heart": [
+        "zone-forest-heart"
+      ],
+      "sanctum": [
+        "zone-forest-sanctum",
+        "zone-forest-boss"
+      ]
+    },
+    "valley": {
+      "approach": [
+        "zone-valley-approach"
+      ],
+      "heart": [
+        "zone-valley-heart"
+      ],
+      "sanctum": [
+        "zone-valley-sanctum",
+        "zone-valley-boss"
+      ]
+    },
+    "coast": {
+      "approach": [
+        "zone-coast-approach"
+      ],
+      "heart": [
+        "zone-coast-heart"
+      ],
+      "sanctum": [
+        "zone-coast-sanctum",
+        "zone-coast-boss"
+      ]
+    },
+    "snow": {
+      "approach": [
+        "zone-snow-approach"
+      ],
+      "heart": [
+        "zone-snow-heart"
+      ],
+      "sanctum": [
+        "zone-snow-sanctum",
+        "zone-snow-boss"
+      ]
+    },
+    "ruins": {
+      "approach": [
+        "zone-ruins-approach"
+      ],
+      "heart": [
+        "zone-ruins-heart"
+      ],
+      "sanctum": [
+        "zone-ruins-sanctum",
+        "zone-ruins-boss"
+      ]
+    },
+    "citadel": {
+      "approach": [
+        "zone-citadel-approach"
+      ],
+      "heart": [
+        "zone-citadel-heart"
+      ],
+      "sanctum": [
+        "zone-citadel-sanctum",
+        "zone-citadel-boss"
+      ]
+    },
+    "town": {
+      "center": [
+        "zone-town-center"
+      ]
+    }
+  },
+  "bundles": {
+    "shared": {
+      "url": "packs/shared.pck",
+      "bytes": 12343284,
+      "sha256": "340667b29ceb9187941b7d2f5f890d0181fafdf5ee66ba97efacd2249b275e49"
+    },
+    "hero-knight": {
+      "url": "packs/hero-knight.pck",
+      "bytes": 4675136,
+      "sha256": "4fb79705f14a0f2aa2fd16bfd06ea601a3068bb9f0ac4fb21d9333e441417ebd"
+    },
+    "hero-mage": {
+      "url": "packs/hero-mage.pck",
+      "bytes": 4753420,
+      "sha256": "7aa1e05886774d02d80f8304be46079fc15a33ba962cf8f7e11905bac367875b"
+    },
+    "hero-ranger": {
+      "url": "packs/hero-ranger.pck",
+      "bytes": 5216748,
+      "sha256": "658621c54d6cf4c9d58ed348e751e134cfe1afcd9346fddd161794bbc2f0ee7d"
+    },
+    "zone-forest-approach": {
+      "url": "packs/zone-forest-approach.pck",
+      "bytes": 4076788,
+      "sha256": "1aa30b595a463dea99ce5d73671f17b62b757406c4f1ac26639e30e6b5228d5a"
+    },
+    "zone-forest-heart": {
+      "url": "packs/zone-forest-heart.pck",
+      "bytes": 3837740,
+      "sha256": "bed13f36f89d5da9e716bb67c8b3f8326165c84d47d0ca9f36d961efab4992f4"
+    },
+    "zone-forest-sanctum": {
+      "url": "packs/zone-forest-sanctum.pck",
+      "bytes": 3980980,
+      "sha256": "83d5b3c5c5afcf2f9460d6d79bd304071023981a276158d18b4f55b44cac35fa"
+    },
+    "zone-forest-boss": {
+      "url": "packs/zone-forest-boss.pck",
+      "bytes": 850352,
+      "sha256": "d129777ec475ebc139a8248cfa6f614f021a0c16f9f0c819865fc0ecc4577e5a"
+    },
+    "zone-valley-approach": {
+      "url": "packs/zone-valley-approach.pck",
+      "bytes": 3286452,
+      "sha256": "6fa1f3aaedb7f2cc77bf3cd6b98a5f4b1ebef8623b81e1b4ab8ca032eebd99a3"
+    },
+    "zone-valley-heart": {
+      "url": "packs/zone-valley-heart.pck",
+      "bytes": 3163084,
+      "sha256": "079a110514bebb17f48021566e8547acc78ba56d1a0be0ba9f9df3571ff62760"
+    },
+    "zone-valley-sanctum": {
+      "url": "packs/zone-valley-sanctum.pck",
+      "bytes": 3283188,
+      "sha256": "d94a310b15e1da23abf43228a36fc5e83faa35aa88e0d0cfc13f438cb4dd128c"
+    },
+    "zone-valley-boss": {
+      "url": "packs/zone-valley-boss.pck",
+      "bytes": 752272,
+      "sha256": "b73ca833e1a77633b7ede5f46c64fcb25d42e668eecfda3656c205814d9c2443"
+    },
+    "zone-coast-approach": {
+      "url": "packs/zone-coast-approach.pck",
+      "bytes": 2441428,
+      "sha256": "36e2f42ee24a499d1186f461b72377a88c27619931ab864b9879a2cbb1975239"
+    },
+    "zone-coast-heart": {
+      "url": "packs/zone-coast-heart.pck",
+      "bytes": 2106568,
+      "sha256": "4abe3512e84a3d4bf75674e5f1792fcbd3c940b41a8b6cc3ec8d51244df43640"
+    },
+    "zone-coast-sanctum": {
+      "url": "packs/zone-coast-sanctum.pck",
+      "bytes": 2323664,
+      "sha256": "eec525b09e7d1ebe948111069c0c62dec07a5d68124fbb1356e44fcc66a99cf1"
+    },
+    "zone-coast-boss": {
+      "url": "packs/zone-coast-boss.pck",
+      "bytes": 947788,
+      "sha256": "d82e9b850d68595f3d55f411a3db6e8ca395de6676ca6ccd124ce063db43be50"
+    },
+    "zone-snow-approach": {
+      "url": "packs/zone-snow-approach.pck",
+      "bytes": 1768080,
+      "sha256": "ab9aaaa69e304c3c95810fcdbdf23efc7450ae0cf321adc46a95b45f9b69f277"
+    },
+    "zone-snow-heart": {
+      "url": "packs/zone-snow-heart.pck",
+      "bytes": 1506312,
+      "sha256": "7a63703cfa28f6120ec362e0df9eea1d9760b2dab2f054300c9e2f9c330021a0"
+    },
+    "zone-snow-sanctum": {
+      "url": "packs/zone-snow-sanctum.pck",
+      "bytes": 1699500,
+      "sha256": "75c872e2ea53c2787a765a38cadd8dc8a424452612f021db2989c9c1a85bf5f6"
+    },
+    "zone-snow-boss": {
+      "url": "packs/zone-snow-boss.pck",
+      "bytes": 829384,
+      "sha256": "0156fd4deaa5bdf2f74e701af975c8fd33ed89edec6b6bef1f40c22f59109351"
+    },
+    "zone-ruins-approach": {
+      "url": "packs/zone-ruins-approach.pck",
+      "bytes": 2781236,
+      "sha256": "2e7aa9a7980c8ad6f5ede9555e3438fde3419f584dbfbc1b504e5032fb4d5308"
+    },
+    "zone-ruins-heart": {
+      "url": "packs/zone-ruins-heart.pck",
+      "bytes": 2501416,
+      "sha256": "69edb9812f394f89f6fcedd9458dec8e9ce2339f3c118c5025e2536887486abc"
+    },
+    "zone-ruins-sanctum": {
+      "url": "packs/zone-ruins-sanctum.pck",
+      "bytes": 2666256,
+      "sha256": "7797cc8dd3ee6edcc798b024245925b6ad23fe2db57e8fc4a75d0aa684e86d4b"
+    },
+    "zone-ruins-boss": {
+      "url": "packs/zone-ruins-boss.pck",
+      "bytes": 1100012,
+      "sha256": "fe57b382a6e64b275ab635d82ed15b275747c5c81d182e08bab8b8f15b6afaaa"
+    },
+    "zone-citadel-approach": {
+      "url": "packs/zone-citadel-approach.pck",
+      "bytes": 2754200,
+      "sha256": "dd209be8870a673d3e5007a9518c1227e3801024fa059a14e4cf2a155211916c"
+    },
+    "zone-citadel-heart": {
+      "url": "packs/zone-citadel-heart.pck",
+      "bytes": 2510224,
+      "sha256": "69e8f0b480a629977b7f39f6a0a4ea8a30255c620a8386f85a42a49e3ce9aaa6"
+    },
+    "zone-citadel-sanctum": {
+      "url": "packs/zone-citadel-sanctum.pck",
+      "bytes": 2625076,
+      "sha256": "9c4960f955f707d772d31e7a472979cdaccd9e5d5074274e41b0a64974115b78"
+    },
+    "zone-citadel-boss": {
+      "url": "packs/zone-citadel-boss.pck",
+      "bytes": 723284,
+      "sha256": "856cbff83cdf04dde65dabd9b53e69a042a76d864d65904c117a078e36b949fb"
+    },
+    "zone-town-center": {
+      "url": "packs/zone-town-center.pck",
+      "bytes": 8611656,
+      "sha256": "447bd1c2ef86f39fdb239c991143027903d1493c4b9edd04e279a5d76a2e877d"
+    }
+  }
+}

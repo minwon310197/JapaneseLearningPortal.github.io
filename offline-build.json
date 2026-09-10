@@ -1,0 +1,20 @@
+{
+  "buildId": "ab90cbd2545b2d862182a86efdfa5b3d",
+  "manifest": "offline-manifest-ab90cbd2545b2d862182a86efdfa5b3d.json",
+  "precacheCount": 44,
+  "precacheBytes": 76311337,
+  "knownStaticAssets": 298,
+  "bootRoots": [
+    "index.html",
+    "_WorldExperience-CQ_uhNin.js",
+    "src/app/services/world-learning-runtime.js",
+    "index.html",
+    "src/data/vocab.v2.json",
+    "src/data/kanji.v2.json",
+    "src/data/grammar.v2.json",
+    "src/data/minna.json",
+    "src/data/minna-lessons.json",
+    "src/data/game-content.json"
+  ],
+  "publicCssAssets": []
+}
