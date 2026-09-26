@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-26T01:29:41.906Z",
+  "createdAt": "2026-09-26T02:16:54.555Z",
   "engine": "4.7.2",
   "singleThread": true,
   "sourceSnapshot": {
@@ -42,7 +42,7 @@
     "assets/zones/forest.glb": "b944b90c68eee12ebc3bfa6ebb8c76887d8a2ff0558170923797f83cad557bcf",
     "assets/zones/ruins.glb": "a642311793725136b1ecd6d843237032a478404151c8762e7841c4c8f4346e51",
     "assets/zones/valley.glb": "2efff123349d74a2fc80fc8153e447f96f743152a2c074d617db3c75d9620c7e",
-    "export_presets.cfg": "21e3f526518ea7d37c8a490973b608dcec08762b730a4ebf5bffee937b0a6674",
+    "export_presets.cfg": "2976c9197092639e98c641facf71b037684eb8659c74af08c03967cfe1983ade",
     "fonts/HaruJapanese.woff2": "f0839313811b62ab876db06a0a2d69b7f776173dbce600fee8124cd1b72d988c",
     "fonts/OFL.txt": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
     "project.godot": "86ab925edbacb578cb3dc8525e599ee46aebef3f2ce65b4211a48aea580f4486",
@@ -334,25 +334,25 @@
     "v2/assets/npcs/smith.glb": "7df3674f7974332df7a5f6cc2800e7592b6100c15a8c6a613d87d8ca24b93d4d",
     "v2/assets/npcs/trainer.glb": "b7944f6e734643e82b22f70e2e4d3ef4dd743e6c1ac273993e4cb8f48a58e16f",
     "v2/assets/npcs/villager.glb": "b2ceef955a8434e8e167e84424efe443de30a4474933ccc3319997ee2bf5d832",
-    "v2/assets/zones/citadel_approach.glb": "683df27f68460dddf56beec16bfe083aa46ca3480284b01ce6ad092521ebd3bf",
-    "v2/assets/zones/citadel_heart.glb": "209c60a429826cd5c8f0ea2fc5ec8c3ae629ff1755160bb6564c4379d9b4737a",
-    "v2/assets/zones/citadel_sanctum.glb": "3c8ea2099bce56875f3ae791e67c423853141d4ff128329ebc1f7d32665c6af0",
-    "v2/assets/zones/coast_approach.glb": "f7926024b1834610a70d3f7fb5f9b3ca914d96bc9f14c7a8da2f40ca3aa27d89",
-    "v2/assets/zones/coast_heart.glb": "17094758ff9a9670c46b9e6ba073db70b992200f4a3420d9e7b7713d46ea7cda",
-    "v2/assets/zones/coast_sanctum.glb": "74db617c687c758c31d7aca110db7bfef0bf7d9d5707466b381e4503ae612787",
-    "v2/assets/zones/forest_approach.glb": "53d02134d5632e63d2413be7d1060cd7666f941a7b6a6e1673c8f38fe5f0b14e",
-    "v2/assets/zones/forest_heart.glb": "eddb44367258e07f937689e2bacf00524db43a7d3154f6476975973f09ef490a",
-    "v2/assets/zones/forest_sanctum.glb": "8b362467dc09dc7249e8e18e6c35bb7566f0c1dba7632667824fa37dceefa64d",
-    "v2/assets/zones/ruins_approach.glb": "301187843a1ae59f0fb09445c76285cde639a4b8c81053fe63939abe7629e9f6",
-    "v2/assets/zones/ruins_heart.glb": "645e657cbdeeb16bebe461b8b6f1ee6c893e022c41f6dde354d8026b85504747",
-    "v2/assets/zones/ruins_sanctum.glb": "26e9179bb1fb5db93e1f2979740b064002ae21456b7e68750a6a5e3444b946ca",
-    "v2/assets/zones/snow_approach.glb": "f55205a68d0820dc6ce81b4fbf94376266008fad55e0c477bcc2ad1e1f61275e",
-    "v2/assets/zones/snow_heart.glb": "beff1699c9b7d18d539e724e8016ecc6491eb90b7d38a3bc777065a33c92f40f",
-    "v2/assets/zones/snow_sanctum.glb": "53b0d7a11551d2b0ee5e536e70ded6ec6961d3f6a5604720cad1881728a9b0fb",
+    "v2/assets/zones/citadel_approach.glb": "1d08cb72674cf5d84b3517eb6041e7475ccb77acb574ed8474b7f3f4c35a9c42",
+    "v2/assets/zones/citadel_heart.glb": "67a747fbe4c98b1fa9b147e503247b6966cca8896ac0ed1cc2b71088ae24eb27",
+    "v2/assets/zones/citadel_sanctum.glb": "fd2472da72c47485f26c9586631616c4b326ff057cf8093470f01ca2796636ff",
+    "v2/assets/zones/coast_approach.glb": "a636c85858065025c80ff2aaf8545556f7041d62a59590241e1d9700d87e4b56",
+    "v2/assets/zones/coast_heart.glb": "a6e86ab28a2d6db10335467b550986194d4951b2a5fe8afea1499a9b9c7f9497",
+    "v2/assets/zones/coast_sanctum.glb": "a4c706926eb582f6f1f87a324586dcd6317d0c8899370bb341ab7a3b4e25e994",
+    "v2/assets/zones/forest_approach.glb": "bfe2ab41a7eff385fec2a633721894d2f00c7f98a9bb4ba8ffb10ac7098419ad",
+    "v2/assets/zones/forest_heart.glb": "778975dbc18b11c37725c399664d3ddc1fc1f0b6ef7e4fd137795584c222b6ab",
+    "v2/assets/zones/forest_sanctum.glb": "5eeabf1eee1b341187c90ca916a2132624793c2fc07f4ed8174df4ac89580a27",
+    "v2/assets/zones/ruins_approach.glb": "f269bb878f65c956c35e1e169383ea5831ca53db49be39eec4fdc4cf8b09e932",
+    "v2/assets/zones/ruins_heart.glb": "2c5399f8be5aef7af7a4bd730ac8c07f7cb27b5e19e5ed48e4dc7eb935fe94ab",
+    "v2/assets/zones/ruins_sanctum.glb": "d57b6dbcf6d943ca8f31a77966e84419cae0c32362a9c162f4aefd5df6418dc0",
+    "v2/assets/zones/snow_approach.glb": "32ced3ddf2b1de61d313bd351081b7a5cf2f2b1af419c6b5c349dfeedd65daca",
+    "v2/assets/zones/snow_heart.glb": "896c63a5e071131621c449cdac20d4450ce98851b1bc77144450b87870c526b9",
+    "v2/assets/zones/snow_sanctum.glb": "e9fd787280c3dd19643ad5b874551f62a1041f4cd66e7e574608fc6328c33b62",
     "v2/assets/zones/town_center.glb": "ba667beb8d2dc7d8bdd87b50719ae248e614b6e8141016df2f34d44cf4841338",
-    "v2/assets/zones/valley_approach.glb": "435d19d908fa9a55797625aee7bccf897223855a4d55e92ea680c2fda1e13063",
-    "v2/assets/zones/valley_heart.glb": "46aae55790cc690a27e8be369ce12b177d1ae403889fb462b33ecf69b9665cff",
-    "v2/assets/zones/valley_sanctum.glb": "3d3a241404ab69d97650e82eb84f641b4ba202c04ad392701888f3748f8464e0",
+    "v2/assets/zones/valley_approach.glb": "06ba5c98893b1e70d897e48cb691423c5f016a6190a51442de9a28a7c3d2a1c4",
+    "v2/assets/zones/valley_heart.glb": "053f0d0455be3ea908143a1b8ad166bfe1a9cabac69d5b46fdb52ec32b6c7041",
+    "v2/assets/zones/valley_sanctum.glb": "b19cd6f8cfb31b4920e9ebf9dfa167bacf3d14903cdb60f8dd74ad55c5225aac",
     "v2/boss_egg_state.gd": "24d0acf077804e28a7fd4a6ff50ab2e4e69b63b1e91c7b54dacdcfb208080baf",
     "v2/boss_eggs.gd": "2e15ec632fc2b95500ba5e21fe6deda0976b0dcce63d5fa3bfe119a8443636d4",
     "v2/boss_patterns.gd": "cdc802630c8ff38a85eadec781b39b5952825b6e98e80b9bd092d8a80e1ce886",
@@ -388,6 +388,8 @@
     "v2/presentation_preferences.gd": "815764f05fd0969ad37e38e693ca85208112dc3e1b8e28c859788ae407a7f2dc",
     "v2/progress.gd": "8912d077de9463702d2cf7ef653ee41cd3dfcb507fbd240be59a53d63256ef59",
     "v2/quests.gd": "8225a7adf711ec9ce71b758de745556fc484fc29e1b4b2b62993ad456847b551",
+    "v2/regional-scenery.json": "31c5c9c50d5f7e2ea30d992c0aa49b1c05b81b946596af99ee887a4c0f3c4593",
+    "v2/regional_scenery.gd": "6b1fe6192dd2b23b013420976340d8cfbd9f73642b01c60e5e5e221c0649fe71",
     "v2/render_budget.gd": "22c29a96713a14d3fa8d93124da86992017e2a5564c280c42ebe8541e7b41936",
     "v2/save_migration.gd": "33a2a817bbf3f776652c480ea01d81807beeccf05d0d3c21f48acf6c183ee657",
     "v2/skill_fx.gd": "aaa57e13ee8dbe47a66212e50cba375fc33ac844b38549300fefee5154a96a85",
@@ -425,6 +427,7 @@
     "v2/tests/haru_world_activity_catalog_test.gd": "46255f66f966777f2abf651b502463dfc721f518281d34aa37fa4e509898feea",
     "v2/tests/haru_world_activity_menu_test.gd": "c52942038e79d3fc1f4e09f8998d0f453d0b62d31c4d99f7e56d3d573d01752e",
     "v2/tests/haru_world_activity_runtime_test.gd": "4e864b8a6482cc5d91d5cfaf75ee6180fc9eb89f8873f894510a03991b3dfcd3",
+    "v2/tests/haru_world_consumables_test.gd": "1b6cca50d6bf1d627e0844b9b464f0f496abb1638403b628a0142b8c98d5f210",
     "v2/tests/haru_world_drops_test.gd": "66ab9aa6bfa941dd8894c48b10956983a18c7a38aa8f87a5acef0a2f5c20e0de",
     "v2/tests/haru_world_gm_test.gd": "321db175c7032fb375e2a422ec7242a900bc939e1d53d110f4c56e4dc80e0cac",
     "v2/tests/haru_world_journey_test.gd": "adcf0a42121c694ee84fae941474571e85023fc489ac15bb59190f456e53f583",
@@ -446,6 +449,7 @@
     "v2/tests/presentation_preferences_test.gd": "6d4c8d9d2abfbb784a6fce48e3f95ca498513af0a1eff1885da9be8c6d65e085",
     "v2/tests/progress_test.gd": "e55682b20fcc9a577793eef9d06805d36f0686fcd46a678e14f4dbab9163cc3e",
     "v2/tests/rank_fx_test.gd": "520efdceeb70d57be595a83793c876ed04e97cd0cc83c97324990c2d684a1be6",
+    "v2/tests/regional_scenery_test.gd": "71a5cda124ed6944412cbad64e1cd63c969b88e48cf66ba8532c00d5ccb5be3c",
     "v2/tests/render_budget_test.gd": "e5cd7b5a139a51997ccfa69bea302c171a2e0d0fa332ce13f04c5284a3107988",
     "v2/tests/runtime_test.gd": "b67491b736661704ac230a09c517ba30c68179b5a5c78d786527ef6f27348327",
     "v2/tests/shadow_budget_test.gd": "76b4fdd6b2e5382f23c4c8257575bad708a4ad000da6063f0c2159b6c0e43845",
@@ -456,7 +460,8 @@
     "v2/tests/world_sentence_test.gd": "5fa8f65a00a18a1df49e3e50093c8afaa8e49badf52fdfff7a460ab75020e5f6",
     "v2/tests/zero_damage_cast_test.gd": "499b79f3a19f06ba4caefcd1f044f5685f5a0192dd84c7f65efeef794aecf29c",
     "v2/ui/character_panel.gd": "4dc34176fbe80752fe428f9d457b76191f6b7761e67212cc9cdcc246ea65344b",
-    "v2/ui/haru_world_hud_v1.gd": "f26bb0d026132fc5daf5ae939db2fea51ebd54e3675f68d24a34a3e44f745697",
+    "v2/ui/haru_card_symbol.gd": "1d832fa1576e8ee1db9c71d3addf0358ca1f4b191b5dce5066b6c2435034f4f6",
+    "v2/ui/haru_world_hud_v1.gd": "67faf1eb8781b04467f19017c7f3897e8c97e35a46ca4a62f7b39ee289c7d8b6",
     "v2/ui/hero_preview.gd": "d8fbd55c408d66f6172c545b20debb0c7a78db3e028aef85d47e42fb20419d2b",
     "v2/ui/hud.gd": "cf528c51b697dc2860b3b7304e83db7589f58a81bdc648ae6d0b2af0a32112e7",
     "v2/ui/inventory_panel.gd": "d4c52105dbd686f99429fa49aa473058044b5d7c012ab69d6e96203a05bc603c",
@@ -469,8 +474,9 @@
     "v2/ui/skill_paths.gd": "ee7218702fb0d9476c756e172f68ee9a181b929477147329264bcd07d23405dd",
     "v2/ui/skill_tree.gd": "8dd96c2b565eb56ceabea9656d3dd76a0e98d974181d4680b171da32afb6ee1e",
     "v2/ui/skills_panel.gd": "ccfdf2c10662331a20474d74e3bd633ac31deb9a3c25aecf3c231d207dacb851",
-    "v2/ui/tests/haru_world_hud_v1_journey_test.gd": "6aa19f0045fbf2e2155dcee5b842855eddcc09bf6ee49c984e95f5e97f994ba8",
-    "v2/ui/tests/haru_world_hud_v1_test.gd": "d756bcf91aaa4ace7b414a3c084171565b4a0094c8115c03585d90bc7f203576",
+    "v2/ui/tests/haru_world_hud_v1_cards_test.gd": "524b02a9219ec334a5ed48f191f563791302d06be5a97e98360494e3374bc581",
+    "v2/ui/tests/haru_world_hud_v1_journey_test.gd": "981dd0821bdd8b09c45ee0111877b2a45609b7455808e46e366f1abc8d7cf4c4",
+    "v2/ui/tests/haru_world_hud_v1_test.gd": "9b16a36c59b6aaed73524f80f7124369c78166a4ab81a21734b2271f11d4495d",
     "v2/ui/tests/haru_world_hud_v1_workspace_test.gd": "b2192ec1c9a94d4523c983a0d22feb490df90d8d65e9bc638bf69a0ab8525c43",
     "v2/ui/tests/hud_viewport_metrics_test.gd": "ca7865983fa7262f98a92ba6e2c228439655424742411a7506fbc8cb054bf227",
     "v2/ui/tests/inventory_first_fold_test.gd": "4842f085658dbb177de7e310c2b003042083c5b8075bda6b1b13c978cd44460f",
@@ -479,13 +485,13 @@
     "v2/ui/tests/worldmap_tests.gd": "8e15672f032c8ee28a1564ebc566023f2f86189434c9080fe3bc295d915612eb",
     "v2/ui/worldmap_canvas.gd": "17ba011a6ceeb49ba5309bf54f02761d9b67e3d16842884f1505cae67d57c93b",
     "v2/ui/worldmap_model.gd": "9c09b8bc7e171b38185746b237875c098590e6ed38d601072bcc33d22e3e2926",
-    "v2/world.gd": "e0b9fa409b4d6291a1e22dd12a7bd838640817d65d83f955b93503f0e5f35e73",
+    "v2/world.gd": "a37d67604eafb97f3942fe7659310f502cbd4fe85b721d3f9fb58621f83d178b",
     "v2/world.tscn": "7ed420dc9f5f96f4cd88bcf340eadd62b1733211d48ce9ba9bcad4e7608309b4",
     "v2/world_learning.gd": "623929035a818cbba6cc6079085269242cc436c615ce49dc3dd9c496c1f1a649",
     "v2/world_occlusion.gd": "41ab2c2380f0d66c94719e28933caf2030b47e42b1b8ca7db1617662d6c1dbe6",
-    "v2/world_presentation.gd": "3ea35f4512d1f5b43ffa2ae217a500e86cb57c9c36524dd2ea4238656593c40b",
+    "v2/world_presentation.gd": "b9aee31611dddbe059faa5a92c318858643d305c0b22b64c759bff5813705dba",
     "v2/world_save_validator.gd": "a19d878d35f7dadbb080a3c3960e588c0564ccc7462ec8a65d858308d0e31cb1",
-    "v2/world_v1.gd": "f55238cf61e8de964b2f01ab1cc8791a4e73b9822f1021637f22a89a2d20a556",
+    "v2/world_v1.gd": "c6e73ff920bbd4bf5d7412c1d8b8016f3340c88cf4508295a38fd930c02d2a5a",
     "v2/world_v1.tscn": "593a46386ef0159246d866e1093bf11b029fb72268e7519fb3fece205c6654cd",
     "zones/forest.json": "63829a3f46f8e9d40482bfd81618904e8c69170f567f295b851ac84cbdc0faa1",
     "zones/ruins.json": "281a3a6765709528becf40cbdba7ef3278728d9b0f8cdcd6b4faf09c31cffde0",
@@ -518,8 +524,8 @@
     {
       "file": "index.html",
       "rawBytes": 27790,
-      "gzipEstimateBytes": 10114,
-      "brotliEstimateBytes": 9240
+      "gzipEstimateBytes": 10110,
+      "brotliEstimateBytes": 9243
     },
     {
       "file": "index.js",
@@ -529,9 +535,9 @@
     },
     {
       "file": "index.pck",
-      "rawBytes": 6035548,
-      "gzipEstimateBytes": 3641309,
-      "brotliEstimateBytes": 3502782
+      "rawBytes": 6097756,
+      "gzipEstimateBytes": 3664699,
+      "brotliEstimateBytes": 3525982
     },
     {
       "file": "index.png",
@@ -560,8 +566,8 @@
     {
       "file": "zone-manifest.json",
       "rawBytes": 7872,
-      "gzipEstimateBytes": 2053,
-      "brotliEstimateBytes": 1920
+      "gzipEstimateBytes": 2059,
+      "brotliEstimateBytes": 1934
     },
     {
       "file": "packs/shared.pck",
@@ -588,7 +594,7 @@
         "zone-forest-sanctum",
         "zone-forest-boss"
       ],
-      "bytes": 12745860
+      "bytes": 9703652
     },
     {
       "id": "valley",
@@ -598,7 +604,7 @@
         "zone-valley-sanctum",
         "zone-valley-boss"
       ],
-      "bytes": 10484996
+      "bytes": 8595940
     },
     {
       "id": "coast",
@@ -608,7 +614,7 @@
         "zone-coast-sanctum",
         "zone-coast-boss"
       ],
-      "bytes": 7819448
+      "bytes": 5910968
     },
     {
       "id": "snow",
@@ -618,7 +624,7 @@
         "zone-snow-sanctum",
         "zone-snow-boss"
       ],
-      "bytes": 5803276
+      "bytes": 6754156
     },
     {
       "id": "ruins",
@@ -628,7 +634,7 @@
         "zone-ruins-sanctum",
         "zone-ruins-boss"
       ],
-      "bytes": 9048920
+      "bytes": 5109624
     },
     {
       "id": "citadel",
@@ -638,7 +644,7 @@
         "zone-citadel-sanctum",
         "zone-citadel-boss"
       ],
-      "bytes": 8612784
+      "bytes": 4739472
     },
     {
       "id": "town",
@@ -653,8 +659,8 @@
     "initialBytes": 36700160,
     "zoneBytes": 15728640
   },
-  "initialRawBytes": 64696809,
-  "initialGzipEstimateBytes": 23906766,
+  "initialRawBytes": 64759017,
+  "initialGzipEstimateBytes": 23930158,
   "transferBudgetStatus": "UNVERIFIED_REQUIRES_BROWSER_NETWORK_MEASUREMENT",
   "initialRawBudgetPass": false,
   "zoneBudgetPass": true

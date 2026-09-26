@@ -122,7 +122,7 @@
     {
       "url": "game/world/index.html",
       "bytes": 27790,
-      "sha256": "49fe1a42814f2a11446cf11c0242900613ec80de1d7953ce1a5ade0ae8c3083c"
+      "sha256": "6160a87397087e229df59c4389751c3e6a81f1badd8bfb68cf31d02de78a3b5e"
     },
     {
       "url": "game/world/index.js",
@@ -131,8 +131,8 @@
     },
     {
       "url": "game/world/index.pck",
-      "bytes": 6035548,
-      "sha256": "003fac6fad957f58ebbebb1a283a71348eab0b1cd3580a27d4662f4869a982ba"
+      "bytes": 6097756,
+      "sha256": "6e54c80af7d1fecf9b6386409b5387002af8fd470d1c604a37094d4c04b3f8f8"
     },
     {
       "url": "game/world/index.png",
@@ -166,8 +166,8 @@
     },
     {
       "url": "game/world/packs/zone-citadel-approach.pck",
-      "bytes": 2754200,
-      "sha256": "dd209be8870a673d3e5007a9518c1227e3801024fa059a14e4cf2a155211916c"
+      "bytes": 1460504,
+      "sha256": "c1cd12932bcfc3b4dc40504af5d898ed89acadb454fb76f415911e77b918b360"
     },
     {
       "url": "game/world/packs/zone-citadel-boss.pck",
@@ -176,18 +176,18 @@
     },
     {
       "url": "game/world/packs/zone-citadel-heart.pck",
-      "bytes": 2510224,
-      "sha256": "69e8f0b480a629977b7f39f6a0a4ea8a30255c620a8386f85a42a49e3ce9aaa6"
+      "bytes": 1243152,
+      "sha256": "a9eb9f175baa858fd5f188de6a1bd8a0252e62634c7588fbd4d68e8cf42c051b"
     },
     {
       "url": "game/world/packs/zone-citadel-sanctum.pck",
-      "bytes": 2625076,
-      "sha256": "9c4960f955f707d772d31e7a472979cdaccd9e5d5074274e41b0a64974115b78"
+      "bytes": 1312532,
+      "sha256": "b1ed39605eab48a109b72d62e2fa44b65604451541200c0dad3524234e0566ca"
     },
     {
       "url": "game/world/packs/zone-coast-approach.pck",
-      "bytes": 2441428,
-      "sha256": "36e2f42ee24a499d1186f461b72377a88c27619931ab864b9879a2cbb1975239"
+      "bytes": 1780884,
+      "sha256": "bbc433f32664af61dd752f4ebf77ee1ea9366d3e8dce8361bb0e19e02b5a7d62"
     },
     {
       "url": "game/world/packs/zone-coast-boss.pck",
@@ -196,18 +196,18 @@
     },
     {
       "url": "game/world/packs/zone-coast-heart.pck",
-      "bytes": 2106568,
-      "sha256": "4abe3512e84a3d4bf75674e5f1792fcbd3c940b41a8b6cc3ec8d51244df43640"
+      "bytes": 1524840,
+      "sha256": "293b21e373a3bc5c8023bc4e4fe1821d8e187456fd093f2604a9d053ea3e25f3"
     },
     {
       "url": "game/world/packs/zone-coast-sanctum.pck",
-      "bytes": 2323664,
-      "sha256": "eec525b09e7d1ebe948111069c0c62dec07a5d68124fbb1356e44fcc66a99cf1"
+      "bytes": 1657456,
+      "sha256": "a782af83be9f9023eea2ebac22d052118ae7c5a2e65e5446fae10ecab383c531"
     },
     {
       "url": "game/world/packs/zone-forest-approach.pck",
-      "bytes": 4076788,
-      "sha256": "1aa30b595a463dea99ce5d73671f17b62b757406c4f1ac26639e30e6b5228d5a"
+      "bytes": 3157108,
+      "sha256": "bed13a491f4f6369b51f8ea723bc73c92a2d9d772a56b43574f4bed6ad36414d"
     },
     {
       "url": "game/world/packs/zone-forest-boss.pck",
@@ -216,18 +216,18 @@
     },
     {
       "url": "game/world/packs/zone-forest-heart.pck",
-      "bytes": 3837740,
-      "sha256": "bed13f36f89d5da9e716bb67c8b3f8326165c84d47d0ca9f36d961efab4992f4"
+      "bytes": 2833580,
+      "sha256": "057e4b0c79f9bc95e514a3e59fcee9acec982653ac5ae07966db16d25d991217"
     },
     {
       "url": "game/world/packs/zone-forest-sanctum.pck",
-      "bytes": 3980980,
-      "sha256": "83d5b3c5c5afcf2f9460d6d79bd304071023981a276158d18b4f55b44cac35fa"
+      "bytes": 2862612,
+      "sha256": "3399e0b04aa4fd16aa505da8c9b31bb22067faab63be933b4d860379b164c63f"
     },
     {
       "url": "game/world/packs/zone-ruins-approach.pck",
-      "bytes": 2781236,
-      "sha256": "2e7aa9a7980c8ad6f5ede9555e3438fde3419f584dbfbc1b504e5032fb4d5308"
+      "bytes": 1455860,
+      "sha256": "130f002cb8c8c120c9db75555c248bea6bd430e51da269c21774c55404cfe8b6"
     },
     {
       "url": "game/world/packs/zone-ruins-boss.pck",
@@ -236,18 +236,18 @@
     },
     {
       "url": "game/world/packs/zone-ruins-heart.pck",
-      "bytes": 2501416,
-      "sha256": "69edb9812f394f89f6fcedd9458dec8e9ce2339f3c118c5025e2536887486abc"
+      "bytes": 1220328,
+      "sha256": "6880eb3847d0bd811ed5e44d64e2b9ac162fbbedad0ef59b8ae2b47aa7e2d348"
     },
     {
       "url": "game/world/packs/zone-ruins-sanctum.pck",
-      "bytes": 2666256,
-      "sha256": "7797cc8dd3ee6edcc798b024245925b6ad23fe2db57e8fc4a75d0aa684e86d4b"
+      "bytes": 1333424,
+      "sha256": "1851f8d0ef4782e605a80e4838ca40d4d0b9f4041454db32538f1ee344a36464"
     },
     {
       "url": "game/world/packs/zone-snow-approach.pck",
-      "bytes": 1768080,
-      "sha256": "ab9aaaa69e304c3c95810fcdbdf23efc7450ae0cf321adc46a95b45f9b69f277"
+      "bytes": 2116688,
+      "sha256": "39cc1a27f657055b3555bae2b62ff60891184f4d200a0097c636fb32aed3f382"
     },
     {
       "url": "game/world/packs/zone-snow-boss.pck",
@@ -256,13 +256,13 @@
     },
     {
       "url": "game/world/packs/zone-snow-heart.pck",
-      "bytes": 1506312,
-      "sha256": "7a63703cfa28f6120ec362e0df9eea1d9760b2dab2f054300c9e2f9c330021a0"
+      "bytes": 1855496,
+      "sha256": "c9b7eae3127e5f32e988763a9fef0b591f844048db722d37684125693f029e8d"
     },
     {
       "url": "game/world/packs/zone-snow-sanctum.pck",
-      "bytes": 1699500,
-      "sha256": "75c872e2ea53c2787a765a38cadd8dc8a424452612f021db2989c9c1a85bf5f6"
+      "bytes": 1952588,
+      "sha256": "7e5b515c24d50aebd236f8a6542e8b72bc4acc074848d3cb3f4ec24499c0de4a"
     },
     {
       "url": "game/world/packs/zone-town-center.pck",
@@ -271,8 +271,8 @@
     },
     {
       "url": "game/world/packs/zone-valley-approach.pck",
-      "bytes": 3286452,
-      "sha256": "6fa1f3aaedb7f2cc77bf3cd6b98a5f4b1ebef8623b81e1b4ab8ca032eebd99a3"
+      "bytes": 2757748,
+      "sha256": "b63cc520cc6db9c4dba44469ff761421ef52f07f0c35a2b158bf9c25be7d5303"
     },
     {
       "url": "game/world/packs/zone-valley-boss.pck",
@@ -281,13 +281,13 @@
     },
     {
       "url": "game/world/packs/zone-valley-heart.pck",
-      "bytes": 3163084,
-      "sha256": "079a110514bebb17f48021566e8547acc78ba56d1a0be0ba9f9df3571ff62760"
+      "bytes": 2522796,
+      "sha256": "fc8055775f7c38c8860d163b6754189a45b583b7a2e212921cc415f04cacf38c"
     },
     {
       "url": "game/world/packs/zone-valley-sanctum.pck",
-      "bytes": 3283188,
-      "sha256": "d94a310b15e1da23abf43228a36fc5e83faa35aa88e0d0cfc13f438cb4dd128c"
+      "bytes": 2563124,
+      "sha256": "241358411117933674fffa81fdfb76de6d81d93258b1c97d73b8d93f4a96dda8"
     },
     {
       "url": "game/world/viewport-metrics.mjs",
@@ -302,7 +302,7 @@
     {
       "url": "game/world/zone-manifest.json",
       "bytes": 7872,
-      "sha256": "592c05021ec47c4863238f77c37ae582d7ff61755f0cafeeafdb29d446d8ff0b"
+      "sha256": "9089a99107af71804224ba52c599ef9c98c2d2d814589a73137d855c4e6cdfb2"
     },
     {
       "url": "index.html",
@@ -315,5 +315,5 @@
       "sha256": "f5b3fe46add295dad07c147ff40b1352365babfec974463ce75cbdec86c1bb0c"
     }
   ],
-  "buildId": "0d16169ee60f6ec3026892a96387c5ad"
+  "buildId": "28f80748d589fbc1196362aaf2d1ed87"
 }
