@@ -122,7 +122,7 @@
     {
       "url": "game/world/index.html",
       "bytes": 27790,
-      "sha256": "6160a87397087e229df59c4389751c3e6a81f1badd8bfb68cf31d02de78a3b5e"
+      "sha256": "2bd6d935e7e8f94647aa1faa2a8fe1d687dd33fbfacb7ffe2c0742f365e681ec"
     },
     {
       "url": "game/world/index.js",
@@ -131,8 +131,8 @@
     },
     {
       "url": "game/world/index.pck",
-      "bytes": 6097756,
-      "sha256": "6e54c80af7d1fecf9b6386409b5387002af8fd470d1c604a37094d4c04b3f8f8"
+      "bytes": 6109704,
+      "sha256": "056b7faa2a48ab8ec01502c27395e4cf33e6aa8e6352edd12d854e998cc0a902"
     },
     {
       "url": "game/world/index.png",
@@ -315,5 +315,5 @@
       "sha256": "f5b3fe46add295dad07c147ff40b1352365babfec974463ce75cbdec86c1bb0c"
     }
   ],
-  "buildId": "28f80748d589fbc1196362aaf2d1ed87"
+  "buildId": "836cc109f92230f400edafb940309b89"
 }
