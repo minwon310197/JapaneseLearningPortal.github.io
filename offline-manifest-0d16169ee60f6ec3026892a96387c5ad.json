@@ -122,7 +122,7 @@
     {
       "url": "game/world/index.html",
       "bytes": 27790,
-      "sha256": "fbb9c43aa590a0f3273f5e6947067dd9d6262347c044b20fce15cc9e097a682a"
+      "sha256": "49fe1a42814f2a11446cf11c0242900613ec80de1d7953ce1a5ade0ae8c3083c"
     },
     {
       "url": "game/world/index.js",
@@ -131,8 +131,8 @@
     },
     {
       "url": "game/world/index.pck",
-      "bytes": 6004008,
-      "sha256": "bb3e73e5fa30a8ec3f497720a08397f97da4f279b995e469fbf5731f26d99709"
+      "bytes": 6035548,
+      "sha256": "003fac6fad957f58ebbebb1a283a71348eab0b1cd3580a27d4662f4869a982ba"
     },
     {
       "url": "game/world/index.png",
@@ -266,8 +266,8 @@
     },
     {
       "url": "game/world/packs/zone-town-center.pck",
-      "bytes": 8611656,
-      "sha256": "447bd1c2ef86f39fdb239c991143027903d1493c4b9edd04e279a5d76a2e877d"
+      "bytes": 8086600,
+      "sha256": "57e985df7bea1205fc344ae520d3cf0c445aeed1006250ba5a0cf758ab74cd66"
     },
     {
       "url": "game/world/packs/zone-valley-approach.pck",
@@ -302,7 +302,7 @@
     {
       "url": "game/world/zone-manifest.json",
       "bytes": 7872,
-      "sha256": "0b9e92a0e9af8584fd845c779978fda7e9f7495cbadf7c6df8de51f458cfbaa3"
+      "sha256": "592c05021ec47c4863238f77c37ae582d7ff61755f0cafeeafdb29d446d8ff0b"
     },
     {
       "url": "index.html",
@@ -315,5 +315,5 @@
       "sha256": "f5b3fe46add295dad07c147ff40b1352365babfec974463ce75cbdec86c1bb0c"
     }
   ],
-  "buildId": "52e19326700e37dc7a2f021dce7175d1"
+  "buildId": "0d16169ee60f6ec3026892a96387c5ad"
 }

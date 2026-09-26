@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-26T01:00:16.573Z",
+  "createdAt": "2026-09-26T01:29:41.906Z",
   "engine": "4.7.2",
   "singleThread": true,
   "sourceSnapshot": {
@@ -349,7 +349,7 @@
     "v2/assets/zones/snow_approach.glb": "f55205a68d0820dc6ce81b4fbf94376266008fad55e0c477bcc2ad1e1f61275e",
     "v2/assets/zones/snow_heart.glb": "beff1699c9b7d18d539e724e8016ecc6491eb90b7d38a3bc777065a33c92f40f",
     "v2/assets/zones/snow_sanctum.glb": "53b0d7a11551d2b0ee5e536e70ded6ec6961d3f6a5604720cad1881728a9b0fb",
-    "v2/assets/zones/town_center.glb": "380ac130b3109870ddfbca98f7a8f7b20c2cb0936c46f878227e2e84ab99103d",
+    "v2/assets/zones/town_center.glb": "ba667beb8d2dc7d8bdd87b50719ae248e614b6e8141016df2f34d44cf4841338",
     "v2/assets/zones/valley_approach.glb": "435d19d908fa9a55797625aee7bccf897223855a4d55e92ea680c2fda1e13063",
     "v2/assets/zones/valley_heart.glb": "46aae55790cc690a27e8be369ce12b177d1ae403889fb462b33ecf69b9665cff",
     "v2/assets/zones/valley_sanctum.glb": "3d3a241404ab69d97650e82eb84f641b4ba202c04ad392701888f3748f8464e0",
@@ -387,7 +387,7 @@
     "v2/palette_materials.gd": "3ac6177d333a6cb7fc7b14e5138fc05b4123ad182b79de94099e9a4f9655a6f0",
     "v2/presentation_preferences.gd": "815764f05fd0969ad37e38e693ca85208112dc3e1b8e28c859788ae407a7f2dc",
     "v2/progress.gd": "8912d077de9463702d2cf7ef653ee41cd3dfcb507fbd240be59a53d63256ef59",
-    "v2/quests.gd": "161aed26344d792a07be318e66178c596fa2f63f519f2251ddfbc86541aacdc2",
+    "v2/quests.gd": "8225a7adf711ec9ce71b758de745556fc484fc29e1b4b2b62993ad456847b551",
     "v2/render_budget.gd": "22c29a96713a14d3fa8d93124da86992017e2a5564c280c42ebe8541e7b41936",
     "v2/save_migration.gd": "33a2a817bbf3f776652c480ea01d81807beeccf05d0d3c21f48acf6c183ee657",
     "v2/skill_fx.gd": "aaa57e13ee8dbe47a66212e50cba375fc33ac844b38549300fefee5154a96a85",
@@ -423,9 +423,11 @@
     "v2/tests/fx_test.gd": "0edb12f7c2ef38450b1d3676f9c5233378b6847cbccc8b22920be838034c1b77",
     "v2/tests/gem_rules_test.gd": "4a665a3c1c8fca6a15bbe918abc4096719e1a59346ca9546473a83110806a387",
     "v2/tests/haru_world_activity_catalog_test.gd": "46255f66f966777f2abf651b502463dfc721f518281d34aa37fa4e509898feea",
+    "v2/tests/haru_world_activity_menu_test.gd": "c52942038e79d3fc1f4e09f8998d0f453d0b62d31c4d99f7e56d3d573d01752e",
     "v2/tests/haru_world_activity_runtime_test.gd": "4e864b8a6482cc5d91d5cfaf75ee6180fc9eb89f8873f894510a03991b3dfcd3",
     "v2/tests/haru_world_drops_test.gd": "66ab9aa6bfa941dd8894c48b10956983a18c7a38aa8f87a5acef0a2f5c20e0de",
     "v2/tests/haru_world_gm_test.gd": "321db175c7032fb375e2a422ec7242a900bc939e1d53d110f4c56e4dc80e0cac",
+    "v2/tests/haru_world_journey_test.gd": "adcf0a42121c694ee84fae941474571e85023fc489ac15bb59190f456e53f583",
     "v2/tests/haru_world_json_boundary_test.gd": "e371773e6be1d224a6494194e07b89cdb6c64a0a63803544796bb7bfbb430827",
     "v2/tests/haru_world_progress_test.gd": "f1bc5ce71f219aabd01f94ee3390facdc30f9b1a5f5a280b0e6cbc5ea9f12ec3",
     "v2/tests/haru_world_runtime_test.gd": "04512ad9f615b705c8774334fbd7741b29e76e389d3fb1ecd6becb946427fc3b",
@@ -454,7 +456,7 @@
     "v2/tests/world_sentence_test.gd": "5fa8f65a00a18a1df49e3e50093c8afaa8e49badf52fdfff7a460ab75020e5f6",
     "v2/tests/zero_damage_cast_test.gd": "499b79f3a19f06ba4caefcd1f044f5685f5a0192dd84c7f65efeef794aecf29c",
     "v2/ui/character_panel.gd": "4dc34176fbe80752fe428f9d457b76191f6b7761e67212cc9cdcc246ea65344b",
-    "v2/ui/haru_world_hud_v1.gd": "ca5b8b395a1444b9e8c94aef71e668fe2113bb988ccaa77050bbb6f54f144206",
+    "v2/ui/haru_world_hud_v1.gd": "f26bb0d026132fc5daf5ae939db2fea51ebd54e3675f68d24a34a3e44f745697",
     "v2/ui/hero_preview.gd": "d8fbd55c408d66f6172c545b20debb0c7a78db3e028aef85d47e42fb20419d2b",
     "v2/ui/hud.gd": "cf528c51b697dc2860b3b7304e83db7589f58a81bdc648ae6d0b2af0a32112e7",
     "v2/ui/inventory_panel.gd": "d4c52105dbd686f99429fa49aa473058044b5d7c012ab69d6e96203a05bc603c",
@@ -467,7 +469,8 @@
     "v2/ui/skill_paths.gd": "ee7218702fb0d9476c756e172f68ee9a181b929477147329264bcd07d23405dd",
     "v2/ui/skill_tree.gd": "8dd96c2b565eb56ceabea9656d3dd76a0e98d974181d4680b171da32afb6ee1e",
     "v2/ui/skills_panel.gd": "ccfdf2c10662331a20474d74e3bd633ac31deb9a3c25aecf3c231d207dacb851",
-    "v2/ui/tests/haru_world_hud_v1_test.gd": "ddd1eef4247c8e09438b37a14ab080f92c3c3e177f0563ffc6b57bd3f9200cd9",
+    "v2/ui/tests/haru_world_hud_v1_journey_test.gd": "6aa19f0045fbf2e2155dcee5b842855eddcc09bf6ee49c984e95f5e97f994ba8",
+    "v2/ui/tests/haru_world_hud_v1_test.gd": "d756bcf91aaa4ace7b414a3c084171565b4a0094c8115c03585d90bc7f203576",
     "v2/ui/tests/haru_world_hud_v1_workspace_test.gd": "b2192ec1c9a94d4523c983a0d22feb490df90d8d65e9bc638bf69a0ab8525c43",
     "v2/ui/tests/hud_viewport_metrics_test.gd": "ca7865983fa7262f98a92ba6e2c228439655424742411a7506fbc8cb054bf227",
     "v2/ui/tests/inventory_first_fold_test.gd": "4842f085658dbb177de7e310c2b003042083c5b8075bda6b1b13c978cd44460f",
@@ -476,13 +479,13 @@
     "v2/ui/tests/worldmap_tests.gd": "8e15672f032c8ee28a1564ebc566023f2f86189434c9080fe3bc295d915612eb",
     "v2/ui/worldmap_canvas.gd": "17ba011a6ceeb49ba5309bf54f02761d9b67e3d16842884f1505cae67d57c93b",
     "v2/ui/worldmap_model.gd": "9c09b8bc7e171b38185746b237875c098590e6ed38d601072bcc33d22e3e2926",
-    "v2/world.gd": "4d46a5ec52dcc21959acbd52e10f4f03078ddbb5bc9119a49420e5807a889ba3",
+    "v2/world.gd": "e0b9fa409b4d6291a1e22dd12a7bd838640817d65d83f955b93503f0e5f35e73",
     "v2/world.tscn": "7ed420dc9f5f96f4cd88bcf340eadd62b1733211d48ce9ba9bcad4e7608309b4",
     "v2/world_learning.gd": "623929035a818cbba6cc6079085269242cc436c615ce49dc3dd9c496c1f1a649",
     "v2/world_occlusion.gd": "41ab2c2380f0d66c94719e28933caf2030b47e42b1b8ca7db1617662d6c1dbe6",
-    "v2/world_presentation.gd": "92afbe27b7fddee4257a28649b86d9149fb41d9f27360454c417d927f14e1b67",
+    "v2/world_presentation.gd": "3ea35f4512d1f5b43ffa2ae217a500e86cb57c9c36524dd2ea4238656593c40b",
     "v2/world_save_validator.gd": "a19d878d35f7dadbb080a3c3960e588c0564ccc7462ec8a65d858308d0e31cb1",
-    "v2/world_v1.gd": "dad320718be9da3b4b4eff45f07521d88c009ada0e99cad5c56899d6848e6a0b",
+    "v2/world_v1.gd": "f55238cf61e8de964b2f01ab1cc8791a4e73b9822f1021637f22a89a2d20a556",
     "v2/world_v1.tscn": "593a46386ef0159246d866e1093bf11b029fb72268e7519fb3fece205c6654cd",
     "zones/forest.json": "63829a3f46f8e9d40482bfd81618904e8c69170f567f295b851ac84cbdc0faa1",
     "zones/ruins.json": "281a3a6765709528becf40cbdba7ef3278728d9b0f8cdcd6b4faf09c31cffde0",
@@ -516,7 +519,7 @@
       "file": "index.html",
       "rawBytes": 27790,
       "gzipEstimateBytes": 10114,
-      "brotliEstimateBytes": 9238
+      "brotliEstimateBytes": 9240
     },
     {
       "file": "index.js",
@@ -526,9 +529,9 @@
     },
     {
       "file": "index.pck",
-      "rawBytes": 6004008,
-      "gzipEstimateBytes": 3610157,
-      "brotliEstimateBytes": 3471860
+      "rawBytes": 6035548,
+      "gzipEstimateBytes": 3641309,
+      "brotliEstimateBytes": 3502782
     },
     {
       "file": "index.png",
@@ -557,8 +560,8 @@
     {
       "file": "zone-manifest.json",
       "rawBytes": 7872,
-      "gzipEstimateBytes": 2054,
-      "brotliEstimateBytes": 1918
+      "gzipEstimateBytes": 2053,
+      "brotliEstimateBytes": 1920
     },
     {
       "file": "packs/shared.pck",
@@ -572,8 +575,8 @@
     },
     {
       "file": "packs/zone-town-center.pck",
-      "rawBytes": 8611656,
-      "gzipEstimateBytes": 3631126
+      "rawBytes": 8086600,
+      "gzipEstimateBytes": 3650330
     }
   ],
   "zones": [
@@ -642,7 +645,7 @@
       "bundles": [
         "zone-town-center"
       ],
-      "bytes": 8611656
+      "bytes": 8086600
     }
   ],
   "budgets": {
@@ -650,8 +653,8 @@
     "initialBytes": 36700160,
     "zoneBytes": 15728640
   },
-  "initialRawBytes": 65190325,
-  "initialGzipEstimateBytes": 23856411,
+  "initialRawBytes": 64696809,
+  "initialGzipEstimateBytes": 23906766,
   "transferBudgetStatus": "UNVERIFIED_REQUIRES_BROWSER_NETWORK_MEASUREMENT",
   "initialRawBudgetPass": false,
   "zoneBudgetPass": true

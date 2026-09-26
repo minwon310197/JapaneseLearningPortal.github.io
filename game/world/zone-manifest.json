@@ -280,8 +280,8 @@
     },
     "zone-town-center": {
       "url": "packs/zone-town-center.pck",
-      "bytes": 8611656,
-      "sha256": "447bd1c2ef86f39fdb239c991143027903d1493c4b9edd04e279a5d76a2e877d"
+      "bytes": 8086600,
+      "sha256": "57e985df7bea1205fc344ae520d3cf0c445aeed1006250ba5a0cf758ab74cd66"
     }
   }
 }
