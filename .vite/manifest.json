@@ -1,0 +1,55 @@
+{
+  "_vendor-react-BJfqeUfp.js": {
+    "file": "assets/vendor-react-BJfqeUfp.js",
+    "name": "vendor-react"
+  },
+  "_vendor-router-BqW7KNUg.js": {
+    "file": "assets/vendor-router-BqW7KNUg.js",
+    "name": "vendor-router",
+    "imports": [
+      "_vendor-react-BJfqeUfp.js"
+    ]
+  },
+  "_vendor-runtime-BbOs9S9B.js": {
+    "file": "assets/vendor-runtime-BbOs9S9B.js",
+    "name": "vendor-runtime"
+  },
+  "_vendor-supabase-DTEAj5J1.js": {
+    "file": "assets/vendor-supabase-DTEAj5J1.js",
+    "name": "vendor-supabase"
+  },
+  "index.html": {
+    "file": "assets/index-DxiW6w6j.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_vendor-react-BJfqeUfp.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_vendor-router-BqW7KNUg.js",
+      "_vendor-runtime-BbOs9S9B.js"
+    ],
+    "dynamicImports": [
+      "src/app/components/world-godot/WorldExperience.jsx"
+    ],
+    "css": [
+      "assets/index-CHpXJndH.css"
+    ]
+  },
+  "src/app/components/world-godot/WorldExperience.jsx": {
+    "file": "assets/WorldExperience-6BMb2HPU.js",
+    "name": "WorldExperience",
+    "src": "src/app/components/world-godot/WorldExperience.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-BJfqeUfp.js",
+      "index.html",
+      "_vendor-router-BqW7KNUg.js",
+      "_vendor-supabase-DTEAj5J1.js",
+      "_vendor-runtime-BbOs9S9B.js"
+    ],
+    "css": [
+      "assets/WorldExperience-Bmeza5s2.css"
+    ]
+  }
+}

@@ -1,10 +1,11 @@
 {
-  "name": "Japanese Learning Portal",
-  "short_name": "JLPT N4",
-  "start_url": ".",
-  "display": "standalone",
-  "background_color": "#0f0a2a",
-  "theme_color": "#1e1558",
+  "name": "Haru World",
+  "short_name": "Haru",
+  "start_url": "./#/",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#152627",
+  "theme_color": "#152627",
   "icons": [
     {
       "src": "./favicon-192.png",

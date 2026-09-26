@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "modules": {
+    "src/css/first-paint.css": "assets/index-DxiW6w6j.js",
+    "src/app/services/offline-boot.js": "assets/index-DxiW6w6j.js",
+    "src/app/services/chunk-recovery.js": "assets/index-DxiW6w6j.js",
+    "src/app/services/runtime-config.js": "assets/index-DxiW6w6j.js",
+    "src/app/services/supabase.js": "assets/index-DxiW6w6j.js",
+    "src/app/services/profiles.js": "assets/index-DxiW6w6j.js",
+    "src/app/services/auth.js": "assets/index-DxiW6w6j.js",
+    "src/app/components/world-godot/HaruWorldAuthProvider.jsx": "assets/index-DxiW6w6j.js",
+    "src/app/components/AppProviders.jsx": "assets/index-DxiW6w6j.js",
+    "src/app/components/AppShell.jsx": "assets/index-DxiW6w6j.js",
+    "src/app/router.jsx": "assets/index-DxiW6w6j.js",
+    "src/app/App.jsx": "assets/index-DxiW6w6j.js",
+    "src/app/styles/haru-world-host.css": "assets/index-DxiW6w6j.js",
+    "src/app/main.jsx": "assets/index-DxiW6w6j.js",
+    "src/bootstrap.js": "assets/index-DxiW6w6j.js",
+    "src/app/services/haru-world-protocol.js": "assets/WorldExperience-6BMb2HPU.js",
+    "src/app/services/haru-world-save.js": "assets/WorldExperience-6BMb2HPU.js",
+    "src/app/services/haru-world-storage.js": "assets/WorldExperience-6BMb2HPU.js",
+    "src/app/services/haru-world-admin-tabs.js": "assets/WorldExperience-6BMb2HPU.js",
+    "src/app/services/haru-world-activity-catalog.js": "assets/WorldExperience-6BMb2HPU.js",
+    "src/app/components/world-godot/godot-world.css": "assets/WorldExperience-6BMb2HPU.js",
+    "src/app/components/world-godot/HaruWorldV1Host.jsx": "assets/WorldExperience-6BMb2HPU.js",
+    "src/app/hooks/useIsAdmin.js": "assets/WorldExperience-6BMb2HPU.js",
+    "src/app/components/world-godot/world-experience.css": "assets/WorldExperience-6BMb2HPU.js",
+    "src/app/components/world-godot/WorldExperience.jsx": "assets/WorldExperience-6BMb2HPU.js"
+  }
+}
