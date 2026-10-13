@@ -25,6 +25,10 @@
   display: grid;
   place-items: center;
   padding: 24px;
+  box-sizing: border-box;
+  overflow: auto;
+  overflow-wrap: anywhere;
+  text-align: center;
   color: #f8f1de;
   background: radial-gradient(circle at 50% 35%, #2c5655, #152627 70%);
   pointer-events: none;
@@ -36,6 +40,10 @@
   top: 50%;
   left: 50%;
   width: min(90vw, 520px);
+  max-height: calc(100dvh - 32px);
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-wrap: anywhere;
   padding: 1.25rem;
   color: #f8f1de;
   background: #17383ad9;
@@ -46,7 +54,9 @@
 }
 
 .n4-godot-host button {
+  max-width: calc(100% - 0.5rem);
   min-height: 44px;
+  height: auto;
   margin: 0.25rem;
   padding: 0.6rem 0.9rem;
   color: #273d32;
@@ -54,6 +64,9 @@
   background: #f2e8d0;
   border: 1px solid #bbd8bf;
   border-radius: 8px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  line-height: 1.35;
 }
 
 .n4-godot-host button:focus-visible {

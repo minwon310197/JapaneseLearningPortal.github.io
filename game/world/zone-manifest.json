@@ -140,8 +140,8 @@
   "bundles": {
     "shared": {
       "url": "packs/shared.pck",
-      "bytes": 8873540,
-      "sha256": "59a7ee987200f8df6ab0aeea2d526552dd76aee02edc4da2092c9821918a41ec"
+      "bytes": 12619336,
+      "sha256": "18d1b8bb10174630d7285fd86c79e9f1c565df32e44d21cbaa0dbfced274dbdb"
     },
     "hero-knight": {
       "url": "packs/hero-knight.pck",
@@ -280,8 +280,8 @@
     },
     "zone-town-center": {
       "url": "packs/zone-town-center.pck",
-      "bytes": 8086600,
-      "sha256": "57e985df7bea1205fc344ae520d3cf0c445aeed1006250ba5a0cf758ab74cd66"
+      "bytes": 10870184,
+      "sha256": "fda6cfd30653113a0ba12f59abd5dfb2185e9e03f914b3b731f0be2812a0323f"
     }
   }
 }

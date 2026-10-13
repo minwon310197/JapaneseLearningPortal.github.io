@@ -19,7 +19,7 @@
     "name": "vendor-supabase"
   },
   "index.html": {
-    "file": "assets/index-DxiW6w6j.js",
+    "file": "assets/index-ETCOUbUA.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
@@ -37,7 +37,7 @@
     ]
   },
   "src/app/components/world-godot/WorldExperience.jsx": {
-    "file": "assets/WorldExperience-6BMb2HPU.js",
+    "file": "assets/WorldExperience-CuRXXQzu.js",
     "name": "WorldExperience",
     "src": "src/app/components/world-godot/WorldExperience.jsx",
     "isDynamicEntry": true,
@@ -49,7 +49,7 @@
       "_vendor-runtime-BbOs9S9B.js"
     ],
     "css": [
-      "assets/WorldExperience-Bmeza5s2.css"
+      "assets/WorldExperience-DlBNrpE_.css"
     ]
   }
 }
