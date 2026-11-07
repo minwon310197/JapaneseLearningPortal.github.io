@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-11-07T14:13:47.727Z",
+  "createdAt": "2026-11-07T17:00:18.995Z",
   "engine": "4.7.2",
   "singleThread": true,
   "sourceSnapshot": {
@@ -558,7 +558,7 @@
     "v2/tests/haru_world_drops_test.gd": "66ab9aa6bfa941dd8894c48b10956983a18c7a38aa8f87a5acef0a2f5c20e0de",
     "v2/tests/haru_world_expedition_test.gd": "f00d11e01290fa84685bcd8b6fc169bcf5fa4ab3bf60737991b750fb63858428",
     "v2/tests/haru_world_gm_test.gd": "321db175c7032fb375e2a422ec7242a900bc939e1d53d110f4c56e4dc80e0cac",
-    "v2/tests/haru_world_journey_test.gd": "adcf0a42121c694ee84fae941474571e85023fc489ac15bb59190f456e53f583",
+    "v2/tests/haru_world_journey_test.gd": "10e35688e4dedecad4cf58aba2d8dd0651fb9058dfb6912c90ac4fbfe22323fb",
     "v2/tests/haru_world_json_boundary_test.gd": "e371773e6be1d224a6494194e07b89cdb6c64a0a63803544796bb7bfbb430827",
     "v2/tests/haru_world_progress_test.gd": "2f6415f76ba2646ec57b0918dcadd6799fc48a47ad32fe700fb1f317d56ee04e",
     "v2/tests/haru_world_runtime_test.gd": "04512ad9f615b705c8774334fbd7741b29e76e389d3fb1ecd6becb946427fc3b",

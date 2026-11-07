@@ -32,3 +32,44 @@ body,
 body {
   overscroll-behavior: none;
 }
+
+/* Router-level boot/recovery boundary (src/app/router.jsx). Lives outside the
+   WorldExperience chunk so it stays styled even when that chunk fails. */
+.haru-boot {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  text-align: center;
+  padding: 24px;
+  color: #e8f1ff;
+  background: #152627;
+}
+
+.haru-boot h1 {
+  margin: 0;
+  color: #ffffff;
+}
+
+.haru-boot p {
+  margin: 0;
+  color: #c9d8e8;
+}
+
+.haru-boot button {
+  margin-top: 8px;
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: 1px solid #3d5a63;
+  background: #1d3a40;
+  color: #e8f1ff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.haru-boot button:focus-visible {
+  outline: 3px solid #7ee8c7;
+  outline-offset: 2px;
+}

@@ -1,8 +1,8 @@
 {
-  "buildId": "c9f12a85c54f5de1a055855ea472bb2a",
-  "manifest": "offline-manifest-c9f12a85c54f5de1a055855ea472bb2a.json",
+  "buildId": "4ca42773f49eedbc2c292cfd3e19b460",
+  "manifest": "offline-manifest-4ca42773f49eedbc2c292cfd3e19b460.json",
   "precacheCount": 30,
-  "precacheBytes": 78746620,
+  "precacheBytes": 78748233,
   "knownStaticAssets": 56,
   "bootRoots": [
     "index.html",
