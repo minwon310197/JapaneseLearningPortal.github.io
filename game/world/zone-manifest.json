@@ -140,23 +140,23 @@
   "bundles": {
     "shared": {
       "url": "packs/shared.pck",
-      "bytes": 12619336,
-      "sha256": "18d1b8bb10174630d7285fd86c79e9f1c565df32e44d21cbaa0dbfced274dbdb"
+      "bytes": 15451144,
+      "sha256": "05f66130b90900ceda7de11d97276e677347327d69c5e98d5d6619b4fa8bf68e"
     },
     "hero-knight": {
       "url": "packs/hero-knight.pck",
-      "bytes": 1833808,
-      "sha256": "039e849782510499bdeadb582c46d2f71b2d2a939cc56b5fa19cb5d3fcaf93e5"
+      "bytes": 2647404,
+      "sha256": "4df546b3bd1e4efe7a4155aa8e412be9de1780fc6e30209757b93fa5dac413c5"
     },
     "hero-mage": {
       "url": "packs/hero-mage.pck",
-      "bytes": 1757164,
-      "sha256": "ad66307dfc5128c18f903001e9b799eeb83286a4cf80ac8151aa98adff7f5df3"
+      "bytes": 2582776,
+      "sha256": "60a68d57364aab4a82a3d23c8d8b4b970e8424a97846752ad6ae92cdf5f803d5"
     },
     "hero-ranger": {
       "url": "packs/hero-ranger.pck",
-      "bytes": 1852988,
-      "sha256": "70bf8cfd409b384b06761464f048dd87e7b3d37a51d9d9f0fc031cc54868062a"
+      "bytes": 2670196,
+      "sha256": "1892285b7fbb519ae28956563992a06ece8dea3c4f54436012af62fa4c2e6ced"
     },
     "zone-forest-approach": {
       "url": "packs/zone-forest-approach.pck",

@@ -122,7 +122,7 @@
     {
       "url": "game/world/index.html",
       "bytes": 28035,
-      "sha256": "9e00d074f2c7a88474d21cf685915ce095b9639dfc83f3963014c804db3127a7"
+      "sha256": "0d77359b44e9defd7c095eb583999843c2c065171911d36247e010738efb9b35"
     },
     {
       "url": "game/world/index.js",
@@ -131,8 +131,8 @@
     },
     {
       "url": "game/world/index.pck",
-      "bytes": 8235036,
-      "sha256": "a7a8cddb5ae6d8a58a0544b54b32343caa3122d45c7c371ee4c4f62385d9f478"
+      "bytes": 8437676,
+      "sha256": "d5672db91e6d2c897f9051577c882ec86bd8ade847d4e705267176edfdee98cd"
     },
     {
       "url": "game/world/index.png",
@@ -146,23 +146,23 @@
     },
     {
       "url": "game/world/packs/hero-knight.pck",
-      "bytes": 1833808,
-      "sha256": "039e849782510499bdeadb582c46d2f71b2d2a939cc56b5fa19cb5d3fcaf93e5"
+      "bytes": 2647404,
+      "sha256": "4df546b3bd1e4efe7a4155aa8e412be9de1780fc6e30209757b93fa5dac413c5"
     },
     {
       "url": "game/world/packs/hero-mage.pck",
-      "bytes": 1757164,
-      "sha256": "ad66307dfc5128c18f903001e9b799eeb83286a4cf80ac8151aa98adff7f5df3"
+      "bytes": 2582776,
+      "sha256": "60a68d57364aab4a82a3d23c8d8b4b970e8424a97846752ad6ae92cdf5f803d5"
     },
     {
       "url": "game/world/packs/hero-ranger.pck",
-      "bytes": 1852988,
-      "sha256": "70bf8cfd409b384b06761464f048dd87e7b3d37a51d9d9f0fc031cc54868062a"
+      "bytes": 2670196,
+      "sha256": "1892285b7fbb519ae28956563992a06ece8dea3c4f54436012af62fa4c2e6ced"
     },
     {
       "url": "game/world/packs/shared.pck",
-      "bytes": 12619336,
-      "sha256": "18d1b8bb10174630d7285fd86c79e9f1c565df32e44d21cbaa0dbfced274dbdb"
+      "bytes": 15451144,
+      "sha256": "05f66130b90900ceda7de11d97276e677347327d69c5e98d5d6619b4fa8bf68e"
     },
     {
       "url": "game/world/packs/zone-citadel-approach.pck",
@@ -302,7 +302,7 @@
     {
       "url": "game/world/zone-manifest.json",
       "bytes": 7874,
-      "sha256": "2ba70dc9f3b527ef3867a365f7b6be411ddbba653e73cd53ba2ea781adce4a5d"
+      "sha256": "ed9c2c8d8003c36f18321b3769d2fd2c4d5f07806be8b8275dd03e36a948de2b"
     },
     {
       "url": "index.html",
@@ -315,5 +315,5 @@
       "sha256": "f5b3fe46add295dad07c147ff40b1352365babfec974463ce75cbdec86c1bb0c"
     }
   ],
-  "buildId": "a7f14150548bd116e1fd8a089c8ae56a"
+  "buildId": "c9f12a85c54f5de1a055855ea472bb2a"
 }
