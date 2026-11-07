@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-11-07T17:00:18.995Z",
+  "createdAt": "2026-11-07T19:24:39.724Z",
   "engine": "4.7.2",
   "singleThread": true,
   "sourceSnapshot": {
@@ -42,7 +42,7 @@
     "assets/zones/forest.glb": "b944b90c68eee12ebc3bfa6ebb8c76887d8a2ff0558170923797f83cad557bcf",
     "assets/zones/ruins.glb": "a642311793725136b1ecd6d843237032a478404151c8762e7841c4c8f4346e51",
     "assets/zones/valley.glb": "2efff123349d74a2fc80fc8153e447f96f743152a2c074d617db3c75d9620c7e",
-    "export_presets.cfg": "d5c52f6e7efcc0fe9863bf9ddd2dec4444bd6a08d780ea3bfcaa0b0d8e3b3eb4",
+    "export_presets.cfg": "5cfa84cd14fa78a3ebf4336da756ef67481a97f1a76d581c654ae3f147b09819",
     "fonts/HaruJapanese.woff2": "f0839313811b62ab876db06a0a2d69b7f776173dbce600fee8124cd1b72d988c",
     "fonts/OFL.txt": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
     "project.godot": "86ab925edbacb578cb3dc8525e599ee46aebef3f2ce65b4211a48aea580f4486",
@@ -603,7 +603,7 @@
     "v2/town_layout.gd": "0638e19f89fa892226265a4bf6da674ba5bee121f030bc9c45fb137cb0f9498f",
     "v2/ui/character_panel.gd": "4dc34176fbe80752fe428f9d457b76191f6b7761e67212cc9cdcc246ea65344b",
     "v2/ui/haru_card_symbol.gd": "1d832fa1576e8ee1db9c71d3addf0358ca1f4b191b5dce5066b6c2435034f4f6",
-    "v2/ui/haru_world_hud_v1.gd": "707ee9c75c2f3188420d0bceccc782c48941963cdd242e5c895eae14ea375fd9",
+    "v2/ui/haru_world_hud_v1.gd": "ed30b81e5b4de23ca39c0b035316f2b33c4b744b87e3f98a0c24464e85f8e052",
     "v2/ui/hero_preview.gd": "d8fbd55c408d66f6172c545b20debb0c7a78db3e028aef85d47e42fb20419d2b",
     "v2/ui/hud.gd": "cf528c51b697dc2860b3b7304e83db7589f58a81bdc648ae6d0b2af0a32112e7",
     "v2/ui/inventory_panel.gd": "d4c52105dbd686f99429fa49aa473058044b5d7c012ab69d6e96203a05bc603c",
@@ -620,10 +620,11 @@
     "v2/ui/tests/haru_world_hud_v1_character_switch_test.gd": "9137e166f1d3df36518cf7c5b7b5672e2fe94d6045d7131eb6020cbf9b5c1b9b",
     "v2/ui/tests/haru_world_hud_v1_districts_test.gd": "dbfc97d2b769e5366747673ee57f6727c7f4b46d2f9c9e0ad36473689d7ee37d",
     "v2/ui/tests/haru_world_hud_v1_expedition_test.gd": "9dd46576541eb05e0ff3da2e34bd798724aca1316440db490a57f1b952393a1e",
-    "v2/ui/tests/haru_world_hud_v1_hotbar_cache_test.gd": "3fa82eb81852d1ccdf81a59912dc175d8d5e6cb9ee9b5d805357f8b1fa114eb4",
+    "v2/ui/tests/haru_world_hud_v1_hotbar_cache_test.gd": "fd3710a99f6b422c7c4e0d586da38f967278e3ba2e93a5587e086d80fb525f01",
     "v2/ui/tests/haru_world_hud_v1_journey_test.gd": "cb7a4b8207e824cd4488d07af056f1e2959633c538685e95aff3460fc509f8e3",
     "v2/ui/tests/haru_world_hud_v1_skill_banks_test.gd": "baf9dfdac118321a5b94c48043a09f51f5b40c02e5a936ea47236b4d54f5eea2",
-    "v2/ui/tests/haru_world_hud_v1_test.gd": "88332ca09cdca345c08f2e6bcf33670376f61501feb0c7afea0efc3218f622a4",
+    "v2/ui/tests/haru_world_hud_v1_skill_regression_test.gd": "6449c94f4c17333fe9f606313ef719e0ccac844c23d5741940cec99c37db2e73",
+    "v2/ui/tests/haru_world_hud_v1_test.gd": "f81b275f4b14c6662155c493d3b30824f19ac20acefda520bf91dcab6a331d80",
     "v2/ui/tests/haru_world_hud_v1_wording_test.gd": "954324128e295041bc8be4f5bd3167ebd14f5726fae16f62fb54f63d242a7f31",
     "v2/ui/tests/haru_world_hud_v1_workspace_test.gd": "a61752ebcf52695b8687a05a35fca2d73214db41b1a8f800056c848cfe717604",
     "v2/ui/tests/hud_viewport_metrics_test.gd": "ca7865983fa7262f98a92ba6e2c228439655424742411a7506fbc8cb054bf227",
@@ -684,9 +685,9 @@
     },
     {
       "file": "index.pck",
-      "rawBytes": 8437676,
-      "gzipEstimateBytes": 4038987,
-      "brotliEstimateBytes": 3839783
+      "rawBytes": 8343632,
+      "gzipEstimateBytes": 3950534,
+      "brotliEstimateBytes": 3751166
     },
     {
       "file": "index.png",
@@ -808,8 +809,8 @@
     "initialBytes": 36700160,
     "zoneBytes": 15728640
   },
-  "initialRawBytes": 77273968,
-  "initialGzipEstimateBytes": 32734743,
+  "initialRawBytes": 77179924,
+  "initialGzipEstimateBytes": 32646290,
   "transferBudgetStatus": "UNVERIFIED_REQUIRES_BROWSER_NETWORK_MEASUREMENT",
   "initialRawBudgetPass": false,
   "zoneBudgetPass": true

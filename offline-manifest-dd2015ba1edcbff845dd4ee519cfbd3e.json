@@ -46,8 +46,8 @@
     },
     {
       "url": "assets/index-BlAlM3WM.css",
-      "bytes": 1831,
-      "sha256": "2b12d1cc57bb85cac764d4413a0894f380076f8207cec7e7937c70d103c33844"
+      "bytes": 1812,
+      "sha256": "12f2262c65cd97103d041745da34ef57c2c4475bfe6468180d71a06cf0f7954a"
     },
     {
       "url": "assets/index-CdZz4jPc.js",
@@ -101,8 +101,8 @@
     },
     {
       "url": "favicon.svg",
-      "bytes": 4890,
-      "sha256": "904a1cf7a0ee97b1c06aa8e59f70c53d692910fad6ecef68e15814e0a1b93630"
+      "bytes": 4783,
+      "sha256": "2fd8abd90dd650538afed0802adbe6ed710528b9d4cff954b83ba48c8627004e"
     },
     {
       "url": "game/world/gpu-context.mjs",
@@ -122,7 +122,7 @@
     {
       "url": "game/world/index.html",
       "bytes": 28035,
-      "sha256": "0d77359b44e9defd7c095eb583999843c2c065171911d36247e010738efb9b35"
+      "sha256": "324772a58346ea656e55b65effd623f39375d9461f98dfac75f978c6e3a1e676"
     },
     {
       "url": "game/world/index.js",
@@ -131,8 +131,8 @@
     },
     {
       "url": "game/world/index.pck",
-      "bytes": 8437676,
-      "sha256": "d5672db91e6d2c897f9051577c882ec86bd8ade847d4e705267176edfdee98cd"
+      "bytes": 8343632,
+      "sha256": "b8e7e2e700938e5ef2cc0362d11f1a265e1f6ba99a378accabe9eb35d38e2679"
     },
     {
       "url": "game/world/index.png",
@@ -311,9 +311,9 @@
     },
     {
       "url": "manifest.json",
-      "bytes": 421,
-      "sha256": "f5b3fe46add295dad07c147ff40b1352365babfec974463ce75cbdec86c1bb0c"
+      "bytes": 407,
+      "sha256": "db9fac309e05115450fa0a8eaa77a15b05ec9050dccdeb66e1ec9563a8e2e294"
     }
   ],
-  "buildId": "4ca42773f49eedbc2c292cfd3e19b460"
+  "buildId": "dd2015ba1edcbff845dd4ee519cfbd3e"
 }
