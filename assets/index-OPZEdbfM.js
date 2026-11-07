@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./WorldExperience-BoXvw8mu.js","./vendor-react-BJfqeUfp.js","./vendor-router-BqW7KNUg.js","./vendor-supabase-DTEAj5J1.js","./vendor-runtime-BbOs9S9B.js","./WorldExperience-DlBNrpE_.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./WorldExperience-CISWOG2Z.js","./vendor-react-BJfqeUfp.js","./vendor-router-BqW7KNUg.js","./vendor-supabase-DTEAj5J1.js","./vendor-runtime-BbOs9S9B.js","./WorldExperience-DlBNrpE_.css"])))=>i.map(i=>d[i]);
 var __defProp = Object.defineProperty;
 var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
 var __publicField = (obj, key, value) => __defNormalProp(obj, typeof key !== "symbol" ? key + "" : key, value);
@@ -347,7 +347,7 @@ function AppProviders({ children }) {
 function AppShell({ children }) {
   return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "n4-app haru-world-app", children: /* @__PURE__ */ jsxRuntimeExports.jsx("main", { className: "n4-main", children }) });
 }
-const WorldExperience = reactExports.lazy(() => __vitePreload(() => import("./WorldExperience-BoXvw8mu.js"), true ? __vite__mapDeps([0,1,2,3,4,5]) : void 0, import.meta.url));
+const WorldExperience = reactExports.lazy(() => __vitePreload(() => import("./WorldExperience-CISWOG2Z.js"), true ? __vite__mapDeps([0,1,2,3,4,5]) : void 0, import.meta.url));
 class WorldEntryBoundary extends reactExports.Component {
   constructor(props) {
     super(props);

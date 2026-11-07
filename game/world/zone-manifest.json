@@ -140,148 +140,148 @@
   "bundles": {
     "shared": {
       "url": "packs/shared.pck",
-      "bytes": 15451144,
-      "sha256": "05f66130b90900ceda7de11d97276e677347327d69c5e98d5d6619b4fa8bf68e"
+      "bytes": 15451112,
+      "sha256": "2c8325ce4e16ddc69f33325abb48a9b79d34d0bc612d8c0b0a25c2b9564ab0cd"
     },
     "hero-knight": {
       "url": "packs/hero-knight.pck",
       "bytes": 2647404,
-      "sha256": "4df546b3bd1e4efe7a4155aa8e412be9de1780fc6e30209757b93fa5dac413c5"
+      "sha256": "c84120fd6061705d2edd39a2c86feab2bbbd6b8dfc238f14d4f9c75002c59e9a"
     },
     "hero-mage": {
       "url": "packs/hero-mage.pck",
       "bytes": 2582776,
-      "sha256": "60a68d57364aab4a82a3d23c8d8b4b970e8424a97846752ad6ae92cdf5f803d5"
+      "sha256": "832bee0ab97a65ed4c8c1e2492014c999dbef30ee2c72d2d41783385e74af2a1"
     },
     "hero-ranger": {
       "url": "packs/hero-ranger.pck",
       "bytes": 2670196,
-      "sha256": "1892285b7fbb519ae28956563992a06ece8dea3c4f54436012af62fa4c2e6ced"
+      "sha256": "f44ff395f5e0dc0b7fe72b42ab1c88f6288c3332771fd147ab11371cd91b5f3c"
     },
     "zone-forest-approach": {
       "url": "packs/zone-forest-approach.pck",
       "bytes": 3157108,
-      "sha256": "bed13a491f4f6369b51f8ea723bc73c92a2d9d772a56b43574f4bed6ad36414d"
+      "sha256": "9d06306274c6d2f0aa04426f4471b0c58a9a433d0ec0f30d404cea3ef05eae4b"
     },
     "zone-forest-heart": {
       "url": "packs/zone-forest-heart.pck",
       "bytes": 2833580,
-      "sha256": "057e4b0c79f9bc95e514a3e59fcee9acec982653ac5ae07966db16d25d991217"
+      "sha256": "242961d2d66171ffd7e74747c464dbc85f7af1481b53876d5589eae28d8088eb"
     },
     "zone-forest-sanctum": {
       "url": "packs/zone-forest-sanctum.pck",
       "bytes": 2862612,
-      "sha256": "3399e0b04aa4fd16aa505da8c9b31bb22067faab63be933b4d860379b164c63f"
+      "sha256": "7fa6602e38e455aabdd318e1d1f47dd0ac0ff4d91e85cc9d3a976009c3422e38"
     },
     "zone-forest-boss": {
       "url": "packs/zone-forest-boss.pck",
       "bytes": 850352,
-      "sha256": "d129777ec475ebc139a8248cfa6f614f021a0c16f9f0c819865fc0ecc4577e5a"
+      "sha256": "393856e8a703f98169d9fd1a3290f2cddf007ca63297c0b4d1a746479ee2522a"
     },
     "zone-valley-approach": {
       "url": "packs/zone-valley-approach.pck",
       "bytes": 2757748,
-      "sha256": "b63cc520cc6db9c4dba44469ff761421ef52f07f0c35a2b158bf9c25be7d5303"
+      "sha256": "73fbf68dd6a1adb5f51aabb2c4da1a13bbff42749383ec94ddf686bbf11aedeb"
     },
     "zone-valley-heart": {
       "url": "packs/zone-valley-heart.pck",
       "bytes": 2522796,
-      "sha256": "fc8055775f7c38c8860d163b6754189a45b583b7a2e212921cc415f04cacf38c"
+      "sha256": "e4a4493740b0d9c4744159bc02f5a863de03f5b4849f690c4ef3161d5bc589bd"
     },
     "zone-valley-sanctum": {
       "url": "packs/zone-valley-sanctum.pck",
       "bytes": 2563124,
-      "sha256": "241358411117933674fffa81fdfb76de6d81d93258b1c97d73b8d93f4a96dda8"
+      "sha256": "a46f04cb5d2ecb07a9bba73ced880133296e624775faef069ad0e29c7363761e"
     },
     "zone-valley-boss": {
       "url": "packs/zone-valley-boss.pck",
       "bytes": 752272,
-      "sha256": "b73ca833e1a77633b7ede5f46c64fcb25d42e668eecfda3656c205814d9c2443"
+      "sha256": "a5cf1a4da2eb6f557db117ee109de153536e273e553b93c287b5f56d9a36cb44"
     },
     "zone-coast-approach": {
       "url": "packs/zone-coast-approach.pck",
       "bytes": 1780884,
-      "sha256": "bbc433f32664af61dd752f4ebf77ee1ea9366d3e8dce8361bb0e19e02b5a7d62"
+      "sha256": "461a27a1980740941500c1a52c8f56a7cf7f1eb08b229fa1e5a7095027477d75"
     },
     "zone-coast-heart": {
       "url": "packs/zone-coast-heart.pck",
       "bytes": 1524840,
-      "sha256": "293b21e373a3bc5c8023bc4e4fe1821d8e187456fd093f2604a9d053ea3e25f3"
+      "sha256": "33647913ff9ed3351b6d2013c568914d35882202e25792dff2aba349c679c4ac"
     },
     "zone-coast-sanctum": {
       "url": "packs/zone-coast-sanctum.pck",
       "bytes": 1657456,
-      "sha256": "a782af83be9f9023eea2ebac22d052118ae7c5a2e65e5446fae10ecab383c531"
+      "sha256": "6e074a94a6fbe15773d3d1b8c6aeed8e331f6ed5ce7c05a6376f84d6f889348c"
     },
     "zone-coast-boss": {
       "url": "packs/zone-coast-boss.pck",
       "bytes": 947788,
-      "sha256": "d82e9b850d68595f3d55f411a3db6e8ca395de6676ca6ccd124ce063db43be50"
+      "sha256": "547b8e1c891375ae6bd2751e2906797c0f1132c22db51301a2a9d603ce313c06"
     },
     "zone-snow-approach": {
       "url": "packs/zone-snow-approach.pck",
-      "bytes": 2116688,
-      "sha256": "39cc1a27f657055b3555bae2b62ff60891184f4d200a0097c636fb32aed3f382"
+      "bytes": 2116720,
+      "sha256": "a6701b9d168d3c0e665d9aa3f1300797bd871a8434af7287d753e002e95651f9"
     },
     "zone-snow-heart": {
       "url": "packs/zone-snow-heart.pck",
-      "bytes": 1855496,
-      "sha256": "c9b7eae3127e5f32e988763a9fef0b591f844048db722d37684125693f029e8d"
+      "bytes": 1855464,
+      "sha256": "c75b05da76c17d62541f5931bcbfe752596f78082f5a28fb321553435a596670"
     },
     "zone-snow-sanctum": {
       "url": "packs/zone-snow-sanctum.pck",
       "bytes": 1952588,
-      "sha256": "7e5b515c24d50aebd236f8a6542e8b72bc4acc074848d3cb3f4ec24499c0de4a"
+      "sha256": "e7e9a3b85e6261fc29acbf774f680f38e2d8ec570b4e4a3df5adc7b2ab2d6555"
     },
     "zone-snow-boss": {
       "url": "packs/zone-snow-boss.pck",
       "bytes": 829384,
-      "sha256": "0156fd4deaa5bdf2f74e701af975c8fd33ed89edec6b6bef1f40c22f59109351"
+      "sha256": "39fde3a84400a4cf9be1b52a6bd516f208dfdd58ac72a08dacbb887248188a54"
     },
     "zone-ruins-approach": {
       "url": "packs/zone-ruins-approach.pck",
       "bytes": 1455860,
-      "sha256": "130f002cb8c8c120c9db75555c248bea6bd430e51da269c21774c55404cfe8b6"
+      "sha256": "f7caecf78e20a28b1c8d723945205afd063ca7245632387f137aee82daf29ed4"
     },
     "zone-ruins-heart": {
       "url": "packs/zone-ruins-heart.pck",
       "bytes": 1220328,
-      "sha256": "6880eb3847d0bd811ed5e44d64e2b9ac162fbbedad0ef59b8ae2b47aa7e2d348"
+      "sha256": "6ea56d8a466678e3c6af3d024beb988e958639e448ea12af7e3e9a98e4156e6e"
     },
     "zone-ruins-sanctum": {
       "url": "packs/zone-ruins-sanctum.pck",
       "bytes": 1333424,
-      "sha256": "1851f8d0ef4782e605a80e4838ca40d4d0b9f4041454db32538f1ee344a36464"
+      "sha256": "5b4d7b3311a5e870ab96bb9cd7fb22522d891d8306e1d374836b3fe146cae713"
     },
     "zone-ruins-boss": {
       "url": "packs/zone-ruins-boss.pck",
-      "bytes": 1100012,
-      "sha256": "fe57b382a6e64b275ab635d82ed15b275747c5c81d182e08bab8b8f15b6afaaa"
+      "bytes": 1100044,
+      "sha256": "a505223f60cf35c7792f7fa42bf8d72ab5c8be45538fb6e66f2fd00e6503b7d1"
     },
     "zone-citadel-approach": {
       "url": "packs/zone-citadel-approach.pck",
       "bytes": 1460504,
-      "sha256": "c1cd12932bcfc3b4dc40504af5d898ed89acadb454fb76f415911e77b918b360"
+      "sha256": "77390edc923d3b314273948489203b19eb8dc816a9b55bdc679fe13a382949df"
     },
     "zone-citadel-heart": {
       "url": "packs/zone-citadel-heart.pck",
       "bytes": 1243152,
-      "sha256": "a9eb9f175baa858fd5f188de6a1bd8a0252e62634c7588fbd4d68e8cf42c051b"
+      "sha256": "f7ef468cf53c3187516f41b3be2b105ce7c8bcc1b71471f814298408aff1db8c"
     },
     "zone-citadel-sanctum": {
       "url": "packs/zone-citadel-sanctum.pck",
       "bytes": 1312532,
-      "sha256": "b1ed39605eab48a109b72d62e2fa44b65604451541200c0dad3524234e0566ca"
+      "sha256": "e53e79a1d19fe7e8ba343f908981c3c685e08664e50ef28fd87866c0e865eb17"
     },
     "zone-citadel-boss": {
       "url": "packs/zone-citadel-boss.pck",
       "bytes": 723284,
-      "sha256": "856cbff83cdf04dde65dabd9b53e69a042a76d864d65904c117a078e36b949fb"
+      "sha256": "51231aa69f04cb8ace26b5e25f4937295deb61d96f24736976f395583ca3735b"
     },
     "zone-town-center": {
       "url": "packs/zone-town-center.pck",
       "bytes": 10870184,
-      "sha256": "fda6cfd30653113a0ba12f59abd5dfb2185e9e03f914b3b731f0be2812a0323f"
+      "sha256": "fec859f9c39a8c9bc4198be8fd678d679f85e98ce46d7a95d559f82071800604"
     }
   }
 }
