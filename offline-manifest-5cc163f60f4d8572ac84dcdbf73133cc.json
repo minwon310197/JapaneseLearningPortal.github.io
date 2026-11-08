@@ -25,6 +25,7 @@
     "game/world/index.png",
     "game/world/index.wasm",
     "game/world/packs/hero-knight.pck",
+    "game/world/packs/interface.pck",
     "game/world/packs/shared.pck",
     "game/world/packs/zone-town-center.pck",
     "game/world/viewport-metrics.mjs",
@@ -121,8 +122,8 @@
     },
     {
       "url": "game/world/index.html",
-      "bytes": 27843,
-      "sha256": "06f8d9ae58203be7ee25f3086ac3f98e8856b5c93ddb82a47f1f698d24d160c6"
+      "bytes": 27989,
+      "sha256": "8fc4c89cd0588288d4861c0e5e6ecb7945c04b161302164b0759c15deca18c09"
     },
     {
       "url": "game/world/index.js",
@@ -131,8 +132,8 @@
     },
     {
       "url": "game/world/index.pck",
-      "bytes": 8342560,
-      "sha256": "9a8ee239ed7847973176760980655416a961f9850cf3ca67e57284a7cc9c78a1"
+      "bytes": 8363672,
+      "sha256": "047fc9fdb2da8c2e915f714609f14aef0359332a3c2fd55c7ee2bb9af3ca64e0"
     },
     {
       "url": "game/world/index.png",
@@ -158,6 +159,11 @@
       "url": "game/world/packs/hero-ranger.pck",
       "bytes": 2670196,
       "sha256": "f44ff395f5e0dc0b7fe72b42ab1c88f6288c3332771fd147ab11371cd91b5f3c"
+    },
+    {
+      "url": "game/world/packs/interface.pck",
+      "bytes": 2419660,
+      "sha256": "9bd57d39aa579f8955afb2ce900963a41d427b21e6665a0c13e25fa2895e3ae5"
     },
     {
       "url": "game/world/packs/shared.pck",
@@ -301,8 +307,8 @@
     },
     {
       "url": "game/world/zone-manifest.json",
-      "bytes": 7874,
-      "sha256": "190cec1ade7d146fee0ffec3388bf583239c420b8de3a5cbde8e3a5574db1bc0"
+      "bytes": 8060,
+      "sha256": "c329c25d8a68df07e5d23e147a5f95707157071c9418d22d017018a2565d2642"
     },
     {
       "url": "index.html",
@@ -315,5 +321,5 @@
       "sha256": "db9fac309e05115450fa0a8eaa77a15b05ec9050dccdeb66e1ec9563a8e2e294"
     }
   ],
-  "buildId": "9757ca2b9a33bb454f0c6887c9067d38"
+  "buildId": "5cc163f60f4d8572ac84dcdbf73133cc"
 }

@@ -1,9 +1,9 @@
 {
-  "buildId": "9757ca2b9a33bb454f0c6887c9067d38",
-  "manifest": "offline-manifest-9757ca2b9a33bb454f0c6887c9067d38.json",
-  "precacheCount": 30,
-  "precacheBytes": 78652687,
-  "knownStaticAssets": 56,
+  "buildId": "5cc163f60f4d8572ac84dcdbf73133cc",
+  "manifest": "offline-manifest-5cc163f60f4d8572ac84dcdbf73133cc.json",
+  "precacheCount": 31,
+  "precacheBytes": 81093791,
+  "knownStaticAssets": 57,
   "bootRoots": [
     "index.html",
     "src/app/components/world-godot/WorldExperience.jsx",

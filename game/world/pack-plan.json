@@ -2,6 +2,7 @@
   "version": 2,
   "contentVersion": "haru-v2.1",
   "startup": [
+    "interface",
     "shared",
     "hero-knight",
     "zone-town-center"
@@ -262,6 +263,41 @@
         "res://v2/assets/npcs/smith.glb",
         "res://v2/assets/npcs/trainer.glb",
         "res://v2/assets/npcs/villager.glb"
+      ]
+    },
+    "interface": {
+      "files": [
+        "res://v2/assets/icons/knight_body_0.png",
+        "res://v2/assets/icons/knight_charm_0.png",
+        "res://v2/assets/icons/knight_feet_0.png",
+        "res://v2/assets/icons/knight_hands_0.png",
+        "res://v2/assets/icons/knight_head_0.png",
+        "res://v2/assets/icons/knight_weapon_0.png",
+        "res://v2/assets/icons/mage_body_0.png",
+        "res://v2/assets/icons/mage_charm_0.png",
+        "res://v2/assets/icons/mage_feet_0.png",
+        "res://v2/assets/icons/mage_hands_0.png",
+        "res://v2/assets/icons/mage_head_0.png",
+        "res://v2/assets/icons/mage_weapon_0.png",
+        "res://v2/assets/icons/ranger_body_0.png",
+        "res://v2/assets/icons/ranger_charm_0.png",
+        "res://v2/assets/icons/ranger_feet_0.png",
+        "res://v2/assets/icons/ranger_hands_0.png",
+        "res://v2/assets/icons/ranger_head_0.png",
+        "res://v2/assets/icons/ranger_weapon_0.png",
+        "res://v2/assets/ui/phong-than/attack.png",
+        "res://v2/assets/ui/phong-than/button-primary.png",
+        "res://v2/assets/ui/phong-than/button-secondary.png",
+        "res://v2/assets/ui/phong-than/button-selected.png",
+        "res://v2/assets/ui/phong-than/character.png",
+        "res://v2/assets/ui/phong-than/close.png",
+        "res://v2/assets/ui/phong-than/functions.png",
+        "res://v2/assets/ui/phong-than/furnace.png",
+        "res://v2/assets/ui/phong-than/inventory.png",
+        "res://v2/assets/ui/phong-than/joystick.png",
+        "res://v2/assets/ui/phong-than/quests.png",
+        "res://v2/assets/ui/phong-than/skills.png",
+        "res://v2/assets/ui/phong-than/window-silk.png"
       ]
     },
     "hero-knight": {

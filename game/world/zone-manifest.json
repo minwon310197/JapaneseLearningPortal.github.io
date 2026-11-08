@@ -2,6 +2,7 @@
   "version": 2,
   "contentVersion": "haru-v2.1",
   "startup": [
+    "interface",
     "shared",
     "hero-knight",
     "zone-town-center"
@@ -142,6 +143,11 @@
       "url": "packs/shared.pck",
       "bytes": 15451112,
       "sha256": "2c8325ce4e16ddc69f33325abb48a9b79d34d0bc612d8c0b0a25c2b9564ab0cd"
+    },
+    "interface": {
+      "url": "packs/interface.pck",
+      "bytes": 2419660,
+      "sha256": "9bd57d39aa579f8955afb2ce900963a41d427b21e6665a0c13e25fa2895e3ae5"
     },
     "hero-knight": {
       "url": "packs/hero-knight.pck",
