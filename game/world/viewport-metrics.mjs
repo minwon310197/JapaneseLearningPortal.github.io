@@ -33,7 +33,10 @@ export function buildViewportMetrics({
     coarsePointer: mobile,
     fullscreen: Boolean(fullscreen),
     orientation,
-    portraitBlocked: mobile && cssHeight > cssWidth,
+    // Portrait gameplay is supported: the HUD and every window lay out for
+    // narrow and short viewports, so the old rotate-to-landscape gate stays
+    // retired. The field remains part of the bridge protocol for older hosts.
+    portraitBlocked: false,
   };
 }
 
@@ -72,7 +75,7 @@ export function readViewportMetrics(windowLike = window, documentLike = document
   });
 }
 
-export async function requestImmersiveLandscape(documentLike = document, screenLike = screen) {
+export async function requestImmersiveLandscape(documentLike = document, screenLike = screen, preferLandscape = true) {
   try {
     if (!documentLike.fullscreenElement && documentLike.documentElement.requestFullscreen) {
       await documentLike.documentElement.requestFullscreen();
@@ -83,7 +86,9 @@ export async function requestImmersiveLandscape(documentLike = document, screenL
   }
 
   try {
-    await screenLike.orientation?.lock?.('landscape');
+    // Only hold landscape when the learner actually entered in landscape;
+    // portrait entries keep the browser's natural rotation.
+    if (preferLandscape) await screenLike.orientation?.lock?.('landscape');
   } catch {
     // Orientation lock is optional on mobile browsers and PWAs.
   }

@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-11-07T23:53:01.768Z",
+  "createdAt": "2026-11-09T00:05:08.397Z",
   "engine": "4.7.2",
   "singleThread": true,
   "sourceSnapshot": {
@@ -492,7 +492,7 @@
     "v2/encounter_respawn.gd": "591d7e97407e584cecfb3647b87ec4d44ee953a57770cfeec7dc089984504238",
     "v2/enemy_label_policy.gd": "a662fb555e2c3bf0266da8678b3acbef61a12978a1e9fdc5163a9daa3ad55663",
     "v2/enemy_projectile.gd": "239062659c6232faa0027efdbc4ce07515bac18598959ef46585cf46d8f231ea",
-    "v2/epic_skill_layers.gd": "3794de816221ee74b3b51026bba491fd7201ec196e73158afd1fa9beef712326",
+    "v2/epic_skill_layers.gd": "d0d2359e722f051fdd6385ac31ea3681abc0a3c965d1ac780e0712f8191cbf37",
     "v2/equipment_presenter.gd": "1d0a6adced876463dd8983afe76b6e56944a69623d00307a9a83af55c79a6b15",
     "v2/frame_metrics.gd": "891483f453194df8bdabb773c85cca4709f0754e512b93ce69b3bda95abce5a2",
     "v2/gem_rules.gd": "1e849f308b7bc838f94f5143d1a526a15c4a659f709b08ec02c334667ac3ae4d",
@@ -554,7 +554,7 @@
     "v2/tests/enemy_label_policy_test.gd": "97989cdb587f887eee04d6006ffae6d7376d586d50a42c6b7b5f6826ffa636a0",
     "v2/tests/enemy_response_fixture.gd": "5b995ea3ba206067e6a86713f0ccd0726768240c92341242e8e0e7f47115ba33",
     "v2/tests/enemy_response_test.gd": "665aeaedb7e1dc9e021a43e5460de551e691e915612a59c296a6200aded5088a",
-    "v2/tests/epic_skill_layers_test.gd": "f600af3ffa69cf41c4d65229c86ff3e1290c18a09fb0ce8d54a7dc08bca493f4",
+    "v2/tests/epic_skill_layers_test.gd": "3990518f646bcc52510ecafc7db7991f1a6a30ad1b2a022fd44c135604693a8d",
     "v2/tests/export_save_fixture.gd": "1bee4ffa2f6affe1e49cfea48a97711785c4edde3480218b09e4f34fac86afc8",
     "v2/tests/export_sql_fixture.gd": "39017a610c2b06bb1f1eb7d4fe5deb404d6b89853fbf91f892b40a272807a46d",
     "v2/tests/failed_route_retry_test.gd": "7aea88e178200a382c3e70b557e3a615f277f27220448b75486a3face807e13f",
@@ -615,23 +615,24 @@
     "v2/town-layout.json": "c293816810d1265b80c196527644078f2ba7893a686a0182aaecde9092546f01",
     "v2/town_layout.gd": "0638e19f89fa892226265a4bf6da674ba5bee121f030bc9c45fb137cb0f9498f",
     "v2/ui/character_panel.gd": "4dc34176fbe80752fe428f9d457b76191f6b7761e67212cc9cdcc246ea65344b",
+    "v2/ui/cooldown_sweep.gd": "a0cc77a5347de7549a6563f8fa6506e1e8257c1b25cad80640f38054d3ea86f7",
     "v2/ui/haru_card_symbol.gd": "1d832fa1576e8ee1db9c71d3addf0358ca1f4b191b5dce5066b6c2435034f4f6",
-    "v2/ui/haru_world_hud_v1.gd": "868b150e934ea83c67477f9b14fe72caca5da25c0f1b6522fd616bf4b1df3383",
+    "v2/ui/haru_world_hud_v1.gd": "9df6994fa497ca6b1512e52daa0aaf69e45e4561e9523b64f10943bbc62d6e87",
     "v2/ui/hero_preview.gd": "d8fbd55c408d66f6172c545b20debb0c7a78db3e028aef85d47e42fb20419d2b",
     "v2/ui/hud.gd": "9b13ff655ae5a2a11f5ffcb1e57695254aebaabce74c764e09894fdb551e7a19",
     "v2/ui/inventory_panel.gd": "c43041d5fb18a6d80354dcaba8aa61e0d827dd505189543b23b1652805fbd0ea",
     "v2/ui/map_canvas.gd": "40a396490c9164f037a58569073fc8b436ad1a88dd1e938056258983f92271fb",
     "v2/ui/map_panel.gd": "02c6a5ef00e296c61441a55a85de50a3ad9bcb9fa51b3b192570b8729e9ffc2e",
     "v2/ui/panel_base.gd": "4965363f8073e6afc798c2c343039c3c8d7a8bde3020536cb6f57eccdb13472d",
-    "v2/ui/phong_than_hud.gd": "bc510d9136e4b52f202ec46412d4d05ebf5a6b8f514c2d4fa3ff6d89251e7b55",
-    "v2/ui/phong_than_windows.gd": "c1d47577186c3fe98e8a805c32dfe821ff28496b6410316e45218229cbc3c99c",
+    "v2/ui/phong_than_hud.gd": "91f2086ab3fce66120479d53adddc8e8e9c7ceb39ecf97bcf686d82e8cb30cdf",
+    "v2/ui/phong_than_windows.gd": "84a55d76b574734f0ba9b8894156de3123fe38cdf35e7eaa500e534183b249dc",
     "v2/ui/quest_panel.gd": "d3a39adc1b7b17741ebeb10c5955b9af4aac506c022926ffe89f594aeb45304a",
     "v2/ui/settings_panel.gd": "7218b8beb976cdaff10cd83c6ffef1d7447878f04db97576ba3431422222cea7",
     "v2/ui/shop_panel.gd": "2f22b8a48827eb6348833dfdcbcb0da149dcc1fb8acebae1875b02ce09b51cb7",
     "v2/ui/skill_paths.gd": "75e7c77bcbb95fdfa8a9427d3e3bfd5aebaa0b661cb03ada137aaa12cba6ce45",
     "v2/ui/skill_tree.gd": "8dd96c2b565eb56ceabea9656d3dd76a0e98d974181d4680b171da32afb6ee1e",
     "v2/ui/skills_panel.gd": "24cf7f81f120b0710ed264c41aa4711a48a9faeb84f15da5261d729df3b14364",
-    "v2/ui/tests/haru_world_hud_v1_cards_test.gd": "cfc78581a38e7fce0d3645f2e7e13c82d404b6ec9a0d7dd5fa784479d6790df1",
+    "v2/ui/tests/haru_world_hud_v1_cards_test.gd": "cdd7582a0e65fc68f5be2ca6413a878e905238443d976344654ebeab9ce0cd51",
     "v2/ui/tests/haru_world_hud_v1_character_switch_test.gd": "9137e166f1d3df36518cf7c5b7b5672e2fe94d6045d7131eb6020cbf9b5c1b9b",
     "v2/ui/tests/haru_world_hud_v1_districts_test.gd": "dbfc97d2b769e5366747673ee57f6727c7f4b46d2f9c9e0ad36473689d7ee37d",
     "v2/ui/tests/haru_world_hud_v1_expedition_test.gd": "9dd46576541eb05e0ff3da2e34bd798724aca1316440db490a57f1b952393a1e",
@@ -645,7 +646,7 @@
     "v2/ui/tests/hud_viewport_metrics_test.gd": "ca7865983fa7262f98a92ba6e2c228439655424742411a7506fbc8cb054bf227",
     "v2/ui/tests/inventory_first_fold_test.gd": "3e1ae9afd04e1367ace1a6ada11e1468f89f9b366c1f38082f7a249e512aec18",
     "v2/ui/tests/phong_than_admin_layout_test.gd": "b1ac4c777d280300ce6d58cfc755f7f1a7c220ed75ba7ea67ae2f6967c4e244a",
-    "v2/ui/tests/phong_than_hud_test.gd": "08d43a4b905fc25393b9b82a74f50caf9b9335fde44c71c48474cd523e9bb209",
+    "v2/ui/tests/phong_than_hud_test.gd": "a66c3c4e162c571ebd66afb4c22989b1fdb88ad616f87512af039f4fa4f398d1",
     "v2/ui/tests/skill_tree_test.gd": "dc8274da36b06b0a27b09918659a93d3cfbe5676e9932513250ff3b248418202",
     "v2/ui/tests/ui_tests.gd": "f2194aecac6c3186bc69000bf4b2b5bcdbc2ba425d1254cc8ba5547a3935cb78",
     "v2/ui/tests/worldmap_tests.gd": "8e15672f032c8ee28a1564ebc566023f2f86189434c9080fe3bc295d915612eb",
@@ -658,15 +659,15 @@
     "v2/world_occlusion.gd": "d98716d5e15984bf007d10ffbe212d1727b85291fe3d1b2a0369748882f74b34",
     "v2/world_presentation.gd": "03ed1ef15fba3ba2aaf0e55bc35d38f1d4c7db0cfc3d34ac224a8195fddfe9a6",
     "v2/world_save_validator.gd": "1fc5faaafc6a74b17a0859ee85a2f9fdd008f56bd8ffeeadc7777cd2e690accd",
-    "v2/world_v1.gd": "6980551568d5555be37e1142b225cdca5779c57d48141c427e901f51391f2bc1",
+    "v2/world_v1.gd": "a9ffc56fa9462a0ee49468f726814cc7223ee6eb245e7c5a27e587d64f564e06",
     "v2/world_v1.tscn": "593a46386ef0159246d866e1093bf11b029fb72268e7519fb3fece205c6654cd",
     "zones/forest.json": "63829a3f46f8e9d40482bfd81618904e8c69170f567f295b851ac84cbdc0faa1",
     "zones/ruins.json": "281a3a6765709528becf40cbdba7ef3278728d9b0f8cdcd6b4faf09c31cffde0",
     "zones/valley.json": "202db39306d608c5f597429c9ec47be7730d406984499ad8d4ca3c27d73dcefb",
-    "../web-shell/index.html": "75cd1a72c0fc56107d383020f4498a06e8dac47b8e36dc5e550a281b7ce78716",
+    "../web-shell/index.html": "45199f21353da3d6a7b96aff3b3a4bc6635591eec2eb23ec11022c7b0be2dc36",
     "../web-shell/zone-cache.mjs": "5c7f0fa30cb0391e6702187406aec1173a1dbcecc13d4a9db1b8ecd9af555f84",
     "../web-shell/gpu-context.mjs": "82101947544742c8bae60f23ce3f9c6266fc22d420c06b04be447995bf845674",
-    "../web-shell/viewport-metrics.mjs": "62eb90a027f43b87d1598131983903720b113a40579d71d9589c33ccb2955c71"
+    "../web-shell/viewport-metrics.mjs": "e985991d752136391403941921e1784c771b31d4a3b21ea74479592336bfbb35"
   },
   "note": "rawBytes are deployed file bytes; gzip/brotli are estimates, not observed HTTP transfer. Zone packs contain configuration and imported zone GLBs; base PCK contains code/catalog only; startup includes shared, knight and town packs. Regions and heroes load on demand.",
   "initial": [
@@ -690,9 +691,9 @@
     },
     {
       "file": "index.html",
-      "rawBytes": 27989,
-      "gzipEstimateBytes": 10196,
-      "brotliEstimateBytes": 9343
+      "rawBytes": 27755,
+      "gzipEstimateBytes": 10124,
+      "brotliEstimateBytes": 9266
     },
     {
       "file": "index.js",
@@ -702,9 +703,9 @@
     },
     {
       "file": "index.pck",
-      "rawBytes": 8363672,
-      "gzipEstimateBytes": 3972513,
-      "brotliEstimateBytes": 3770535
+      "rawBytes": 8371312,
+      "gzipEstimateBytes": 3979638,
+      "brotliEstimateBytes": 3778869
     },
     {
       "file": "index.png",
@@ -720,9 +721,9 @@
     },
     {
       "file": "viewport-metrics.mjs",
-      "rawBytes": 2944,
-      "gzipEstimateBytes": 1034,
-      "brotliEstimateBytes": 938
+      "rawBytes": 3332,
+      "gzipEstimateBytes": 1225,
+      "brotliEstimateBytes": 1122
     },
     {
       "file": "zone-cache.mjs",
@@ -831,8 +832,8 @@
     "initialBytes": 36700160,
     "zoneBytes": 15728640
   },
-  "initialRawBytes": 79619705,
-  "initialGzipEstimateBytes": 35038443,
+  "initialRawBytes": 79627499,
+  "initialGzipEstimateBytes": 35045687,
   "transferBudgetStatus": "UNVERIFIED_REQUIRES_BROWSER_NETWORK_MEASUREMENT",
   "initialRawBudgetPass": false,
   "zoneBudgetPass": true

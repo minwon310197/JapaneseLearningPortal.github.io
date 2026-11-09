@@ -1,5 +1,5 @@
 import { j as jsxRuntimeExports, r as reactExports } from "./vendor-react-BJfqeUfp.js";
-import { s as supabase, i as isSupabaseConfigured, a as signInWithGoogle, b as signOut, u as useHaruWorldAuth } from "./index-OPZEdbfM.js";
+import { s as supabase, i as isSupabaseConfigured, a as signInWithGoogle, b as signOut, u as useHaruWorldAuth } from "./index-FbhYvYMI.js";
 import { u as useLocation, a as useNavigate } from "./vendor-router-BqW7KNUg.js";
 import "./vendor-supabase-DTEAj5J1.js";
 import "./vendor-runtime-BbOs9S9B.js";
@@ -493,6 +493,25 @@ function resolveHaruWorldLegacyActivity(rawPath) {
     return path === prefix || route.includes("/:") && path.startsWith(`${prefix}/`);
   }) || null;
 }
+function seedReducedMotionPreference(matchMedia = typeof window !== "undefined" ? ((_b) => (_b = window.matchMedia) == null ? void 0 : _b.bind(window))() : null, storage = typeof localStorage !== "undefined" ? localStorage : null) {
+  if (!matchMedia || !storage) return false;
+  try {
+    let raw = {};
+    try {
+      raw = JSON.parse(storage.getItem("n4-haru:presentation:v1") || "{}");
+    } catch (e) {
+      raw = {};
+    }
+    if (!raw || typeof raw !== "object" || Array.isArray(raw)) raw = {};
+    if ("reduceFlash" in raw || "reduceShake" in raw) return false;
+    if (!matchMedia("(prefers-reduced-motion: reduce)").matches) return false;
+    storage.setItem("n4-haru:presentation:v1", JSON.stringify({ vfxDensity: "low", reduceFlash: true, reduceShake: true, ...raw }));
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+if (typeof window !== "undefined") seedReducedMotionPreference();
 const FROM_WORLD = Object.freeze([
   "ready",
   "save_commit",

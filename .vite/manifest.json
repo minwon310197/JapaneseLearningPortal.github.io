@@ -19,7 +19,7 @@
     "name": "vendor-supabase"
   },
   "index.html": {
-    "file": "assets/index-OPZEdbfM.js",
+    "file": "assets/index-FbhYvYMI.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
@@ -37,7 +37,7 @@
     ]
   },
   "src/app/components/world-godot/WorldExperience.jsx": {
-    "file": "assets/WorldExperience-CISWOG2Z.js",
+    "file": "assets/WorldExperience--rWF4dci.js",
     "name": "WorldExperience",
     "src": "src/app/components/world-godot/WorldExperience.jsx",
     "isDynamicEntry": true,

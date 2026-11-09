@@ -125,19 +125,13 @@ function updateViewportMetrics() {
   receive(worldEnvelope('viewport_metrics', metrics));
   if (!immersiveGate) return metrics;
   const needsGesture = metrics.coarsePointer && !immersiveAcknowledged && !metrics.fullscreen && !isInstalledWorld();
-  immersiveGate.hidden = !metrics.portraitBlocked && !needsGesture;
+  immersiveGate.hidden = !needsGesture;
   const title = immersiveGate.querySelector('[data-title]');
   const detail = immersiveGate.querySelector('[data-detail]');
   const action = immersiveGate.querySelector('button');
-  if (metrics.portraitBlocked) {
-    title.textContent = 'Xoay ngang để vào Haru';
-    detail.textContent = 'Haru World dùng landscape để giữ đủ joystick, skill và vùng nhìn chiến đấu.';
-    action.textContent = 'Bật toàn màn hình và xoay ngang';
-  } else {
-    title.textContent = 'Vào Haru toàn màn hình';
-    detail.textContent = 'Chạm một lần để trình duyệt cho phép toàn màn hình và landscape.';
-    action.textContent = 'Vào Haru';
-  }
+  title.textContent = 'Vào Haru toàn màn hình';
+  detail.textContent = 'Chạm một lần để vào Haru. Dọc hay ngang đều chơi được.';
+  action.textContent = 'Vào Haru';
   return metrics;
 }
 
@@ -150,7 +144,8 @@ function installImmersiveGate() {
   immersiveGate.innerHTML = '<div><strong data-title></strong><p data-detail></p><button type="button"></button></div>';
   immersiveGate.querySelector('button').addEventListener('click', async () => {
     immersiveAcknowledged = true;
-    await requestImmersiveLandscape(document, screen);
+    const metrics = readViewportMetrics(window, document);
+    await requestImmersiveLandscape(document, screen, metrics.orientation === 'landscape');
     updateViewportMetrics();
   });
   document.body.append(immersiveGate);
@@ -294,7 +289,7 @@ if (qaEnabled) {
   panel.append(video); document.body.append(panel);
 }
 retry.addEventListener('click', () => location.reload());
-const config = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":8363672,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const config = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":8371312,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 engine = new Engine(config);
 Promise.all(zoneManifest.startup.map(id => loadPack(id, true))).then(paths => {
 window.n4WorldBridge.startupPacks = paths;
