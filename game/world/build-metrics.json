@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-11-14T12:02:34.104Z",
+  "createdAt": "2026-11-14T13:55:01.991Z",
   "engine": "4.7.2",
   "singleThread": true,
   "sourceSnapshot": {
@@ -555,6 +555,7 @@
     "v2/tests/enemy_response_fixture.gd": "5b995ea3ba206067e6a86713f0ccd0726768240c92341242e8e0e7f47115ba33",
     "v2/tests/enemy_response_test.gd": "665aeaedb7e1dc9e021a43e5460de551e691e915612a59c296a6200aded5088a",
     "v2/tests/epic_skill_layers_test.gd": "3990518f646bcc52510ecafc7db7991f1a6a30ad1b2a022fd44c135604693a8d",
+    "v2/tests/exit_cancel_matrix_test.gd": "7ef3a64f20f8966cd2560f340fee777462cf1b0509ea6974c1e33f7012cd2433",
     "v2/tests/exit_state_machine_test.gd": "817664ce8bac63d2f3828cc7b898c65f881b3e2331a24fdbcff71aa44287cc7c",
     "v2/tests/export_save_fixture.gd": "1bee4ffa2f6affe1e49cfea48a97711785c4edde3480218b09e4f34fac86afc8",
     "v2/tests/export_sql_fixture.gd": "39017a610c2b06bb1f1eb7d4fe5deb404d6b89853fbf91f892b40a272807a46d",
@@ -566,7 +567,7 @@
     "v2/tests/generated_skill_bursts_test.gd": "c45bdb1fca60d7564ed71467cc5ec9395cd26e0f02b8cef167737a8042653bb1",
     "v2/tests/haru_world_activity_catalog_test.gd": "772885ed50c1fc4a09201779bf582a8ca0b4c5c1b86ae789529ec4078c17b6cd",
     "v2/tests/haru_world_activity_menu_test.gd": "a1932cd3820a56901609352bd8bacd5db676931c2fc9d4faa7c5bcd226919fe0",
-    "v2/tests/haru_world_activity_runtime_test.gd": "6a33d62e3aa8ae588fc0c7e83ef8ee8604c862d43381c7f6be137d9fb7f84386",
+    "v2/tests/haru_world_activity_runtime_test.gd": "5f1d26a357aed11f65a117903291ac6e1aab26d80ffbc7e402f53a929d3a07bc",
     "v2/tests/haru_world_character_switch_test.gd": "d80d3f12c86d5f44f7b86a333da432f12360314fd0a4db1c6af73d142ef9b34b",
     "v2/tests/haru_world_consumables_test.gd": "1b6cca50d6bf1d627e0844b9b464f0f496abb1638403b628a0142b8c98d5f210",
     "v2/tests/haru_world_drops_test.gd": "66ab9aa6bfa941dd8894c48b10956983a18c7a38aa8f87a5acef0a2f5c20e0de",
@@ -588,7 +589,7 @@
     "v2/tests/label_modal_polish_test.gd": "0d381fd7e953c6eb21b381f0061d63f164930dc395a1bac012e1d3fecffdb71b",
     "v2/tests/meteor_target_test.gd": "f09b1d669cf7e3d6b63980ebe07197cb482c5b40dc6c19d356f7987f9f132819",
     "v2/tests/movement_facing_test.gd": "d79c431cc95a6be69edfcc41ea123b371e6d16b2d563818b8e9d7812295bf742",
-    "v2/tests/n4_combat_boost_test.gd": "fc8a41a3f391f138c453d73c1cb2362eb9f44ea673fd2ee64e7591a3eff7688a",
+    "v2/tests/n4_combat_boost_test.gd": "b84ddd12a87cee350c4a80d647af426a89227873c04413fd0355a2aa6fb85936",
     "v2/tests/occlusion_floor_test.gd": "eee02de90da2153a31cf921662faae84a1b38cf642778cb1e99285cccbac5f32",
     "v2/tests/occlusion_globals_test.gd": "8be8ea1e595774d519b1fe52d26e384309579af41925e6845501036eeaa097af",
     "v2/tests/occlusion_material_test.gd": "119b9fb516271afb1fb1998f5be480e8942f2c68dd17c1381912cc0e4d3e8726",
@@ -661,7 +662,7 @@
     "v2/world_occlusion.gd": "d98716d5e15984bf007d10ffbe212d1727b85291fe3d1b2a0369748882f74b34",
     "v2/world_presentation.gd": "03ed1ef15fba3ba2aaf0e55bc35d38f1d4c7db0cfc3d34ac224a8195fddfe9a6",
     "v2/world_save_validator.gd": "1fc5faaafc6a74b17a0859ee85a2f9fdd008f56bd8ffeeadc7777cd2e690accd",
-    "v2/world_v1.gd": "dcf63ca46b0ad4aa8108a4fa9b4facff5782d904c264671fe0aef76e213486c7",
+    "v2/world_v1.gd": "0285fe292bad9f0bf478a981a65871d6e635beca30cf9178671f2c774cef66ac",
     "v2/world_v1.tscn": "593a46386ef0159246d866e1093bf11b029fb72268e7519fb3fece205c6654cd",
     "zones/forest.json": "63829a3f46f8e9d40482bfd81618904e8c69170f567f295b851ac84cbdc0faa1",
     "zones/ruins.json": "281a3a6765709528becf40cbdba7ef3278728d9b0f8cdcd6b4faf09c31cffde0",
@@ -706,8 +707,8 @@
     {
       "file": "index.pck",
       "rawBytes": 8378432,
-      "gzipEstimateBytes": 3985825,
-      "brotliEstimateBytes": 3785634
+      "gzipEstimateBytes": 3986082,
+      "brotliEstimateBytes": 3786595
     },
     {
       "file": "index.png",
@@ -835,7 +836,7 @@
     "zoneBytes": 15728640
   },
   "initialRawBytes": 79636138,
-  "initialGzipEstimateBytes": 35052299,
+  "initialGzipEstimateBytes": 35052556,
   "transferBudgetStatus": "UNVERIFIED_REQUIRES_BROWSER_NETWORK_MEASUREMENT",
   "initialRawBudgetPass": false,
   "zoneBudgetPass": true
