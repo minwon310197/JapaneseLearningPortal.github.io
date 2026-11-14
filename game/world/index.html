@@ -330,9 +330,9 @@ return engine.startGame({ canvas: document.querySelector('#canvas'), onPrintErro
 } });
 }).catch(error => {
   message.textContent = 'Không mở được thế giới. Hãy thử lại hoặc giảm chất lượng cảnh trong thông báo phục hồi.';
-  retry.hidden = false;
+  retry.hidden = parent !== window;
   progress.hidden = true;
-  status.hidden = false;
+  status.hidden = parent !== window;
   send('error', { message: String(error.message || error) });
   sendWorld('fatal_error', { message: String(error.message || error) });
 });

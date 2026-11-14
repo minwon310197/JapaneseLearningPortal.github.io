@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-11-14T13:55:01.991Z",
+  "createdAt": "2026-11-14T14:33:33.504Z",
   "engine": "4.7.2",
   "singleThread": true,
   "sourceSnapshot": {
@@ -667,8 +667,8 @@
     "zones/forest.json": "63829a3f46f8e9d40482bfd81618904e8c69170f567f295b851ac84cbdc0faa1",
     "zones/ruins.json": "281a3a6765709528becf40cbdba7ef3278728d9b0f8cdcd6b4faf09c31cffde0",
     "zones/valley.json": "202db39306d608c5f597429c9ec47be7730d406984499ad8d4ca3c27d73dcefb",
-    "../web-shell/index.html": "9f7efaf2be8a974667ca3ea74ac4ff96813f14fcb129ebbd27555da9e9fecc14",
-    "../web-shell/zone-cache.mjs": "5c7f0fa30cb0391e6702187406aec1173a1dbcecc13d4a9db1b8ecd9af555f84",
+    "../web-shell/index.html": "a7161c78d096876460fc9637b6f40a36ac2a7e0243cacbd6ff10c6cbacca998d",
+    "../web-shell/zone-cache.mjs": "57413c624a600c7df2556aa506912fe21eaea600e93128fc1eb452ed4327da98",
     "../web-shell/gpu-context.mjs": "82101947544742c8bae60f23ce3f9c6266fc22d420c06b04be447995bf845674",
     "../web-shell/viewport-metrics.mjs": "e985991d752136391403941921e1784c771b31d4a3b21ea74479592336bfbb35"
   },
@@ -694,9 +694,9 @@
     },
     {
       "file": "index.html",
-      "rawBytes": 29274,
-      "gzipEstimateBytes": 10549,
-      "brotliEstimateBytes": 9684
+      "rawBytes": 29298,
+      "gzipEstimateBytes": 10556,
+      "brotliEstimateBytes": 9688
     },
     {
       "file": "index.js",
@@ -730,9 +730,9 @@
     },
     {
       "file": "zone-cache.mjs",
-      "rawBytes": 1538,
-      "gzipEstimateBytes": 784,
-      "brotliEstimateBytes": 711
+      "rawBytes": 2249,
+      "gzipEstimateBytes": 1042,
+      "brotliEstimateBytes": 959
     },
     {
       "file": "zone-manifest.json",
@@ -835,8 +835,8 @@
     "initialBytes": 36700160,
     "zoneBytes": 15728640
   },
-  "initialRawBytes": 79636138,
-  "initialGzipEstimateBytes": 35052556,
+  "initialRawBytes": 79636873,
+  "initialGzipEstimateBytes": 35052821,
   "transferBudgetStatus": "UNVERIFIED_REQUIRES_BROWSER_NETWORK_MEASUREMENT",
   "initialRawBudgetPass": false,
   "zoneBudgetPass": true
