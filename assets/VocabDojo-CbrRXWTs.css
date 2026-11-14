@@ -1,0 +1,200 @@
+.ninja-dojo-container {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - var(--n4-nav-height, 60px));
+  /* gradient bầu trời chạng vạng của nhật bản cổ đại */
+  background: linear-gradient(180deg, #1A1A2E 0%, #16213E 50%, #0F3460 100%);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Shake Animation cho Game Feel/Juice */
+@keyframes shake-hard {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.shake-hard {
+  animation: shake-hard 0.2s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+/* HUD UI */
+.game-hud {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.score-pop {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255, 0, 85, 0.8), 0 0 20px rgba(255, 0, 85, 0.5);
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+}
+
+.combo-meter {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 150, 255, 0.8), 0 0 20px rgba(0, 150, 255, 0.5);
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+  transition: all 0.3s ease;
+}
+
+.combo-meter.fire {
+  color: #ffaa00;
+  text-shadow: 0 0 15px rgba(255, 85, 0, 0.9), 0 0 30px rgba(255, 0, 0, 0.6);
+  transform: scale(1.1);
+}
+
+.hp-bar-container {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(255,0,0,0.5);
+}
+
+.hp-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #ff0055, #ffaa00);
+  transition: width 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* RIVE CHARACTER */
+.rive-character-layer {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 400px;
+  height: 400px;
+  z-index: 5;
+  pointer-events: none;
+}
+
+.ninja-rive {
+  width: 100%;
+  height: 100%;
+}
+
+/* WEBGPU CANVAS */
+.webgpu-canvas-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2; /* Nằm dưới UI, trên nền */
+  pointer-events: none;
+}
+
+/* FALLING WORDS */
+.falling-words-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.falling-word {
+  position: absolute;
+  font-family: 'Inter', sans-serif;
+  background: rgba(10, 10, 20, 0.7);
+  border: 2px solid #00f0ff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.5), inset 0 0 10px rgba(0, 240, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(-50%); /* Center on Y to match physics */
+  will-change: left, top;
+}
+
+.falling-word.targeted {
+  border-color: #ff0055;
+  box-shadow: 0 0 20px rgba(255, 0, 85, 0.8), inset 0 0 15px rgba(255, 0, 85, 0.4);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.fw-kanji {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.fw-romaji {
+  font-size: 14px;
+  color: #00f0ff;
+  letter-spacing: 2px;
+}
+
+.fw-romaji .typed {
+  color: #ff0055;
+  text-shadow: 0 0 5px #ff0055;
+}
+
+.game-over-screen {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  color: white;
+}
+
+.game-over-screen h1 {
+  font-size: 4rem;
+  color: #ff0055;
+  text-transform: uppercase;
+  text-shadow: 0 0 20px rgba(255,0,85,0.8);
+  margin-bottom: 20px;
+}
+
+.btn-restart {
+  background: linear-gradient(90deg, #ff0055, #aa00ff);
+  border: none;
+  padding: 15px 40px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(170,0,255,0.6);
+  transition: transform 0.2s;
+}
+
+.btn-restart:hover {
+  transform: scale(1.1);
+}

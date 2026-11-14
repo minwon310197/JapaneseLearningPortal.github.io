@@ -27,6 +27,7 @@ configureGameCanvas(document.querySelector('#canvas'),{
     message.textContent='Ngữ cảnh đồ họa đã bị ngắt. Tải lại thế giới để tiếp tục từ bản lưu trên thiết bị.';
     progress.hidden=true;status.hidden=false;retry.hidden=parent!==window;
     send('error',{message:'graphics_context_lost'});
+    sendWorld('fatal_error',{message:'Ngữ cảnh đồ họa đã bị ngắt. Tải lại thế giới để tiếp tục từ bản lưu trên thiết bị.'});
   },
 });
 const zoneManifest = {"version":2,"contentVersion":"haru-v2.1","startup":["interface","shared","hero-knight","zone-town-center"],"heroes":{"knight":["hero-knight"],"mage":["hero-mage"],"ranger":["hero-ranger"]},"zones":{"forest":["zone-forest-approach","zone-forest-heart","zone-forest-sanctum","zone-forest-boss"],"valley":["zone-valley-approach","zone-valley-heart","zone-valley-sanctum","zone-valley-boss"],"coast":["zone-coast-approach","zone-coast-heart","zone-coast-sanctum","zone-coast-boss"],"snow":["zone-snow-approach","zone-snow-heart","zone-snow-sanctum","zone-snow-boss"],"ruins":["zone-ruins-approach","zone-ruins-heart","zone-ruins-sanctum","zone-ruins-boss"],"citadel":["zone-citadel-approach","zone-citadel-heart","zone-citadel-sanctum","zone-citadel-boss"],"town":["zone-town-center"]},"sectors":{"forest":{"approach":["zone-forest-approach"],"heart":["zone-forest-heart"],"sanctum":["zone-forest-sanctum","zone-forest-boss"]},"valley":{"approach":["zone-valley-approach"],"heart":["zone-valley-heart"],"sanctum":["zone-valley-sanctum","zone-valley-boss"]},"coast":{"approach":["zone-coast-approach"],"heart":["zone-coast-heart"],"sanctum":["zone-coast-sanctum","zone-coast-boss"]},"snow":{"approach":["zone-snow-approach"],"heart":["zone-snow-heart"],"sanctum":["zone-snow-sanctum","zone-snow-boss"]},"ruins":{"approach":["zone-ruins-approach"],"heart":["zone-ruins-heart"],"sanctum":["zone-ruins-sanctum","zone-ruins-boss"]},"citadel":{"approach":["zone-citadel-approach"],"heart":["zone-citadel-heart"],"sanctum":["zone-citadel-sanctum","zone-citadel-boss"]},"town":{"center":["zone-town-center"]}},"bundles":{"shared":{"url":"packs/shared.pck","bytes":15451112,"sha256":"2c8325ce4e16ddc69f33325abb48a9b79d34d0bc612d8c0b0a25c2b9564ab0cd"},"interface":{"url":"packs/interface.pck","bytes":2419660,"sha256":"9bd57d39aa579f8955afb2ce900963a41d427b21e6665a0c13e25fa2895e3ae5"},"hero-knight":{"url":"packs/hero-knight.pck","bytes":2647404,"sha256":"c84120fd6061705d2edd39a2c86feab2bbbd6b8dfc238f14d4f9c75002c59e9a"},"hero-mage":{"url":"packs/hero-mage.pck","bytes":2582776,"sha256":"832bee0ab97a65ed4c8c1e2492014c999dbef30ee2c72d2d41783385e74af2a1"},"hero-ranger":{"url":"packs/hero-ranger.pck","bytes":2670196,"sha256":"f44ff395f5e0dc0b7fe72b42ab1c88f6288c3332771fd147ab11371cd91b5f3c"},"zone-forest-approach":{"url":"packs/zone-forest-approach.pck","bytes":3157108,"sha256":"9d06306274c6d2f0aa04426f4471b0c58a9a433d0ec0f30d404cea3ef05eae4b"},"zone-forest-heart":{"url":"packs/zone-forest-heart.pck","bytes":2833580,"sha256":"242961d2d66171ffd7e74747c464dbc85f7af1481b53876d5589eae28d8088eb"},"zone-forest-sanctum":{"url":"packs/zone-forest-sanctum.pck","bytes":2862612,"sha256":"7fa6602e38e455aabdd318e1d1f47dd0ac0ff4d91e85cc9d3a976009c3422e38"},"zone-forest-boss":{"url":"packs/zone-forest-boss.pck","bytes":850352,"sha256":"393856e8a703f98169d9fd1a3290f2cddf007ca63297c0b4d1a746479ee2522a"},"zone-valley-approach":{"url":"packs/zone-valley-approach.pck","bytes":2757748,"sha256":"73fbf68dd6a1adb5f51aabb2c4da1a13bbff42749383ec94ddf686bbf11aedeb"},"zone-valley-heart":{"url":"packs/zone-valley-heart.pck","bytes":2522796,"sha256":"e4a4493740b0d9c4744159bc02f5a863de03f5b4849f690c4ef3161d5bc589bd"},"zone-valley-sanctum":{"url":"packs/zone-valley-sanctum.pck","bytes":2563124,"sha256":"a46f04cb5d2ecb07a9bba73ced880133296e624775faef069ad0e29c7363761e"},"zone-valley-boss":{"url":"packs/zone-valley-boss.pck","bytes":752272,"sha256":"a5cf1a4da2eb6f557db117ee109de153536e273e553b93c287b5f56d9a36cb44"},"zone-coast-approach":{"url":"packs/zone-coast-approach.pck","bytes":1780884,"sha256":"461a27a1980740941500c1a52c8f56a7cf7f1eb08b229fa1e5a7095027477d75"},"zone-coast-heart":{"url":"packs/zone-coast-heart.pck","bytes":1524840,"sha256":"33647913ff9ed3351b6d2013c568914d35882202e25792dff2aba349c679c4ac"},"zone-coast-sanctum":{"url":"packs/zone-coast-sanctum.pck","bytes":1657456,"sha256":"6e074a94a6fbe15773d3d1b8c6aeed8e331f6ed5ce7c05a6376f84d6f889348c"},"zone-coast-boss":{"url":"packs/zone-coast-boss.pck","bytes":947788,"sha256":"547b8e1c891375ae6bd2751e2906797c0f1132c22db51301a2a9d603ce313c06"},"zone-snow-approach":{"url":"packs/zone-snow-approach.pck","bytes":2116720,"sha256":"a6701b9d168d3c0e665d9aa3f1300797bd871a8434af7287d753e002e95651f9"},"zone-snow-heart":{"url":"packs/zone-snow-heart.pck","bytes":1855464,"sha256":"c75b05da76c17d62541f5931bcbfe752596f78082f5a28fb321553435a596670"},"zone-snow-sanctum":{"url":"packs/zone-snow-sanctum.pck","bytes":1952588,"sha256":"e7e9a3b85e6261fc29acbf774f680f38e2d8ec570b4e4a3df5adc7b2ab2d6555"},"zone-snow-boss":{"url":"packs/zone-snow-boss.pck","bytes":829384,"sha256":"39fde3a84400a4cf9be1b52a6bd516f208dfdd58ac72a08dacbb887248188a54"},"zone-ruins-approach":{"url":"packs/zone-ruins-approach.pck","bytes":1455860,"sha256":"f7caecf78e20a28b1c8d723945205afd063ca7245632387f137aee82daf29ed4"},"zone-ruins-heart":{"url":"packs/zone-ruins-heart.pck","bytes":1220328,"sha256":"6ea56d8a466678e3c6af3d024beb988e958639e448ea12af7e3e9a98e4156e6e"},"zone-ruins-sanctum":{"url":"packs/zone-ruins-sanctum.pck","bytes":1333424,"sha256":"5b4d7b3311a5e870ab96bb9cd7fb22522d891d8306e1d374836b3fe146cae713"},"zone-ruins-boss":{"url":"packs/zone-ruins-boss.pck","bytes":1100044,"sha256":"a505223f60cf35c7792f7fa42bf8d72ab5c8be45538fb6e66f2fd00e6503b7d1"},"zone-citadel-approach":{"url":"packs/zone-citadel-approach.pck","bytes":1460504,"sha256":"77390edc923d3b314273948489203b19eb8dc816a9b55bdc679fe13a382949df"},"zone-citadel-heart":{"url":"packs/zone-citadel-heart.pck","bytes":1243152,"sha256":"f7ef468cf53c3187516f41b3be2b105ce7c8bcc1b71471f814298408aff1db8c"},"zone-citadel-sanctum":{"url":"packs/zone-citadel-sanctum.pck","bytes":1312532,"sha256":"e53e79a1d19fe7e8ba343f908981c3c685e08664e50ef28fd87866c0e865eb17"},"zone-citadel-boss":{"url":"packs/zone-citadel-boss.pck","bytes":723284,"sha256":"51231aa69f04cb8ace26b5e25f4937295deb61d96f24736976f395583ca3735b"},"zone-town-center":{"url":"packs/zone-town-center.pck","bytes":10870184,"sha256":"fec859f9c39a8c9bc4198be8fd678d679f85e98ce46d7a95d559f82071800604"}}};
@@ -156,12 +157,36 @@ installImmersiveGate();
 window.addEventListener('resize', updateViewportMetrics, { passive: true });
 window.addEventListener('orientationchange', updateViewportMetrics, { passive: true });
 window.visualViewport?.addEventListener('resize', updateViewportMetrics, { passive: true });
+window.visualViewport?.addEventListener('scroll', updateViewportMetrics, { passive: true });
 document.addEventListener('fullscreenchange', updateViewportMetrics);
+function isEditableTarget(element) {
+  if (!element || typeof element !== 'object') return false;
+  const tag = element.tagName;
+  if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return true;
+  if (element.isContentEditable) return true;
+  if (typeof element.closest === 'function') {
+    const editableAncestor = element.closest('[contenteditable]');
+    if (editableAncestor && editableAncestor.getAttribute('contenteditable') !== 'false') {
+      return true;
+    }
+  }
+  return false;
+}
+window.addEventListener('keydown', event => {
+  if (event.altKey && (event.key === 'l' || event.key === 'L' || event.code === 'KeyL')) {
+    if (isEditableTarget(document.activeElement) || isEditableTarget(event.target)) return;
+    event.preventDefault();
+    sendWorld('shortcut', { key: 'Alt+L' });
+  }
+});
 window.addEventListener('message', event => {
   const value = event.data;
   const legacy = value?.channel === 'n4-rpg' && value.version === 2;
   const world = value?.channel === 'haru-world' && value.protocolVersion === 1;
   if (event.source !== parent || event.origin !== origin || (!legacy && !world) || value.sessionId !== sessionId) return;
+  if (value.type === 'viewport_refresh' || (value.type === 'realtime_event' && value.payload?.kind === 'viewport_changed')) {
+    updateViewportMetrics();
+  }
   receive(value);
 });
 const loadedPacks = new Map();
@@ -289,12 +314,19 @@ if (qaEnabled) {
   panel.append(video); document.body.append(panel);
 }
 retry.addEventListener('click', () => location.reload());
-const config = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":8371312,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const config = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":8378432,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 engine = new Engine(config);
 Promise.all(zoneManifest.startup.map(id => loadPack(id, true))).then(paths => {
 window.n4WorldBridge.startupPacks = paths;
 return engine.startGame({ canvas: document.querySelector('#canvas'), onPrintError: recordEngineError, onProgress(current, total) {
-  if (total > 0) { progress.max = total; progress.value = current; }
+  if (total > 0 && current >= 0) {
+    progress.max = total;
+    progress.value = current;
+    sendWorld('loading_progress', { current, total });
+  } else {
+    progress.removeAttribute('value');
+    sendWorld('loading_progress', { current: 0, total: 0, indeterminate: true });
+  }
 } });
 }).catch(error => {
   message.textContent = 'Không mở được thế giới. Hãy thử lại hoặc giảm chất lượng cảnh trong thông báo phục hồi.';
@@ -302,5 +334,6 @@ return engine.startGame({ canvas: document.querySelector('#canvas'), onPrintErro
   progress.hidden = true;
   status.hidden = false;
   send('error', { message: String(error.message || error) });
+  sendWorld('fatal_error', { message: String(error.message || error) });
 });
 </script></body></html>

@@ -1,0 +1,1389 @@
+{
+  "schema": 1,
+  "nativePackCache": "n4-rpg-packs-haru-v2.1",
+  "precache": [
+    "assets/WorldExperience-BimzhkUc.css",
+    "assets/WorldExperience-BoyzIg7O.js",
+    "assets/haru-world-activity-catalog-5ZfG2j7n.js",
+    "assets/haru-world-admin-tabs-CMe6y1wi.js",
+    "assets/haru-world-storage-Dh30TKk6.js",
+    "assets/index-9fUQtPyz.css",
+    "assets/index-CS9cjAs1.js",
+    "assets/vendor-icons-MeSkysD6.js",
+    "assets/vendor-react-DMamQVB4.js",
+    "assets/vendor-router-udyIeVgQ.js",
+    "assets/vendor-runtime-BbOs9S9B.js",
+    "assets/vendor-supabase-DTEAj5J1.js",
+    "favicon-16.png",
+    "favicon-192.png",
+    "favicon-32.png",
+    "favicon-512.png",
+    "favicon.ico",
+    "favicon.svg",
+    "game/world/gpu-context.mjs",
+    "game/world/index.audio.position.worklet.js",
+    "game/world/index.audio.worklet.js",
+    "game/world/index.html",
+    "game/world/index.js",
+    "game/world/index.pck",
+    "game/world/index.png",
+    "game/world/index.wasm",
+    "game/world/packs/hero-knight.pck",
+    "game/world/packs/interface.pck",
+    "game/world/packs/shared.pck",
+    "game/world/packs/zone-town-center.pck",
+    "game/world/viewport-metrics.mjs",
+    "game/world/zone-cache.mjs",
+    "game/world/zone-manifest.json",
+    "index.html",
+    "manifest.json"
+  ],
+  "assets": [
+    {
+      "url": "assets/AIGameHelper-DMNC0DGu.js",
+      "bytes": 33710,
+      "sha256": "028a723bf3317a2686f4b6a2bb52820517e8a364fedc525c4a1582e07a576e3a"
+    },
+    {
+      "url": "assets/AdminDashboard-CbyAovsp.css",
+      "bytes": 4688,
+      "sha256": "e8cc5ed2161d8536a1e68ee4206178ffb5ce69c160e9fe1c3871c7baef7acd08"
+    },
+    {
+      "url": "assets/AdminDashboard-UPssGsxp.js",
+      "bytes": 321899,
+      "sha256": "3b0ce87ce2fa8945faa104b39ba2f6313fa82f984c8ad1bdf45a030be220e0f6"
+    },
+    {
+      "url": "assets/AdventureArena-A78G9r9C.css",
+      "bytes": 8734,
+      "sha256": "b85d1e8195fbd2c4eff40226a8a2ee296f5cf95ec23639e6ca2c7e128479fec2"
+    },
+    {
+      "url": "assets/AdventureArena-BbOQ4-AE.js",
+      "bytes": 70193,
+      "sha256": "d70d189a4140773fb7e56ba0a516d2ee9b810dcb08f5cda449b72127da53ee18"
+    },
+    {
+      "url": "assets/Analytics-DuXj3UE2.js",
+      "bytes": 58847,
+      "sha256": "525841d96912bd4755e8145c4b1f39d1ad579dde5c36ef7b6f915565b3ac0302"
+    },
+    {
+      "url": "assets/BountyBoardPage-DfREWzKT.js",
+      "bytes": 6276,
+      "sha256": "0df69e7f571dc919e54952fd0b9089de97ed2eb921259affa1a59cd645bfb7e7"
+    },
+    {
+      "url": "assets/CelebrationOverlay-Bp4zKmPo.js",
+      "bytes": 142,
+      "sha256": "f5c89c5e4172084117229036575e6eee0cd41196c9c81da23833fa0e15be22ae"
+    },
+    {
+      "url": "assets/ChallengeQuiz-B0OtlEHK.js",
+      "bytes": 31548,
+      "sha256": "d5e6684b2e9db3a16fedc709b487ccbe8d5fba821f0f1b2c24b299b59e253af9"
+    },
+    {
+      "url": "assets/CollectionsPage-D1Ecgc7x.js",
+      "bytes": 8701,
+      "sha256": "c0d97c657efb4b9dc2d55543e7e59284e01dd13377a831224d6ba7226361a810"
+    },
+    {
+      "url": "assets/ConfettiBurst-BBdPNXs5.js",
+      "bytes": 1696,
+      "sha256": "e706c229e7875116c535412cb239ba5e88cedb0e7f1b9740d8e89ae12b8bca5e"
+    },
+    {
+      "url": "assets/ConjugationDojo-CJFmfELz.js",
+      "bytes": 119643,
+      "sha256": "c4c0e9cc31f4f2a92b253c70e81a38d837a6025f0e89f614939317037348f0a2"
+    },
+    {
+      "url": "assets/Content-BUUmlLEe.js",
+      "bytes": 126707,
+      "sha256": "e64d80b835c29554e0685276c42aeaa11300129716de835e0681c2c9985d0d21"
+    },
+    {
+      "url": "assets/DailyPractice-CQvM6Nbf.js",
+      "bytes": 32324,
+      "sha256": "94ef19a1e8c5df68d2dff7c88c50e034d45bf01a48152491079ab312398b0a2d"
+    },
+    {
+      "url": "assets/DailyPractice-sZecCyff.css",
+      "bytes": 6567,
+      "sha256": "e1af6003296e32bacbfc4de1e207747a91b3c91dbaec57541b166b7f589ff26a"
+    },
+    {
+      "url": "assets/DailyStudyResults-DOzJXTPk.js",
+      "bytes": 15510,
+      "sha256": "0c9459a4fd1be9c2a72e6d88fc5daa996a28a3ce429d75ea6fca8c3c41eed3dc"
+    },
+    {
+      "url": "assets/DailyStudySession-DcOZ3_sB.js",
+      "bytes": 12330,
+      "sha256": "1aa27993d488124addb36860c34baa402487eba94f0230fbf84f6668acf7a27e"
+    },
+    {
+      "url": "assets/DraftFeaturesPage-w5ppoXNU.js",
+      "bytes": 99643,
+      "sha256": "2f05b7d80e87f55877670e8e510b79f8bda5d36fb408ceed30566771c1f1bea9"
+    },
+    {
+      "url": "assets/EconomySceneHero-DIF2m_2x.js",
+      "bytes": 120,
+      "sha256": "0f65f5ee8efd771bfb26e1f8dfa3b27b78b48711af4f25431a52bf556fca1467"
+    },
+    {
+      "url": "assets/EconomyStatsPage-CesQLBuJ.js",
+      "bytes": 20246,
+      "sha256": "4aef387d910c1f1b10aa0556e788f6975e0021b58101d8579f7d8903e9a1f91c"
+    },
+    {
+      "url": "assets/FactionPage-DLeUANad.js",
+      "bytes": 4731,
+      "sha256": "49b7fecba6710fcc3f1eae12884be83010065a70a4fa5ffa531629cd9faa0348"
+    },
+    {
+      "url": "assets/FillBlankMode-CtBcp63V.js",
+      "bytes": 11850,
+      "sha256": "6bba68a82e8dba728c5ef4c642738dc67480ccb657acf60bf36023087cdf75e6"
+    },
+    {
+      "url": "assets/FlashcardMode-DZXUw1f6.js",
+      "bytes": 19786,
+      "sha256": "27cc50074f358e4c9a5b960fc01533da8f02259e8414e12ac78ecd365b3a7bd9"
+    },
+    {
+      "url": "assets/GachaPage-CpRxYkrc.css",
+      "bytes": 14184,
+      "sha256": "eae73aeda38a3f4699826e2afc5699413874b719aa337148dd8dbf86e4b2031b"
+    },
+    {
+      "url": "assets/GachaPage-D5Sa5uiF.js",
+      "bytes": 46198,
+      "sha256": "8cb8fa1f87f753d9e3c6f59772947cf260e6e7b484f1ea149efa895961cac52c"
+    },
+    {
+      "url": "assets/GamblingPage-Dp56l-6c.css",
+      "bytes": 13717,
+      "sha256": "ea59edee4b595c6dbd96008e0bcc8c8fa079c069eb5d6ce95663ce64bc90bc75"
+    },
+    {
+      "url": "assets/GamblingPage-hNyI3bPZ.js",
+      "bytes": 36272,
+      "sha256": "9d54bc7795b380cb18694ba1135908c07570fd4c11a8edd944f958f7bfea747e"
+    },
+    {
+      "url": "assets/GameplayEffects-BioxBofa.js",
+      "bytes": 8793,
+      "sha256": "8c500dfa907a537113ed3359062919adbfdeebf359e5556980ebd58b226dabc8"
+    },
+    {
+      "url": "assets/GrammarArena-D3kDrGbP.js",
+      "bytes": 117265,
+      "sha256": "797d648c5e8881875b6aff87e1c81ee76dde6216369c81a012ce6760774371ee"
+    },
+    {
+      "url": "assets/HitPause-BEzg5i-7.js",
+      "bytes": 1631,
+      "sha256": "040d89c10d6f916fa2dea6fd1bec08319809f25c0e1234f85e33619495732c14"
+    },
+    {
+      "url": "assets/IOSGroupedList-BHK-O6Db.js",
+      "bytes": 2496,
+      "sha256": "82373c32999ba6ba08a53217aef6f31618b20a57685ce5731ee34c01a77603c3"
+    },
+    {
+      "url": "assets/Inbox-B5u6n_5l.js",
+      "bytes": 20543,
+      "sha256": "2413973585a3066edfb5cc3f45995663f52f052ca24fdc2838c7f5fef5b5c152"
+    },
+    {
+      "url": "assets/InventoryPage-DbnHSWdK.js",
+      "bytes": 40561,
+      "sha256": "70e1a54fd93ebcf742aa3a87330178d7bff50e5124e303068961ced815521f9b"
+    },
+    {
+      "url": "assets/JLPTMock-BkSsqQJx.js",
+      "bytes": 25406,
+      "sha256": "aff69a40437a302c450097f97f757be77e41e21431b2f928ca58c98f9f8814fa"
+    },
+    {
+      "url": "assets/KanjiAcademy-CysdLNzY.js",
+      "bytes": 70966,
+      "sha256": "24cf7a2c4da41ae98fe9e52fa0e343769361e7fca42f7948ba2233a70527f4f6"
+    },
+    {
+      "url": "assets/KanjiBattleMode-kcj-OJaP.js",
+      "bytes": 30202,
+      "sha256": "452520d9eefe785d54139fc590ffa0f86496766e22691a25c91f0136b6538b0f"
+    },
+    {
+      "url": "assets/KendoDojoScene-DSRS0xVs.js",
+      "bytes": 2642,
+      "sha256": "348b82a2dd554bc5cc4d6680e9663efd2149c3fa1f8b545d6111322354380caa"
+    },
+    {
+      "url": "assets/KendoTournamentPage-7CXRbsMW.js",
+      "bytes": 15500,
+      "sha256": "b73038e06f2f0bd1637a99671a6aba386e67bb776f86c8ff87024ead386cc8a5"
+    },
+    {
+      "url": "assets/KendoTournamentPage-DRrAWjSV.css",
+      "bytes": 14681,
+      "sha256": "c1b20b8486753b46a12dd28c6835ddd137d650227f82236833f40bdb97639714"
+    },
+    {
+      "url": "assets/ListeningLab-CfKwmmG4.js",
+      "bytes": 118800,
+      "sha256": "9a2e08ca07313df5c50d9af6d4655d807b8ac5fd53e95eaa96313545fa5c34d5"
+    },
+    {
+      "url": "assets/ListeningLab-DMV_LKAe.css",
+      "bytes": 27914,
+      "sha256": "617d70e0e0a88c1f68e87bb4567e6a3e553a05251611816c8e9eb07a41f56d2a"
+    },
+    {
+      "url": "assets/MangaAlcoveScene-BTfVCTSs.js",
+      "bytes": 1725,
+      "sha256": "07e133c77ae2d6da581279139ac8929ba12bd9855660cb19a219675022b4e85e"
+    },
+    {
+      "url": "assets/MangaLibraryPage-BOKzA1xm.js",
+      "bytes": 7618,
+      "sha256": "9c9ad33b32de85771dc6a28c7e5eb15716ec52afbba1ec30cbb558ac0e18ae37"
+    },
+    {
+      "url": "assets/MangaLibraryPage-r3wDew-j.css",
+      "bytes": 10445,
+      "sha256": "08a64b786ad20cd4c18e4c860250719abde61bc4cd6d9adfd646f01a5d48ed7b"
+    },
+    {
+      "url": "assets/MarketPage-DDarXCoR.js",
+      "bytes": 19200,
+      "sha256": "85e89884be83a53fc150d8936e18a8e1f844ad47e8619c57c3d58a6c51641d3e"
+    },
+    {
+      "url": "assets/MatchMode-DV8l_6hM.js",
+      "bytes": 11260,
+      "sha256": "342e4e3c8c1da80a089b354a73337ab8b992781ef5b885af534208a0903efcd8"
+    },
+    {
+      "url": "assets/MechaGaragePage-CyPMomns.css",
+      "bytes": 10457,
+      "sha256": "d1f1ca3f76a60f372e41fac8f5ca266249689dafe096ed925743dbf6129c3f58"
+    },
+    {
+      "url": "assets/MechaGaragePage-FjLpeieY.js",
+      "bytes": 8069,
+      "sha256": "fa6c663adc92085388dd0a1a609574a231374f6a1af8106924b73d41f4734737"
+    },
+    {
+      "url": "assets/MechaGarageScene-DLy48Be2.js",
+      "bytes": 2832,
+      "sha256": "ccd82ce9050343d0c1734f9578547fcad68196484e2d59c97f506a12b55a2ed7"
+    },
+    {
+      "url": "assets/MindTricks-DgSOWZmw.css",
+      "bytes": 6855,
+      "sha256": "25fb613e5c5b8db8d49df12799cf79448a9fc32fb13aca428261fc4de35f5288"
+    },
+    {
+      "url": "assets/MindTricks-hDwGr0ob.js",
+      "bytes": 39718,
+      "sha256": "a1cdd3b8ac67eb373f450e6915a05112b672080f9a08bae9af7c941a214b2666"
+    },
+    {
+      "url": "assets/MinnaLessons-Dq_UrF-0.js",
+      "bytes": 22161,
+      "sha256": "51c9d9f63b30c5e2f25e8a63bce54410bfe07f86879873762ca65c776ee9a8c0"
+    },
+    {
+      "url": "assets/MissionsPage-B9whRdbA.js",
+      "bytes": 24194,
+      "sha256": "875547cca201d43c7ca6b600cdf074865a793824d17a5763aab8b3ebb242d579"
+    },
+    {
+      "url": "assets/ModeResultsScreen-BvhueovD.css",
+      "bytes": 10837,
+      "sha256": "4366ad9c7d5401b23eac1fba13f069672846a3b03c69db351571fe4209749687"
+    },
+    {
+      "url": "assets/ModeResultsScreen-CjlCCqyH.js",
+      "bytes": 40259,
+      "sha256": "6c4ab8a6bd477df9a270abd4b9698bbd3bd67a3b34fafbbf4ba6bf8902b22d1c"
+    },
+    {
+      "url": "assets/ModelViewer-BZvBG_b5.js",
+      "bytes": 960,
+      "sha256": "a20a0082c32b31c15418636899268aa7937c2e9dd0517a50dc326ac87118ae7c"
+    },
+    {
+      "url": "assets/ModelViewerRenderer-CnXwS-Nm.js",
+      "bytes": 52674,
+      "sha256": "06fef3411df265a5ff8089c2d42899714ed84db6223a8b73487f08551d93fbbd"
+    },
+    {
+      "url": "assets/NekoCafePage-CK3uVBm2.js",
+      "bytes": 14145,
+      "sha256": "50084b2e2fa905060d2de559e8b158d9b6df9de0444aa62bc7c57152fb21804f"
+    },
+    {
+      "url": "assets/NekoCafePage-DDpRDYcf.css",
+      "bytes": 11380,
+      "sha256": "4fe22adb56e7196545cbeeb83b1659ca8346721ea506810cdd21885e4ddf8ac2"
+    },
+    {
+      "url": "assets/NotFound-fjylnkwY.js",
+      "bytes": 1014,
+      "sha256": "7699ea45e446e7c23e364db6a8202e6da6c319e3f0e085157001f444c723f4d5"
+    },
+    {
+      "url": "assets/OmikujiShrinePage-BBVXFgPS.css",
+      "bytes": 12969,
+      "sha256": "69bb4fab59d0be166723f5145a831b273b9441b9256a7eb45eff56e79f5931c8"
+    },
+    {
+      "url": "assets/OmikujiShrinePage-DKAlNPZj.js",
+      "bytes": 10843,
+      "sha256": "015adc368ffcdd953ef50a5354ce5a44cc0786fb2653fdf18220d556ab40fa64"
+    },
+    {
+      "url": "assets/OmikujiShrineScene-DTWrKJeT.js",
+      "bytes": 2394,
+      "sha256": "4c1597d0ad0a3ac48b98a63c4d63e6161c71e96fe4e3851e967e789fd5b68657"
+    },
+    {
+      "url": "assets/OnsenPage-BGJDFK1o.css",
+      "bytes": 12250,
+      "sha256": "ce9fad211a78ff7834f9ac66082ec6f59b35e2eed86082a4baadd526dc352f20"
+    },
+    {
+      "url": "assets/OnsenPage-Cv1R4C6J.js",
+      "bytes": 9398,
+      "sha256": "b6173d223e086b1874ce0ee57b0d6d140380a30facbef6edb0f239baedc6b4e4"
+    },
+    {
+      "url": "assets/OnsenScene-ByaXdmY9.js",
+      "bytes": 3183,
+      "sha256": "c59ea2211f5388b38b340ffcee55413c838d805c0b3131381d7d71b72f69447b"
+    },
+    {
+      "url": "assets/OrigamiStudioPage-CYp3aDdQ.css",
+      "bytes": 10494,
+      "sha256": "75453def8827d4c029a5999184a5e6991b731ce0127214e51c2f82d164672f50"
+    },
+    {
+      "url": "assets/OrigamiStudioPage-i7rAZ6Bz.js",
+      "bytes": 8467,
+      "sha256": "918dbfbef13cc1bf06fb0d2daa4a52cc468ac95343ecc389ea75d5ff20ab89ba"
+    },
+    {
+      "url": "assets/OrigamiStudioScene-C4imP82_.js",
+      "bytes": 1588,
+      "sha256": "bc4a5e5e9e0752e28e4e23782f33b175a1d99b7d2cd1f04ed5b336c5d99e9fb7"
+    },
+    {
+      "url": "assets/PetPage-ay7elMvU.js",
+      "bytes": 10200,
+      "sha256": "287418ca9f654e8cb5e820ea9aa5c771602ec5907bf1d32e5865121b5e7e3642"
+    },
+    {
+      "url": "assets/PhaseRibbon-B5POdGKR.js",
+      "bytes": 3234,
+      "sha256": "2d9a2756918ab4b8da04dec4ca0bd68664b71604d5f3661b12bca5a5f6e9c7b0"
+    },
+    {
+      "url": "assets/PracticeHub-CJtnn4Nv.js",
+      "bytes": 27179,
+      "sha256": "e8ad3e0c5fa1dd56dceba558eb63b26d22f99b3a710b8403aa764133d4af325b"
+    },
+    {
+      "url": "assets/ProfilePage-B0YkelAr.js",
+      "bytes": 17818,
+      "sha256": "0828c29bb7ca5cb244a27084b97f5c7afd6b329382374a2e248318a6fea833f6"
+    },
+    {
+      "url": "assets/PuzzleWorld-B1ACQWwV.css",
+      "bytes": 7742,
+      "sha256": "a1878034a3cbe86b2d504858aca8511adf2329ba02752800befd89b6792f07b4"
+    },
+    {
+      "url": "assets/PuzzleWorld-CCSJ-__9.js",
+      "bytes": 52376,
+      "sha256": "f13f180cf2db5d9a386300c2feeb6d1de3599935c4211589c64d30d55d2d54f7"
+    },
+    {
+      "url": "assets/QualityContext-DP8w4YU_.js",
+      "bytes": 7926,
+      "sha256": "518705cc45280e2682a836c3d30426b46a88ca64b3e72a260bdcdb361a5b93f9"
+    },
+    {
+      "url": "assets/QuestChainPage-CfBbRItn.js",
+      "bytes": 6500,
+      "sha256": "8a9e96686fc4910a5895e3586521e9bb7778981e6b8654fb8c2f2b5cba6a58fa"
+    },
+    {
+      "url": "assets/QuizFeedback-V2tKXQwQ.js",
+      "bytes": 6800,
+      "sha256": "7188560d7af7029227533269bf4c4543c8e9fca66b1732bef2d297171cf572d6"
+    },
+    {
+      "url": "assets/QuizMode-BU-EiX-L.js",
+      "bytes": 40252,
+      "sha256": "3235f1db2392052c548fbdf3613b13ccd0f436e2bbae8376e0eaa7b781f3e068"
+    },
+    {
+      "url": "assets/RamenCounterScene-Da97vBwL.js",
+      "bytes": 2157,
+      "sha256": "f7b70ce67bc36c27cdb132c90f0ee9186a5a36d278f950db0e230f65d16bd26b"
+    },
+    {
+      "url": "assets/RamenShopPage-BuqN76YO.js",
+      "bytes": 31012,
+      "sha256": "47f5d993b4f4be4111ec62546d9df09fb9da782ba386d769ea1c10e6edfdadd0"
+    },
+    {
+      "url": "assets/RamenShopPage-DUsSy1Ry.css",
+      "bytes": 13173,
+      "sha256": "e7be202adde25fe971c05926b73b2ede17124abe499b3db0e73f619e1dcaa581"
+    },
+    {
+      "url": "assets/RarityAura-BCgqmSY0.js",
+      "bytes": 1114,
+      "sha256": "eb21dd86ba94312b3c7bf2b4faa18d0dd6e9a53ffe7cc017be11f6a194ec6bef"
+    },
+    {
+      "url": "assets/ReadingRoom-C-DpJd4b.js",
+      "bytes": 15428,
+      "sha256": "8c40967e2d3219e4f7ab551a3b305d03d277f8c3c22dbde6da63626dd9accdfa"
+    },
+    {
+      "url": "assets/ReadingRoom-CxaPVclh.css",
+      "bytes": 8167,
+      "sha256": "1858c8e3ec5cf1a8125933e1f98b2a7e8b3ffec455ee05bec3f8632aa815391f"
+    },
+    {
+      "url": "assets/RhythmTrack-DZRmZYQL.js",
+      "bytes": 5638,
+      "sha256": "7d77591c85501fc730e14885238df1fda280d20d76bde302366a4bf262575b64"
+    },
+    {
+      "url": "assets/ScaffoldingLayer-D2Cndtp8.js",
+      "bytes": 2953,
+      "sha256": "f8f37d858faa285302aa497f2d547c7baeb3a5389b090be799337544dc40ad9a"
+    },
+    {
+      "url": "assets/SceneContainerRenderer-OlwCciTb.js",
+      "bytes": 5838,
+      "sha256": "b1c8010dac1400600d24b4bf8f776670ee3918d26aaa12dd4bf8030740dafe1c"
+    },
+    {
+      "url": "assets/ScratchCardPage-B03v5G5C.js",
+      "bytes": 13260,
+      "sha256": "58c844a1b4a3c14be10f890dc6c05de349f0bf9225197e90d29c2ac5b99fc064"
+    },
+    {
+      "url": "assets/SenseiRoomPage-CuyoBgV1.js",
+      "bytes": 8324,
+      "sha256": "940488f39f54481649fe9221f2f3c5a399344563e9a8fa3d43719b3ca172b4b2"
+    },
+    {
+      "url": "assets/SentenceBuildMode-BckzqNHP.css",
+      "bytes": 20327,
+      "sha256": "9680968026a3f7d96254153b205c134b0e0ace7f4d6248ec46491a4c5bb93dc6"
+    },
+    {
+      "url": "assets/SentenceBuildMode-CTBAWfUg.js",
+      "bytes": 13475,
+      "sha256": "5788bfeede25bbb7bebb814969cbf5e73b6bd9f92ebfd21e65ca7bc56bbe4e75"
+    },
+    {
+      "url": "assets/Settings-UjILIrmC.js",
+      "bytes": 122903,
+      "sha256": "6d919033f7dd0cdc7ec03392e74b4e908b8102062822abbf7c83e8a531215daf"
+    },
+    {
+      "url": "assets/ShopPage-MiZrKTCR.js",
+      "bytes": 40909,
+      "sha256": "7095d032dc073da64faa91758c1941aedc304dddc0f2caa629f82c91468cf311"
+    },
+    {
+      "url": "assets/SkillTreePage--CtehG7c.js",
+      "bytes": 8660,
+      "sha256": "89b95ed41fa4db5c2e402acd25ed6b6ca705d0aa3e182d2315d14453a938aa91"
+    },
+    {
+      "url": "assets/SparklePing-J-nLr2-B.js",
+      "bytes": 869,
+      "sha256": "b5687f2eedbbd58bbb4bc2274b1196b8f1b41080a4af2f555ba682dae388e27a"
+    },
+    {
+      "url": "assets/StoryMode-B4orAei6.css",
+      "bytes": 8126,
+      "sha256": "acd1157e40fbae799861e53038adb9eea78eb62b542a1de56439f77097bd5c1b"
+    },
+    {
+      "url": "assets/StoryMode-DvJyGw5w.js",
+      "bytes": 38461,
+      "sha256": "8753f5cf68f7175f5264b4c384480aa4168e241b54ed1ccad139d13a94892c8d"
+    },
+    {
+      "url": "assets/StoryQuestPage-Bfs52jzx.js",
+      "bytes": 10518,
+      "sha256": "cb9a27b614a419f326550e120a9cf8b345031367923a565f97dc04f534b862c7"
+    },
+    {
+      "url": "assets/StrokeCanvas-4hp97k9s.js",
+      "bytes": 5260,
+      "sha256": "f1272f7f85825653fa84cb83174e837f4d567b6f74d26ac701440baec72953ba"
+    },
+    {
+      "url": "assets/StudyRoomPage-DWOe2k1Z.js",
+      "bytes": 9525,
+      "sha256": "f2c393d454d7321d697dcd77946c57348e6856bd137422dc26a405e5a01c1442"
+    },
+    {
+      "url": "assets/SubgameCanvas-CZZ_bKOy.js",
+      "bytes": 1190,
+      "sha256": "a01478af4f3772bad45b855096436c6b9eea1bfeed99ac5e38a04ec07c376fec"
+    },
+    {
+      "url": "assets/SubgameCanvasRenderer-CbVs38-M.js",
+      "bytes": 2637,
+      "sha256": "54d9f0e1265d354aa715b19f6b1f4eb1eaa3ecff4dad8c8c467e35c9b4a03252"
+    },
+    {
+      "url": "assets/SwipeGesture-vR6sE2GT.js",
+      "bytes": 3729,
+      "sha256": "5efeafd3a2db186e3cf19e2806b9739f34a01ad7c20f85db433f3eacbdf4dd65"
+    },
+    {
+      "url": "assets/TaikoMasterPage-BYJtjoK3.js",
+      "bytes": 9820,
+      "sha256": "bd9c5b82c912aa232ce798ba3cb431607f1f608c55f4488de306d51db59b75f7"
+    },
+    {
+      "url": "assets/TeaCeremonyPage-BbSx_5P-.js",
+      "bytes": 11244,
+      "sha256": "59e999253fab6bf5078bf76859536b4fadc5947374a5c78e63af4fef02af7db5"
+    },
+    {
+      "url": "assets/TeaCeremonyPage-CEVQx_9p.css",
+      "bytes": 12163,
+      "sha256": "2618145ca0579e885ca8bd8089b72399ae073717c43d75c442b3d867c694fecc"
+    },
+    {
+      "url": "assets/TeaRoomScene-BPSTRFqN.js",
+      "bytes": 2820,
+      "sha256": "788b91499d3f8ed607812691aac6815126cdbd4d490e9bfc6827e86b25dce89b"
+    },
+    {
+      "url": "assets/ThemedScenes-UE3uJrto.js",
+      "bytes": 420,
+      "sha256": "0ff51d3a273deb74ca6139cfa0cd80de62c1a06c704085ce43539d77f2a9f2e2"
+    },
+    {
+      "url": "assets/ToolsPanel-sf2ZLTwK.js",
+      "bytes": 52766,
+      "sha256": "3e99280e6848fb4759d7c3d3ec1dc89279ebfc107887d1cff5f3d06e9e0a28c5"
+    },
+    {
+      "url": "assets/TownPage-CSwFz54K.js",
+      "bytes": 12295,
+      "sha256": "2a5aac4c756c81422ef5c28b7fb5be184180081d45e0210c763ebf06db4129ab"
+    },
+    {
+      "url": "assets/TrainerPage-AhPsLyiq.js",
+      "bytes": 4786,
+      "sha256": "2c872502fd975828dcf24c01b964f1afcb028dfeb942759c36c48a536bad72b5"
+    },
+    {
+      "url": "assets/TrainerTopBar-po1UeO5c.js",
+      "bytes": 83059,
+      "sha256": "6ba079e3a27abc77306d3d4bf9f82b02248e4e1bb85b5c6b99a8d5b6a3dbd468"
+    },
+    {
+      "url": "assets/TreasureCaveScene-D0vrHPeL.js",
+      "bytes": 1833,
+      "sha256": "60ddac74d1ada11072874c3c2835bd943b5ff6825bebd081cba5f050bd26b856"
+    },
+    {
+      "url": "assets/TreasureHuntPage-BaGeQHBP.js",
+      "bytes": 14225,
+      "sha256": "d083a704756a0eb7e149b9de7bd4b9c684d10e63b49391620017d3d93bbe48ec"
+    },
+    {
+      "url": "assets/TreasureHuntPage-rXnntBx7.css",
+      "bytes": 10452,
+      "sha256": "1f942685d788760cd943d10d93fb81168985ed1caf6ab76ade649a23832380a7"
+    },
+    {
+      "url": "assets/TrueFalseMode-wbnYu1Qy.js",
+      "bytes": 11021,
+      "sha256": "d7263637d17ee85809dd1fa38dd7123ec8c21075c97294831ad873ebcdb8b160"
+    },
+    {
+      "url": "assets/VillagePage-3jc6CqHL.js",
+      "bytes": 6706,
+      "sha256": "f6d88ceead5361b9d609cc0434949f32e5bc4c7eee7a2029f30ff966a0c0f873"
+    },
+    {
+      "url": "assets/VisibilityPauseBinder-OX2mp4L5.js",
+      "bytes": 1793,
+      "sha256": "b37539c5c6ab7a64fce05387414a489cae598fdaee7ecc563978dd5f13c9e62e"
+    },
+    {
+      "url": "assets/VocabDojo-CbrRXWTs.css",
+      "bytes": 4450,
+      "sha256": "460dd088db420016ea3d03fe1712adc26560bf7c76cbe857f0ca7dd7ad45f4ab"
+    },
+    {
+      "url": "assets/VocabDojo-DT7BySt1.js",
+      "bytes": 550576,
+      "sha256": "d925bba4113bceb54871e4966ffe6f62941623bc9e93d033c2f697a82a25c126"
+    },
+    {
+      "url": "assets/VoiceShadowing-x27kxwL8.js",
+      "bytes": 3923,
+      "sha256": "d1c3e9e3f0d5f9da0ca9d978d093c89bec64c062b6daef3f7848341c4dfe7a28"
+    },
+    {
+      "url": "assets/WorldExperience-BimzhkUc.css",
+      "bytes": 6308,
+      "sha256": "96b9812a5ab7edcc16197d20a4a34943669be55bdd475a1884f23dfb88154c99"
+    },
+    {
+      "url": "assets/WorldExperience-BoyzIg7O.js",
+      "bytes": 52639,
+      "sha256": "fca558a94fb56ca4bb2037ed39c64f63a1eafdb5a76a40685317ebf22e9fb935"
+    },
+    {
+      "url": "assets/WorldSurfaceContext-4twqImdW.js",
+      "bytes": 238,
+      "sha256": "5c7d69acab55083f97e7e6a51133c7f264192975919931c84683e81b4120b6e7"
+    },
+    {
+      "url": "assets/ZenDojoPage-1wJM_qf7.css",
+      "bytes": 10486,
+      "sha256": "00a4b436ce3951246d2fab5171ca5ba9f53084c04a3fa35075c34d91fafd5033"
+    },
+    {
+      "url": "assets/ZenDojoPage-or73vabZ.js",
+      "bytes": 16682,
+      "sha256": "19095346ad630a10a567dccdfe0c39cac853abccd43dcb5db66d7f47b181b325"
+    },
+    {
+      "url": "assets/ZenDojoScene-Ce-YDiz8.js",
+      "bytes": 1362,
+      "sha256": "c07c772f1990ccfa1bb5bc4c496892e98624ecf36d5466fe67a7f2b4bab14b05"
+    },
+    {
+      "url": "assets/ai-CqXx9Nny.js",
+      "bytes": 41267,
+      "sha256": "463f1705bae1bd77f01ef773ec6b52fb9b4ccddb50852d3fc563b05f49d44954"
+    },
+    {
+      "url": "assets/ai-cache-BWre2oCi.js",
+      "bytes": 2408,
+      "sha256": "a4c16355295d1e7444bf5042ffa6063e238437137c859acb080c3280d83cb687"
+    },
+    {
+      "url": "assets/ai-diary-Cts1VbIO.js",
+      "bytes": 17696,
+      "sha256": "e1c231b86bea36ef7ddc0a581f2d0b1d683a92936e404f25945c9870217f787d"
+    },
+    {
+      "url": "assets/ai-grammar-drill-Ci8HysXs.js",
+      "bytes": 14760,
+      "sha256": "2b8545aa567034f6a1e03117b71cddacf5327aadf78705386307c17ed0175dec"
+    },
+    {
+      "url": "assets/ai-jlpt-predictor-Dou55sLU.js",
+      "bytes": 21727,
+      "sha256": "5124d71c2ac96e3f29f0b0132ba378dbf4e95509a4bfd25533892328dbcb86fe"
+    },
+    {
+      "url": "assets/ai-kanji-detective-ompWHrjp.js",
+      "bytes": 11704,
+      "sha256": "bcc25db710dd5a577a0d707bb280cdff008334c06509ed6f276c33d42cd9e8f2"
+    },
+    {
+      "url": "assets/ai-lyrics-DiNcMC1B.js",
+      "bytes": 12389,
+      "sha256": "22558f75eee75622dc76cbf963198da8a4bc00385e7944fa43c896f5f2af1c2b"
+    },
+    {
+      "url": "assets/ai-mistakes-CiJEQvVG.js",
+      "bytes": 11218,
+      "sha256": "c49b6644921b401d9dc9a1f625a123b58074e3947c6823081b4dd69e0c583142"
+    },
+    {
+      "url": "assets/ai-navigator-CTOld8jG.js",
+      "bytes": 7109,
+      "sha256": "8007f1c2bb76ef9ef2bad49ab2e56b7ad76d4309483423ea8a88e173889ef3f7"
+    },
+    {
+      "url": "assets/ai-news-D08V79f9.js",
+      "bytes": 11976,
+      "sha256": "5296a6a0b05b980a37805b20eb2d17f5f59d31a77fb3731cab16962b5b26a8e9"
+    },
+    {
+      "url": "assets/ai-quiz-NM0YeQTn.js",
+      "bytes": 16468,
+      "sha256": "938591d9e345446a2c1523cb1144a0a70cdcf395f7991b4c7ec10f596402e285"
+    },
+    {
+      "url": "assets/ai-scene-CXIxs_u2.js",
+      "bytes": 12235,
+      "sha256": "106dfe5e688e0cfa51a79c9550c5f522374ed1081afdf3b23fb8877856508a9e"
+    },
+    {
+      "url": "assets/ai-story-CoSlDD3K.js",
+      "bytes": 12476,
+      "sha256": "66578cbebd21b18fbef652d9a3f12c96eaed26c8fd25dae95345616493c0cfc1"
+    },
+    {
+      "url": "assets/ai-tutor-qfHhMlkR.js",
+      "bytes": 44060,
+      "sha256": "b6d5fb15d0cbe41c77b3e3c2ca9545a1d779514bccc29e902e5b3c28683f2f3a"
+    },
+    {
+      "url": "assets/ai-wordmap-jVyMs4bu.js",
+      "bytes": 9242,
+      "sha256": "43de1dd7b006b2feef74d06f417a1f5911cdcad6905328ad60e00dc27a86da4f"
+    },
+    {
+      "url": "assets/ajl-rewards-9vBkoxjC.js",
+      "bytes": 1719,
+      "sha256": "7c5b6176671ee1d4f9b615bddf01ddf0895dddc5478603c6ec850e365ba9fec1"
+    },
+    {
+      "url": "assets/api-BAg1LJRR.js",
+      "bytes": 2134,
+      "sha256": "7ab4b975477cf2032a889f2de122f703adf88a8b083e25bb812e8d578e14eb92"
+    },
+    {
+      "url": "assets/bookmarks-id_GwW1Q.js",
+      "bytes": 8943,
+      "sha256": "3c53407c4ffd0a9d8da128a36a7dba4bfeff99e08e1ed34c1a740f0a8aca17b4"
+    },
+    {
+      "url": "assets/challenges-lUNZXvId.js",
+      "bytes": 2508,
+      "sha256": "55d3a8e6b4a0c8bf7d3f1603b47b1711d39846fcb616e6b28926497c93c706c1"
+    },
+    {
+      "url": "assets/client-D7SArw0B.js",
+      "bytes": 13838,
+      "sha256": "5a5fd6e38a5b1cdddc45701b9ff2fe6b7a5125ba627e607168d4b43985297d1d"
+    },
+    {
+      "url": "assets/cosmetic-registry-C4ZNkqLL.js",
+      "bytes": 188025,
+      "sha256": "3c5a957c20f82daffc1000c5acdc9a87f5710c042ea7e6df488a547b69a2f420"
+    },
+    {
+      "url": "assets/economy-DVMjYxeq.css",
+      "bytes": 126810,
+      "sha256": "5cfef191e12e5425bfe1b68ae0abde915d720dab01ec4be52822f3ce8060e500"
+    },
+    {
+      "url": "assets/empty-Bvm-mx50.js",
+      "bytes": 121,
+      "sha256": "a7209a5eeba4be7ea7ef6534c1f345cf222b9823960cc00478341665c1214dfb"
+    },
+    {
+      "url": "assets/feature-3d-BsCVfJIV.js",
+      "bytes": 820161,
+      "sha256": "a534bab07b24773c20e97b69af40a77c5ff441424d0f03c10e47936612f49a4e"
+    },
+    {
+      "url": "assets/game-content-DFg1ZrbC.js",
+      "bytes": 594349,
+      "sha256": "06f2323591a9326aae45394a30f70bb9bddd80153149227491cb83dc04585049"
+    },
+    {
+      "url": "assets/game-feedback-CNJP45Di.js",
+      "bytes": 3469,
+      "sha256": "5592741f2a85ae4015d2e582da149ba3d08684f134208b8f89c80e49e901b86d"
+    },
+    {
+      "url": "assets/game-hints-Chnykpfn.js",
+      "bytes": 21930,
+      "sha256": "5d408e87d0291a62e4cac046b643662dc48bfca3ddbb074f388d540babc2d412"
+    },
+    {
+      "url": "assets/grammar.v2-DCAJ8ygz.js",
+      "bytes": 936791,
+      "sha256": "93110fc45400fe16a470cf50d6b1ec57b70dbf114ee898219e0663bf86b62e75"
+    },
+    {
+      "url": "assets/haru-world-activity-catalog-5ZfG2j7n.js",
+      "bytes": 103712,
+      "sha256": "79052e0046381207c3e5bab21976afb57912a35e6e5b9bbeb3aa149deeb1601f"
+    },
+    {
+      "url": "assets/haru-world-admin-tabs-CMe6y1wi.js",
+      "bytes": 971,
+      "sha256": "1b3c5387934cfeda6de18fb7eb81c1af6f2612dc1e0e06cbaa3af51e83e0fff7"
+    },
+    {
+      "url": "assets/haru-world-storage-Dh30TKk6.js",
+      "bytes": 16274,
+      "sha256": "7e24575d024c093d4b092910c8315be6230bd108d7c9cdb753690341098f4fd9"
+    },
+    {
+      "url": "assets/index-9fUQtPyz.css",
+      "bytes": 731607,
+      "sha256": "b3eabc060afcecce152dc98230a48c7d594c7ab15b88a8b2990b6c052988b61b"
+    },
+    {
+      "url": "assets/index-B5A8blvW.js",
+      "bytes": 40251,
+      "sha256": "8b069f0994444cc2a31661fe49a22d6549c587acd2d9f2dadb464f5a67035a37"
+    },
+    {
+      "url": "assets/index-CJR61Q42.js",
+      "bytes": 89197,
+      "sha256": "2c5f044e5f9c3a093e77b925672a14f8a84b53de1e0ceef9fdf1994399ad26cf"
+    },
+    {
+      "url": "assets/index-CS9cjAs1.js",
+      "bytes": 700405,
+      "sha256": "b1115986f2a95fa72017038931e36d83734e07da50d4bba271d304ce07484ee5"
+    },
+    {
+      "url": "assets/index-DASQGSyb.js",
+      "bytes": 36971,
+      "sha256": "782f8d5da1bab7bb899eaa5ba3e0c809520f09fe2bec76879c75747cbe3452d4"
+    },
+    {
+      "url": "assets/kanji.v2-CS5TJfx7.js",
+      "bytes": 639911,
+      "sha256": "3265db2d474190293c61b43cd70bd5b504acfa09ea927a31fb395ba4d76244b5"
+    },
+    {
+      "url": "assets/legacy-tool-assessment-2EMIt4Gx.js",
+      "bytes": 2018,
+      "sha256": "b3d6f1df7cca02e1366af452f973edf5630857a639dcbcd240d7794d7ac7615f"
+    },
+    {
+      "url": "assets/lesson-filter-DnQf4cx8.js",
+      "bytes": 7049,
+      "sha256": "ef459d14cf7c9b5c9c86793c4a1bb739ff59cd0fd7d68395b27157b1a70a41dd"
+    },
+    {
+      "url": "assets/loader-CNv4JAPa.js",
+      "bytes": 7922,
+      "sha256": "b1bfbbad5b8e6c9e4362f32b9b938f32735353ddfaa07bcc4d0e586069b4df66"
+    },
+    {
+      "url": "assets/lookup-7k0oq7UK.js",
+      "bytes": 31870,
+      "sha256": "0777136c32a58255c8cd657f0800f3759a04e5dde7634bcfd5ed1605c26bb64e"
+    },
+    {
+      "url": "assets/minna-BMbhs6iQ.js",
+      "bytes": 705104,
+      "sha256": "60005afcdf871981a39c7b6501df6618e58f1b11c0a72eb111b396c64a10c880"
+    },
+    {
+      "url": "assets/minna-lessons-CY_VH0Sd.js",
+      "bytes": 8066,
+      "sha256": "63f2a466f4bbd6e5ab3edaea43cff74ba608596f6e9e741d6c7e7182f2be5553"
+    },
+    {
+      "url": "assets/quest-chains-CiwzmCpJ.js",
+      "bytes": 1872,
+      "sha256": "3eeb6a10d6178051e51e13dc779e8bef10cab0f412b113b3d90f7053e7eab59a"
+    },
+    {
+      "url": "assets/quiz-hVAVGIWi.js",
+      "bytes": 20082,
+      "sha256": "cc493d67eb8f6b3cef9e825f46274f3fa0f3bfb705dce6762f315560416748e8"
+    },
+    {
+      "url": "assets/rarity-tokens-i3-fv4xK.js",
+      "bytes": 1122,
+      "sha256": "f1c1f92cf8218ea5272e54fe5aa0282a89d21db0f78cae9d96b991ecec270a1f"
+    },
+    {
+      "url": "assets/registry-BEC0t0aA.js",
+      "bytes": 15299,
+      "sha256": "15089a292882acf6282126fef79736feb3e1b9a395c8fe49ae5ca1a2b186f7a6"
+    },
+    {
+      "url": "assets/sfx-catalog-DwC9JtMC.js",
+      "bytes": 10148,
+      "sha256": "96ec55ecf47f52b9f4720792dc5ff54f133614a786e84df4857be3c35886d4ff"
+    },
+    {
+      "url": "assets/speed-memory-DlzRhZjg.js",
+      "bytes": 10409,
+      "sha256": "de7d24086f2a201c01c09654bdd913ec42fe5e275d8da7994a6012b73dd35363"
+    },
+    {
+      "url": "assets/study-os-CuE3FXdC.css",
+      "bytes": 26460,
+      "sha256": "48ad8d307502cf0b9c2d739f9893074f7e024aa4c2e01d2c1b2ffd5d62ba91bc"
+    },
+    {
+      "url": "assets/study-results-CA_WGsJK.js",
+      "bytes": 6935,
+      "sha256": "0efbba9933a18df8d032ef091517e359c4a7504f19be8bd9e8e61606bef52b15"
+    },
+    {
+      "url": "assets/study-tools-BRdC4Ma-.js",
+      "bytes": 72226,
+      "sha256": "b2681e58f8fd5af9c4558d832bf60a85e3d104b77656ab2c4db321323e11d9c3"
+    },
+    {
+      "url": "assets/tatoeba-C2PwwfNd.js",
+      "bytes": 7384,
+      "sha256": "25f4d358bdcadcd11241cd09c8ce7c17aa9906314789129b9b42e1cbe73fcc94"
+    },
+    {
+      "url": "assets/toast-DTjiXHi_.js",
+      "bytes": 833,
+      "sha256": "07e8a0fbe3b0fdd1aa0aea7813070a8f6ad3a2302ab3bfa9db9f61967efa6d4e"
+    },
+    {
+      "url": "assets/toast-GCW1Wd_t.css",
+      "bytes": 641,
+      "sha256": "3d7733c59729d63ed58fa630ee83190faf79bb8c9322aed21e42c0bfda6ee266"
+    },
+    {
+      "url": "assets/todo-ai-AJy8icgj.js",
+      "bytes": 27520,
+      "sha256": "fb59ecafb0372a0c256555ee92043ce73ee445020808c64e12137ebe7603b2b4"
+    },
+    {
+      "url": "assets/todo-analytics-AVUC9h7l.js",
+      "bytes": 20733,
+      "sha256": "55eab9e97b2f0e45914462245500bb50fd54eb3d5e37435a548b3e01c19bad2e"
+    },
+    {
+      "url": "assets/todo-audio-DQh0HyKy.js",
+      "bytes": 27438,
+      "sha256": "66015c6c973cbed752d9ac77c59886337afeb30c2ab50018c3d90e23ec3b907d"
+    },
+    {
+      "url": "assets/todo-content-Bfd-yg56.js",
+      "bytes": 34888,
+      "sha256": "35f0e83220ae9127af06cfef6d99783f538f1e01e7f47667581b724cc1374134"
+    },
+    {
+      "url": "assets/todo-culture-B_jTr-0i.js",
+      "bytes": 22556,
+      "sha256": "2aac38899b3e54279ffb54c4a2b319b0619fb8cc2d5e962645f5f9fb9b4a6d06"
+    },
+    {
+      "url": "assets/todo-daily-B3A2Ftr9.js",
+      "bytes": 34011,
+      "sha256": "6f6c927d6f896034efd2202851b8f2062f347df24f0ca55aa79b4ab0ce68d55c"
+    },
+    {
+      "url": "assets/todo-extended2-D_oBE27T.js",
+      "bytes": 41913,
+      "sha256": "e60a372ffb1e704ab6b5e8aff4d487328f652d95544c6e6aecf256484d18aadd"
+    },
+    {
+      "url": "assets/todo-flashcards-BDqO3HG7.js",
+      "bytes": 27081,
+      "sha256": "c593f2ee899921d300d355fe18e99b845553ba70fc1cca1b1d8c39dbe56555f1"
+    },
+    {
+      "url": "assets/todo-immersion-DQ65fTo8.js",
+      "bytes": 20150,
+      "sha256": "778db18d458f19b639fe60b279459c895a68078e1408f23064ce536541b6f078"
+    },
+    {
+      "url": "assets/todo-jlptprep-C9cpVfRY.js",
+      "bytes": 31640,
+      "sha256": "5accc939d08f1d9c9cdb4fbf4af4ea299d7e9930350781ef0051ec2672333974"
+    },
+    {
+      "url": "assets/todo-reading-CThy16Vr.js",
+      "bytes": 24343,
+      "sha256": "613ad04acfcbc4d4c7122074edcba07213cd73f222d54a938084868a18fde373"
+    },
+    {
+      "url": "assets/todo-reference-BHyrTwoT.js",
+      "bytes": 20716,
+      "sha256": "23f5c59b9c9d862c9a0b7ae8e1520cc0e8fe5087a8f5e2e6c4acf34a689435e3"
+    },
+    {
+      "url": "assets/todo-settings-B3Ab_nyS.js",
+      "bytes": 34574,
+      "sha256": "0f5328dc501f04b8dc25caafb155ed931d8d687f6332aa88be1b972f7f50abc6"
+    },
+    {
+      "url": "assets/todo-sharing-h4Zi_ggn.js",
+      "bytes": 19408,
+      "sha256": "b888ee4d6a087e8fd7a03102652a7b386fa27418a4dfe70f1c45e2508377b4c5"
+    },
+    {
+      "url": "assets/todo-smart-i_Ykv6Pb.js",
+      "bytes": 42354,
+      "sha256": "518a44bd50fe519f669cfc5e2e4af3916ba52bf85e07b9d4981d107f48f85019"
+    },
+    {
+      "url": "assets/todo-smart2-BrfM398U.js",
+      "bytes": 20993,
+      "sha256": "ce0aa15d7b5df6cfea4e8ef6ff7684b12a7d62ccdd2b189b9613bb1ae5fb8ac6"
+    },
+    {
+      "url": "assets/todo-ux-C7zFNnPK.js",
+      "bytes": 16947,
+      "sha256": "f59689e2e8fdb3348bed52b9e0bceb8e082d361d6e79610de046c0b017ed1ad4"
+    },
+    {
+      "url": "assets/todo-writing-BvOYNnXg.js",
+      "bytes": 29205,
+      "sha256": "e47e233ccc2978619053ae45945c68cc6b27f9c6e791cd876fba43513196f2ee"
+    },
+    {
+      "url": "assets/tts-CoUJWH4g.js",
+      "bytes": 1640,
+      "sha256": "22711bdb3f6ef83dc3f237671a131e83d23bf182c32ff9777af198e7d298d9cd"
+    },
+    {
+      "url": "assets/useAIKey-DRk_glRd.js",
+      "bytes": 417,
+      "sha256": "f5dd9dfc6bc1924ac759bb86de9fa8a4888e9b1369322d67b78f133488a75201"
+    },
+    {
+      "url": "assets/useDataHelper-CXIJYfUV.js",
+      "bytes": 4091,
+      "sha256": "afa9f0f59f08e02097fea2d5003393342f3719559245158123498ad606297aa4"
+    },
+    {
+      "url": "assets/useDialogFocus-DDCOraXF.js",
+      "bytes": 3351,
+      "sha256": "c401557a31c80a2cf72e72f250467cd11e08c143bfa2b3df3fe8d229cc2a728e"
+    },
+    {
+      "url": "assets/useEnsureLegacyDataLoaded-Dkt39hfj.js",
+      "bytes": 1898,
+      "sha256": "42eafca70d2e79da2600dd7b2289cbdfa2dd56860ba8040be37087e87403172c"
+    },
+    {
+      "url": "assets/useGameEngine-DOXjMeZB.js",
+      "bytes": 2980,
+      "sha256": "a8b43de7b5e191242aa9bb0982d9323e62c9eafbbb2d1f37aa04b8ad2ea36c4f"
+    },
+    {
+      "url": "assets/useGrammarQuiz-DhDR-AD7.js",
+      "bytes": 4426,
+      "sha256": "e4049382ad24bac56e687c7c69a7a9bcf6e2b98e421296afd1ddfb3c9639ce92"
+    },
+    {
+      "url": "assets/useScoreEngine-DK3Vk3_g.js",
+      "bytes": 7100,
+      "sha256": "62ac6e9455959916794931980a34ee4b56c96e16b80902714f1547e06f0a5d9d"
+    },
+    {
+      "url": "assets/useStudySession-DSH4Zq9O.js",
+      "bytes": 2149,
+      "sha256": "596af2b33d3b508feaa998ce5b6e875b2e1aefba901fa4b664aea5b0e08be830"
+    },
+    {
+      "url": "assets/useTodayKey-DgwtiiG2.js",
+      "bytes": 1706,
+      "sha256": "8b7e4c13145bdff1b580dfb4e771fc7eea43d85d0eef1d7481b02a5254f7670a"
+    },
+    {
+      "url": "assets/vendor-icons-MeSkysD6.js",
+      "bytes": 32513,
+      "sha256": "efb502614f3cdd4cd0f8c810b4c160add7bab82c9b63d96b77225fff981309a7"
+    },
+    {
+      "url": "assets/vendor-motion-CRpfP5tD.js",
+      "bytes": 283805,
+      "sha256": "59a3b3ee6726bfe68046a5e0c917a331b5436fe16d12afed412f6b97a8c760d6"
+    },
+    {
+      "url": "assets/vendor-react-DMamQVB4.js",
+      "bytes": 571676,
+      "sha256": "a9724832eeb3e78cd8c6f0bcf2c3b8a3e735a24041f68ab30afd8f9ccf69be40"
+    },
+    {
+      "url": "assets/vendor-router-udyIeVgQ.js",
+      "bytes": 87321,
+      "sha256": "e6e05cd00818c2582dd0ec0f2d57155b65ba0381355373cd1b1a5cdc80c93d9a"
+    },
+    {
+      "url": "assets/vendor-runtime-BbOs9S9B.js",
+      "bytes": 2656,
+      "sha256": "62c62b73298a65e7a11e5ee4bc4323812bf198b8127b5129f84c5dcf5ee45fe1"
+    },
+    {
+      "url": "assets/vendor-supabase-DTEAj5J1.js",
+      "bytes": 474633,
+      "sha256": "32358e44ba85cad7420a982e512ecd0ddf65b7786ec3832b5f470e1bb846c00a"
+    },
+    {
+      "url": "assets/vendor-three-DYjRxPnd.js",
+      "bytes": 1670843,
+      "sha256": "ddf0fcb0f0860e263b110384e1c566ca8e383106d6f4a5ca895439d0adbbed1b"
+    },
+    {
+      "url": "assets/vendor-three-webgpu-BdYvwAyu.js",
+      "bytes": 1630576,
+      "sha256": "fbf0b8371a7bc1f929d4c60150796dadacfd54123e0c4eefe84a5640a62ef807"
+    },
+    {
+      "url": "assets/vocab.v2-BilQu_Iy.js",
+      "bytes": 1549624,
+      "sha256": "e5dfcc03d582f6038117e3aebc5293738ab68123206fcc29a90a1a4ade9e3cee"
+    },
+    {
+      "url": "favicon-16.png",
+      "bytes": 950,
+      "sha256": "34ff7de451c60f419098a02510728372cddc90d084a10aa04b60eb4432846744"
+    },
+    {
+      "url": "favicon-192.png",
+      "bytes": 33920,
+      "sha256": "d2e5171155c05b790f7adb366fba4490281b587a1a01aa4d4c5c6cb4afb3a08f"
+    },
+    {
+      "url": "favicon-32.png",
+      "bytes": 2347,
+      "sha256": "8b3d7ac40854e5752f144f4fd5241a25d71a5ed9387d9c36655de9e7f7e3ea0c"
+    },
+    {
+      "url": "favicon-512.png",
+      "bytes": 136485,
+      "sha256": "7330769f48f1605886e2861b6422bfc12046d1ae2a4a92988126e3a1e5017941"
+    },
+    {
+      "url": "favicon.ico",
+      "bytes": 3383,
+      "sha256": "1fed1cbb37c82a15c0bc2d193c4d4330963a4cd8698060fb7a0ac275a9794f49"
+    },
+    {
+      "url": "favicon.svg",
+      "bytes": 4783,
+      "sha256": "2fd8abd90dd650538afed0802adbe6ed710528b9d4cff954b83ba48c8627004e"
+    },
+    {
+      "url": "game/world/gpu-context.mjs",
+      "bytes": 859,
+      "sha256": "82101947544742c8bae60f23ce3f9c6266fc22d420c06b04be447995bf845674"
+    },
+    {
+      "url": "game/world/index.audio.position.worklet.js",
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    {
+      "url": "game/world/index.audio.worklet.js",
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    {
+      "url": "game/world/index.html",
+      "bytes": 29274,
+      "sha256": "c3656c6c982c0f621998b5247e7d3e5fb79c4352704c56277826f3a2f88d83d1"
+    },
+    {
+      "url": "game/world/index.js",
+      "bytes": 279815,
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+    },
+    {
+      "url": "game/world/index.pck",
+      "bytes": 8378432,
+      "sha256": "967db80698d46fb4524853d594aa3514f68d36dc16def0d4889df01cf5e8b408"
+    },
+    {
+      "url": "game/world/index.png",
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    {
+      "url": "game/world/index.wasm",
+      "bytes": 39514754,
+      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+    },
+    {
+      "url": "game/world/packs/hero-knight.pck",
+      "bytes": 2647404,
+      "sha256": "c84120fd6061705d2edd39a2c86feab2bbbd6b8dfc238f14d4f9c75002c59e9a"
+    },
+    {
+      "url": "game/world/packs/hero-mage.pck",
+      "bytes": 2582776,
+      "sha256": "832bee0ab97a65ed4c8c1e2492014c999dbef30ee2c72d2d41783385e74af2a1"
+    },
+    {
+      "url": "game/world/packs/hero-ranger.pck",
+      "bytes": 2670196,
+      "sha256": "f44ff395f5e0dc0b7fe72b42ab1c88f6288c3332771fd147ab11371cd91b5f3c"
+    },
+    {
+      "url": "game/world/packs/interface.pck",
+      "bytes": 2419660,
+      "sha256": "9bd57d39aa579f8955afb2ce900963a41d427b21e6665a0c13e25fa2895e3ae5"
+    },
+    {
+      "url": "game/world/packs/shared.pck",
+      "bytes": 15451112,
+      "sha256": "2c8325ce4e16ddc69f33325abb48a9b79d34d0bc612d8c0b0a25c2b9564ab0cd"
+    },
+    {
+      "url": "game/world/packs/zone-citadel-approach.pck",
+      "bytes": 1460504,
+      "sha256": "77390edc923d3b314273948489203b19eb8dc816a9b55bdc679fe13a382949df"
+    },
+    {
+      "url": "game/world/packs/zone-citadel-boss.pck",
+      "bytes": 723284,
+      "sha256": "51231aa69f04cb8ace26b5e25f4937295deb61d96f24736976f395583ca3735b"
+    },
+    {
+      "url": "game/world/packs/zone-citadel-heart.pck",
+      "bytes": 1243152,
+      "sha256": "f7ef468cf53c3187516f41b3be2b105ce7c8bcc1b71471f814298408aff1db8c"
+    },
+    {
+      "url": "game/world/packs/zone-citadel-sanctum.pck",
+      "bytes": 1312532,
+      "sha256": "e53e79a1d19fe7e8ba343f908981c3c685e08664e50ef28fd87866c0e865eb17"
+    },
+    {
+      "url": "game/world/packs/zone-coast-approach.pck",
+      "bytes": 1780884,
+      "sha256": "461a27a1980740941500c1a52c8f56a7cf7f1eb08b229fa1e5a7095027477d75"
+    },
+    {
+      "url": "game/world/packs/zone-coast-boss.pck",
+      "bytes": 947788,
+      "sha256": "547b8e1c891375ae6bd2751e2906797c0f1132c22db51301a2a9d603ce313c06"
+    },
+    {
+      "url": "game/world/packs/zone-coast-heart.pck",
+      "bytes": 1524840,
+      "sha256": "33647913ff9ed3351b6d2013c568914d35882202e25792dff2aba349c679c4ac"
+    },
+    {
+      "url": "game/world/packs/zone-coast-sanctum.pck",
+      "bytes": 1657456,
+      "sha256": "6e074a94a6fbe15773d3d1b8c6aeed8e331f6ed5ce7c05a6376f84d6f889348c"
+    },
+    {
+      "url": "game/world/packs/zone-forest-approach.pck",
+      "bytes": 3157108,
+      "sha256": "9d06306274c6d2f0aa04426f4471b0c58a9a433d0ec0f30d404cea3ef05eae4b"
+    },
+    {
+      "url": "game/world/packs/zone-forest-boss.pck",
+      "bytes": 850352,
+      "sha256": "393856e8a703f98169d9fd1a3290f2cddf007ca63297c0b4d1a746479ee2522a"
+    },
+    {
+      "url": "game/world/packs/zone-forest-heart.pck",
+      "bytes": 2833580,
+      "sha256": "242961d2d66171ffd7e74747c464dbc85f7af1481b53876d5589eae28d8088eb"
+    },
+    {
+      "url": "game/world/packs/zone-forest-sanctum.pck",
+      "bytes": 2862612,
+      "sha256": "7fa6602e38e455aabdd318e1d1f47dd0ac0ff4d91e85cc9d3a976009c3422e38"
+    },
+    {
+      "url": "game/world/packs/zone-ruins-approach.pck",
+      "bytes": 1455860,
+      "sha256": "f7caecf78e20a28b1c8d723945205afd063ca7245632387f137aee82daf29ed4"
+    },
+    {
+      "url": "game/world/packs/zone-ruins-boss.pck",
+      "bytes": 1100044,
+      "sha256": "a505223f60cf35c7792f7fa42bf8d72ab5c8be45538fb6e66f2fd00e6503b7d1"
+    },
+    {
+      "url": "game/world/packs/zone-ruins-heart.pck",
+      "bytes": 1220328,
+      "sha256": "6ea56d8a466678e3c6af3d024beb988e958639e448ea12af7e3e9a98e4156e6e"
+    },
+    {
+      "url": "game/world/packs/zone-ruins-sanctum.pck",
+      "bytes": 1333424,
+      "sha256": "5b4d7b3311a5e870ab96bb9cd7fb22522d891d8306e1d374836b3fe146cae713"
+    },
+    {
+      "url": "game/world/packs/zone-snow-approach.pck",
+      "bytes": 2116720,
+      "sha256": "a6701b9d168d3c0e665d9aa3f1300797bd871a8434af7287d753e002e95651f9"
+    },
+    {
+      "url": "game/world/packs/zone-snow-boss.pck",
+      "bytes": 829384,
+      "sha256": "39fde3a84400a4cf9be1b52a6bd516f208dfdd58ac72a08dacbb887248188a54"
+    },
+    {
+      "url": "game/world/packs/zone-snow-heart.pck",
+      "bytes": 1855464,
+      "sha256": "c75b05da76c17d62541f5931bcbfe752596f78082f5a28fb321553435a596670"
+    },
+    {
+      "url": "game/world/packs/zone-snow-sanctum.pck",
+      "bytes": 1952588,
+      "sha256": "e7e9a3b85e6261fc29acbf774f680f38e2d8ec570b4e4a3df5adc7b2ab2d6555"
+    },
+    {
+      "url": "game/world/packs/zone-town-center.pck",
+      "bytes": 10870184,
+      "sha256": "fec859f9c39a8c9bc4198be8fd678d679f85e98ce46d7a95d559f82071800604"
+    },
+    {
+      "url": "game/world/packs/zone-valley-approach.pck",
+      "bytes": 2757748,
+      "sha256": "73fbf68dd6a1adb5f51aabb2c4da1a13bbff42749383ec94ddf686bbf11aedeb"
+    },
+    {
+      "url": "game/world/packs/zone-valley-boss.pck",
+      "bytes": 752272,
+      "sha256": "a5cf1a4da2eb6f557db117ee109de153536e273e553b93c287b5f56d9a36cb44"
+    },
+    {
+      "url": "game/world/packs/zone-valley-heart.pck",
+      "bytes": 2522796,
+      "sha256": "e4a4493740b0d9c4744159bc02f5a863de03f5b4849f690c4ef3161d5bc589bd"
+    },
+    {
+      "url": "game/world/packs/zone-valley-sanctum.pck",
+      "bytes": 2563124,
+      "sha256": "a46f04cb5d2ecb07a9bba73ced880133296e624775faef069ad0e29c7363761e"
+    },
+    {
+      "url": "game/world/viewport-metrics.mjs",
+      "bytes": 3332,
+      "sha256": "e985991d752136391403941921e1784c771b31d4a3b21ea74479592336bfbb35"
+    },
+    {
+      "url": "game/world/zone-cache.mjs",
+      "bytes": 1538,
+      "sha256": "5c7f0fa30cb0391e6702187406aec1173a1dbcecc13d4a9db1b8ecd9af555f84"
+    },
+    {
+      "url": "game/world/zone-manifest.json",
+      "bytes": 8060,
+      "sha256": "c329c25d8a68df07e5d23e147a5f95707157071c9418d22d017018a2565d2642"
+    },
+    {
+      "url": "index.html",
+      "bytes": 2921,
+      "sha256": "b854ed14121ca286cfc664ae6f15bd2ca31724afeea7ea6e42d1b5cf1196603e"
+    },
+    {
+      "url": "manifest.json",
+      "bytes": 407,
+      "sha256": "db9fac309e05115450fa0a8eaa77a15b05ec9050dccdeb66e1ec9563a8e2e294"
+    }
+  ],
+  "buildId": "26df9e60e0fa86b14a50ca77d815742c"
+}

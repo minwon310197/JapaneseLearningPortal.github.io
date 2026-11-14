@@ -1,0 +1,315 @@
+.n4-godot-host {
+  position: fixed;
+  inset: 0;
+  display: block;
+  box-sizing: border-box;
+  width: 100dvw;
+  height: 100dvh;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  background: #152627;
+  color: #fff;
+}
+
+.n4-godot-host iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.n4-godot-overlay {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  box-sizing: border-box;
+  overflow: auto;
+  overflow-wrap: anywhere;
+  text-align: center;
+  color: #f8f1de;
+  background: radial-gradient(circle at 50% 35%, #2c5655, #152627 70%);
+  pointer-events: none;
+}
+
+.n4-godot-loading-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 24px;
+  background: #17383acc;
+  border: 1px solid #708aa055;
+  border-radius: 14px;
+  box-shadow: 0 12px 40px #00000066;
+  max-width: 90vw;
+  box-sizing: border-box;
+}
+
+.n4-godot-spinner {
+  width: 34px;
+  height: 34px;
+  border: 3px solid #708aa044;
+  border-top-color: #ecc870;
+  border-radius: 50%;
+  animation: n4-godot-spin 0.8s linear infinite;
+  margin-bottom: 12px;
+}
+
+@keyframes n4-godot-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.n4-godot-loading-title {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  color: #f8f1de;
+  letter-spacing: 0.02em;
+}
+
+.n4-godot-progress-track {
+  width: min(220px, 65vw);
+  height: 6px;
+  background: #080e1699;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-top: 12px;
+  border: 1px solid #708aa033;
+}
+
+.n4-godot-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #1f6258, #ecc870);
+  border-radius: 3px;
+  transition: width 0.2s ease;
+}
+
+.n4-godot-progress-caption {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #ecc870;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .n4-godot-spinner {
+    animation: none !important;
+    border-top-color: #ecc870;
+  }
+  .n4-godot-progress-fill {
+    transition: none !important;
+  }
+}
+
+.n4-godot-message {
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  width: min(90vw, 520px);
+  max-height: calc(100dvh - 32px);
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-wrap: anywhere;
+  padding: 1.25rem;
+  color: #f8f1de;
+  background: #17383ad9;
+  border: 1px solid #b7ceba;
+  border-radius: 16px;
+  box-shadow: 0 20px 80px #0009;
+  transform: translate(-50%, -50%);
+}
+
+.n4-godot-host button {
+  max-width: calc(100% - 0.5rem);
+  min-height: 44px;
+  height: auto;
+  margin: 0.25rem;
+  padding: 0.6rem 0.9rem;
+  color: #273d32;
+  cursor: pointer;
+  background: #f2e8d0;
+  border: 1px solid #bbd8bf;
+  border-radius: 8px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  line-height: 1.35;
+}
+
+.n4-godot-host button:focus-visible {
+  outline: 3px solid #ffc865;
+  outline-offset: 3px;
+}
+/* The learner surface is a single full-viewport Godot world. */
+.haru-world-app,
+.haru-world-app > .n4-main,
+.haru-experience,
+.haru-experience--immersive {
+  width: 100dvw;
+  min-width: 0;
+  height: 100dvh;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.haru-world-app {
+  background: #152627 !important;
+}
+
+.haru-world-app > .n4-main {
+  max-width: none !important;
+}
+
+.haru-experience {
+  position: fixed;
+  inset: 0;
+  background: #152627;
+}
+
+.haru-experience .n4-godot-host {
+  width: 100%;
+  height: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .haru-world-switch-spinner {
+    animation: none !important;
+    border-top-color: #38bdf8;
+  }
+  .haru-world-switch-btn {
+    transition: none !important;
+  }
+  .haru-experience *,
+  .haru-experience *::before,
+  .haru-experience *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Switch banner to Japanese Learning UI (Góc học tập N4) */
+.haru-world-switch-banner {
+  position: fixed;
+  top: max(10px, env(safe-area-inset-top, 10px));
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+}
+
+.haru-world-switch-btn {
+  pointer-events: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 9999px;
+  background: rgba(21, 38, 39, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #f1f5f9;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  transition: background-color 0.18s ease, transform 0.18s ease, border-color 0.18s ease;
+  user-select: none;
+}
+
+.haru-world-switch-btn:hover {
+  background: rgba(30, 55, 57, 0.95);
+  border-color: rgba(255, 255, 255, 0.35);
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.haru-world-switch-btn:focus-visible {
+  outline: 2px solid #38bdf8;
+  outline-offset: 2px;
+}
+
+.haru-world-switch-icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.haru-world-switch-text {
+  letter-spacing: 0.01em;
+}
+
+.haru-world-switch-btn {
+  cursor: pointer;
+}
+
+.haru-world-switch-btn:disabled {
+  opacity: 0.85;
+  cursor: wait;
+  transform: none !important;
+}
+
+.haru-world-switch-btn--saving {
+  background: rgba(15, 30, 32, 0.92);
+  border-color: rgba(56, 189, 248, 0.4);
+  color: #bae6fd;
+}
+
+.haru-world-switch-spinner {
+  width: 13px;
+  height: 13px;
+  border: 2px solid rgba(186, 230, 253, 0.3);
+  border-top-color: #38bdf8;
+  border-radius: 50%;
+  animation: haru-switch-spin 0.75s linear infinite;
+  display: inline-block;
+}
+
+@keyframes haru-switch-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.haru-world-switch-error-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  pointer-events: auto;
+}
+
+.haru-world-switch-btn--error {
+  background: rgba(69, 10, 10, 0.9);
+  border-color: rgba(248, 113, 113, 0.45);
+  color: #fecaca;
+}
+
+.haru-world-switch-btn--error:hover {
+  background: rgba(88, 13, 13, 0.95);
+  border-color: rgba(248, 113, 113, 0.65);
+  color: #ffffff;
+}
+
+.haru-world-switch-btn--cancel {
+  padding: 6px 10px;
+  background: rgba(30, 41, 59, 0.85);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #94a3b8;
+}
+
+.haru-world-switch-btn--cancel:hover {
+  background: rgba(51, 65, 85, 0.95);
+  color: #f1f5f9;
+}
+

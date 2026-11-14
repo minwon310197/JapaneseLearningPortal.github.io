@@ -1,16 +1,16 @@
 {
-  "buildId": "ed0c8787a8117ec048713b2ce9deb92e",
-  "manifest": "offline-manifest-ed0c8787a8117ec048713b2ce9deb92e.json",
-  "precacheCount": 31,
-  "precacheBytes": 81102491,
-  "knownStaticAssets": 57,
+  "buildId": "26df9e60e0fa86b14a50ca77d815742c",
+  "manifest": "offline-manifest-26df9e60e0fa86b14a50ca77d815742c.json",
+  "precacheCount": 35,
+  "precacheBytes": 82602049,
+  "knownStaticAssets": 269,
   "bootRoots": [
     "index.html",
     "src/app/components/world-godot/WorldExperience.jsx",
     "src/app/components/world-godot/WorldExperience.jsx",
     "src/app/components/world-godot/WorldExperience.jsx",
-    "src/app/components/world-godot/WorldExperience.jsx",
-    "src/app/components/world-godot/WorldExperience.jsx"
+    "_haru-world-storage-Dh30TKk6.js",
+    "_haru-world-storage-Dh30TKk6.js"
   ],
   "publicCssAssets": []
 }
